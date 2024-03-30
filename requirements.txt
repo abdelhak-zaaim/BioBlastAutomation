@@ -1,0 +1,6 @@
+asgiref==3.7.2
+biopython==1.83
+Django==5.0.3
+numpy==1.26.4
+sqlparse==0.4.4
+typing_extensions==4.10.0
