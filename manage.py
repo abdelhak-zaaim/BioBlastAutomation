@@ -3,6 +3,8 @@
 import os
 import sys
 
+from pfe.settings import BASE_DIR
+
 
 def main():
     """Run administrative tasks."""

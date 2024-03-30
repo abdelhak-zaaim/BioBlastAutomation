@@ -35,3 +35,6 @@ def home(request):
 
 def blast(request):
     return Visualisation.home(request)
+
+def documentation(request):
+    return render(request, 'documentation/index.html')

@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/visualise/style.css' %}">
+
+</head>
+<body >
+<div id="container" style="z-index: 100">
+    <div id="burger">
+        <div class="bun top"></div>
+        <div class="filling"></div>
+        <div class="bun bottom"></div>
+    </div>
+
+
+</div>
+
+<nav style="z-index: 100; height: 100%;">
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li class="green">
+            <a href="#">Jedi</a>
+        </li>
+        <li class="red">
+            <a href="#">Sith</a>
+        </li>
+        <li class="yellow">
+            <a href="#">Sentinel</a>
+        </li>
+        <li class="purple">
+            <a href="#">Samuel L. Jackson</a>
+        </li>
+    </ul>
+</nav>
+
+
+<div class="container " id="charts" style="z-index: 0; margin-top: 80px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                {{ fig_html | safe }}
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                {{ fig_hits_per_sequence_html | safe }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="table-responsive"  id="table">
+    <div style="margin-right: 30px">
+        <table id="sequenceTable" class="table table-striped table-hover">
+            <thead class="thead-dark">
+            <tr>
+                <th>Nom</th>
+                <th>Accès</th>
+                <th>Score</th>
+                <th>Score Bit</th>
+                <th>Valeur E</th>
+                <th>Identité</th>
+                <th>Écarts</th>
+                <th>Longueur</th>
+
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for info in sequence_info %}
+                <tr>
+                    <td class="truncate" data-toggle="tooltip" data-placement="top"
+                        title="{{ info.Name }}"><a href="/infos/{{ info.Num }}">{{ info.Name }}</a></td>
+                    <td>{{ info.Other_info }}</td>
+                    <td>{{ info.Score }}</td>
+                    <td>{{ info.Bit_Score }}</td>
+                    <td>{{ info.E_value }}</td>
+                    <td>{{ info.Identity }}</td>
+                    <td>{{ info.Gaps }}</td>
+                    <td>{{ info.Length }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+
+
+<script src="{% static 'js/visualise/js.js' %}"></script>
+
+<script src="{% static 'js/js.js' %}"></script>
+</body>
+</html>

@@ -10,8 +10,7 @@ from django.conf import settings
 
 from home.scripts.export_data import Export
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 
 class Visualisation:
@@ -30,11 +29,7 @@ class Visualisation:
             return 'red'
 
     def home(request):
-        meta = request.META
-
-        test_xml_path = os.path.join(settings.STATIC_ROOT, 'test2.xml')
-
-        tree = ET.parse(test_xml_path)
+        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test.xml'))
         root = tree.getroot()
 
         # Extract the data you're interested in
@@ -112,7 +107,7 @@ class Visualisation:
                                                                            'displaylogo': False})
 
         # Render the figure in a template
-        return render(request, "visualise/visualise.html", {
+        return render(request, "documentation/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
             'sequence_info': sequence_info

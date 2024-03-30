@@ -1,0 +1,47 @@
+
+         td, th {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px; /* Add padding */
+        }
+        .truncate {
+            max-width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left !important;
+        }
+
+
+
+        /* Add this rule for a modern look */
+        .table {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+            margin: 20px; /* Add margin */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+        }
+
+        .table thead tr {
+            background-color: none;
+        }
+
+        .table th {
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+        .table th, .table td {
+            border: none;
+        }
+
+        .table tbody tr {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 100%;
+        }
+        .hidden {
+        display: none;
+    }
