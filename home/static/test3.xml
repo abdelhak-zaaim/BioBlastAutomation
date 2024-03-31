@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8707187</BlastOutput_query-ID>
+  <BlastOutput_query-def>query protein 2; example of single subcellular location</BlastOutput_query-def>
+  <BlastOutput_query-len>201</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8707187</Iteration_query-ID>
+  <Iteration_query-def>query protein 2; example of single subcellular location</Iteration_query-def>
+  <Iteration_query-len>201</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_044852.1|</Hit_id>
+  <Hit_def>BHV4-IE1 homolog [Murid gammaherpesvirus 4] &gt;sp|O41933.1| RecName: Full=E3 ubiquitin-protein ligase MIR1; AltName: Full=MK3; AltName: Full=Modulator of immune recognition 1 homolog; AltName: Full=ORF K3; AltName: Full=RING-type E3 ubiquitin transferase MIR1 [Murid gammaherpesvirus 4] &gt;gb|AXP99074.1| BHV4-IE1-like protein [synthetic construct] &gt;gb|QJQ80205.2| BHV4-IE1-like protein [Murine herpesvirus] &gt;gb|UNZ86643.1| BHV4-IE1-like protein [Murine herpesvirus strain 72] &gt;gb|UNZ86720.1| BHV4-IE1-like protein [Murine herpesvirus strain 4556] &gt;gb|AAB66429.1| BHV4-IE1 homolog [Murid gammaherpesvirus 4]</Hit_def>
+  <Hit_accession>NP_044852</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>1.85811e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAZ38157.1|</Hit_id>
+  <Hit_def>immune evasion K3 protein [Murine herpesvirus strain 72]</Hit_def>
+  <Hit_accession>AAZ38157</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>1.18707e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPIKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQP KTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AAZ38158.1|</Hit_id>
+  <Hit_def>immune evasion K3 protein [Murine herpesvirus strain 4556]</Hit_def>
+  <Hit_accession>AAZ38158</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.912</Hsp_bit-score>
+      <Hsp_score>1047</Hsp_score>
+      <Hsp_evalue>3.51782e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICRQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWIC QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|YP_010085889.1|</Hit_id>
+  <Hit_def>E3 ubiquitin ligase MIR1 [Wood mouse herpesvirus] &gt;gb|ACY41090.1| E3 ubiquitin ligase MIR1 [Wood mouse herpesvirus]</Hit_def>
+  <Hit_accession>YP_010085889</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>3.89774e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTSDFCWICHQPEGPLKRFCACKGSCALAHRECLRGWLETSHHKKCALCGQEYSTKWKAKPLREWIWGDDEVVSAMEVCLPLFLIPLTLLLIVMGTWLLVNHNGLLNGRLQVFLVIIVLLSMIVFSASSSYLLVEGATCLDTCAARNSTVTVYSVDEAIATQQPTKTGQGQACETPSTRFRNSRCRACCKLGCMRLCCV</Hsp_hseq>
+      <Hsp_midline>MDST +FCWICHQPEGPLKRFC CKGSCA++H++CLRGWLETS  + CALCG  YS KWK KPLREW WG++EV++AME CLPL LIPL +L+IVMGTWLLVNHNG L+ R+QV LV+IVLL+MIVFSAS+SY++VEG  CLDTC A+NSTVTV S+DEAIATQQPTKT  G A ET STRFR  +CR+CC+LGC+RLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|ABO48395.1|</Hit_id>
+  <Hit_def>ubiquitin E3 ligase MIR1 [Wood mouse herpesvirus]</Hit_def>
+  <Hit_accession>ABO48395</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.43571e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTSDFCWICHQPEGPLKRFCACKGSCALAHRECLRGWLETSHHKKCALCGQEYSTKWKAKPLREWIWGDDEVVSAMEVCLPLFLIPLTLLLIVMGTWLLVNHNGLLNGRLQVVLVIIVLLSMIVFSASSSYLLVEGATCLDTCAARNSTVTVYSVDEAIATQQPTKTGQRQACETPSTRFRNSRCRACCKLGCMRLCCV</Hsp_hseq>
+      <Hsp_midline>MDST +FCWICHQPEGPLKRFC CKGSCA++H++CLRGWLETS  + CALCG  YS KWK KPLREW WG++EV++AME CLPL LIPL +L+IVMGTWLLVNHNG L+ R+QVVLV+IVLL+MIVFSAS+SY++VEG  CLDTC A+NSTVTV S+DEAIATQQPTKT    A ET STRFR  +CR+CC+LGC+RLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ABQ43632.1|</Hit_id>
+  <Hit_def>LAP/PHD domain [Tanapox virus]</Hit_def>
+  <Hit_accession>ABQ43632</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>9.4902e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW----GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSI</Hsp_qseq>
+      <Hsp_hseq>SDICWICNDVCDERNNFCGCNEEYKVVHIKCMQLWINYSKKKECNLCKTKYNIKKTYVSFKKWNWCFNDKKTTLLKIFFILFALVFIFLTIALSNDMANLITGINDIICSIIFLIVYTVVMLTSICFSVFVVAIVVDF---LLEAKEKNSFLTIREI</Hsp_hseq>
+      <Hsp_midline> + CWIC+        FCGC     V H  C++ W+  S+++ C LC T Y++K      ++W W     +  +L        LV I L + +      L+   N  +   + +++  +V+L  I FS     ++V+    L     KNS +T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ABQ43476.1|</Hit_id>
+  <Hit_def>LAP/PHD domain [Tanapox virus]</Hit_def>
+  <Hit_accession>ABQ43476</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>9.89342e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW----GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSI</Hsp_qseq>
+      <Hsp_hseq>SDICWICNDVCDERNNFCGCNEEYKVVHIKCMQLWINYSKKKECNLCKTKYNIKKTYVSFKKWNWCFNDKKTTLLKIFFILFALVFIFLTIALSNDMADLITGINDIICSIIFLIVYTVVMLTSICFSVFVVAIVVDF---LLEAKEKNSFLTIREI</Hsp_hseq>
+      <Hsp_midline> + CWIC+        FCGC     V H  C++ W+  S+++ C LC T Y++K      ++W W     +  +L        LV I L + +      L+   N  +   + +++  +V+L  I FS     ++V+    L     KNS +T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_073390.1|</Hit_id>
+  <Hit_def>5L protein [Yaba-like disease virus] &gt;sp|Q9DHV7.1| RecName: Full=E3 ubiquitin-protein ligase LAP; AltName: Full=Leukemia associated protein; Short=LAP; AltName: Full=RING-type E3 ubiquitin transferase LAP [Yaba-like disease virus] &gt;emb|CAC21243.1| 5L protein [Yaba-like disease virus]</Hit_def>
+  <Hit_accession>NP_073390</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>3.07058e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW----GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSI</Hsp_qseq>
+      <Hsp_hseq>SDICWICNDVCDERNNFCGCNEEYKVVHIKCMQLWINYSKKKECNLCKTKYNIKKTYVSFKKWNWCFNDKKTTLFKIFFILFALVFIFLTITLSNDMANLVTGINDLICSIIFLIVYTVVMLTSICFSVFVVAIVVDF---LLEAKEKNSFLTIREI</Hsp_hseq>
+      <Hsp_midline> + CWIC+        FCGC     V H  C++ W+  S+++ C LC T Y++K      ++W W     +  +         LV I L + +      L+   N  +   + +++  +V+L  I FS     ++V+    L     KNS +T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_023037505.1|</Hit_id>
+  <Hit_def>putative uncharacterized protein DDB_G0277255 [Drosophila willistoni]</Hit_def>
+  <Hit_accession>XP_023037505</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.48032e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVM--VEGPGCLDTC---TAKNSTVTVNSIDEAIATQQP</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCSVLFHLAAALCVIWSLCVLIERAADDVQRGQIDWPFWTKLAVVTVGLTGGFVFMYIQCKAYLHLCHRWKARNRILLIQNAPEKIHPLAP</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+        R Q+       LA++    +  +V   ++    L  C    A+N  + + +  E I    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|YP_004207852.1|</Hit_id>
+  <Hit_def>hypothetical protein RHVP.R12 [Cricetid gammaherpesvirus 2] &gt;gb|ADW24357.1| hypothetical protein RHVP.R12 [Cricetid gammaherpesvirus 2] &gt;gb|ADW24439.1| hypothetical protein RHVP-L.R12 [Cricetid gammaherpesvirus 2]</Hit_def>
+  <Hit_accession>YP_004207852</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.60693e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>DSTGEFCWICHQP--EGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKT------------------DLGLARETLSTR-FRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>ESLAQRCWICLSSCEDGG---YCGCKGDYGIVHGSCLKQWVERGKVVSCAFCGEEYAAKRRWYPVKDWILTPSEKLLVIFAIVMTVATLACVGLVVWNFREVFTYTGNGKDFTFRLLYYVLSLEALVCPAVMAWMCLECQDMFEDMAKRNKYVVMQLPDASTTLKTPHSSPMNSGTQSSTMKSQCMTMDSGIQSSTMKSQCMKQRVCVSCGRAGCSRTVCL</Hsp_hseq>
+      <Hsp_midline>+S  + CWIC     +G    +CGCKG   + H  CL+ W+E  +  +CA CG  Y+ K +  P+++W     E L  + A +  V     V ++V     +  + G        +L  ++ L  +V  A  +++ +E     +    +N  V +   D +   + P  +                  D G+   T+ ++  ++  C SC R GC R  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EDW73503.2|</Hit_id>
+  <Hit_def>uncharacterized protein Dwil_GK17579 [Drosophila willistoni]</Hit_def>
+  <Hit_accession>EDW73503</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.96767e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVM--VEGPGCLDTC---TAKNSTVTVNSIDEAIATQQP</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCSVLFHLAAALCVIWSLCVLIERAADDVQRGQIDWPFWTKLAVVTVGLTGGFVFMYIQCKAYLHLCHRWKARNRILLIQNAPEKIHPLAP</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+        R Q+       LA++    +  +V   ++    L  C    A+N  + + +  E I    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_050307413.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 isoform X1 [Anthonomus grandis grandis]</Hit_def>
+  <Hit_accession>XP_050307413</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.3136e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>DSTGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLV</Hsp_qseq>
+      <Hsp_hseq>NSMGDICRICHCEADAENPLLSPCYCSGSLKYVHQNCLRQWLAASDTRSCELCKFNFILHTKIKPLSEWRILEMSSVERRRLLCAILFHFVAAVCVVWSLFVLIDRAAEEVQKGLIDPKGKIVFI</Hsp_hseq>
+      <Hsp_midline>+S G+ C ICH     E PL   C C GS    HQ+CLR WL  S  ++C LC   + +  K KPL EW   E   +        ++   +A + +V   ++L++        G + P+ ++V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_037880103.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119631722 isoform X2 [Glossina fuscipes] &gt;gb|KAI9587993.1| hypothetical protein GQX74_003839 [Glossina fuscipes]</Hit_def>
+  <Hit_accession>XP_037880103</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.38812e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_055841236.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC129908617 [Episyrphus balteatus]</Hit_def>
+  <Hit_accession>XP_055841236</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.46264e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQTCLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_055915494.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915495.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915496.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915497.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915498.1| uncharacterized protein LOC129948500 [Eupeodes corollae]</Hit_def>
+  <Hit_accession>XP_055915494</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.62961e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQTCLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_030372275.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC115622471 [Scaptodrosophila lebanonensis]</Hit_def>
+  <Hit_accession>XP_030372275</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.77166e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQQCLQQWLTASETNSCELCKFPFIMHSKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_002007689.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6581976 isoform X1 [Drosophila mojavensis] &gt;gb|EDW18165.2| uncharacterized protein Dmoj_GI13084, isoform A [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>XP_002007689</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.98471e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIEKRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|NP_001246695.1|</Hit_id>
+  <Hit_def>uncharacterized protein Dmel_CG4080, isoform B [Drosophila melanogaster] &gt;ref|NP_648305.1| uncharacterized protein Dmel_CG4080, isoform A [Drosophila melanogaster] &gt;gb|ACL84336.1| CG4080-PA, partial [synthetic construct] &gt;gb|AAF50284.1| uncharacterized protein Dmel_CG4080, isoform A [Drosophila melanogaster] &gt;gb|AAL90269.1| LD02310p [Drosophila melanogaster] &gt;gb|ACL89310.1| CG4080-PA [synthetic construct] &gt;gb|AFH04366.1| uncharacterized protein Dmel_CG4080, isoform B [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>NP_001246695</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>3.46278e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_015017670.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6581976 isoform X2 [Drosophila mojavensis] &gt;ref|XP_015017671.1| uncharacterized protein LOC6581976 isoform X2 [Drosophila mojavensis] &gt;gb|KRG06018.1| uncharacterized protein Dmoj_GI13084, isoform B [Drosophila mojavensis] &gt;gb|KRG06019.1| uncharacterized protein Dmoj_GI13084, isoform C [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>XP_015017670</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.65927e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIEKRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_001957998.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6506376 [Drosophila ananassae] &gt;gb|EDV40804.1| uncharacterized protein Dana_GF23737 [Drosophila ananassae]</Hit_def>
+  <Hit_accession>XP_001957998</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.86547e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAH8312986.1|</Hit_id>
+  <Hit_def>hypothetical protein KR067_007074 [Drosophila pandora]</Hit_def>
+  <Hit_accession>KAH8312986</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.90232e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAH8295709.1|</Hit_id>
+  <Hit_def>hypothetical protein KR018_005423 [Drosophila ironensis]</Hit_def>
+  <Hit_accession>KAH8295709</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.90402e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_002093321.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6532577 isoform X2 [Drosophila yakuba] &gt;gb|EDW93033.1| uncharacterized protein Dyak_GE21248, isoform A [Drosophila yakuba]</Hit_def>
+  <Hit_accession>XP_002093321</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92234e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_001972157.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6545623 [Drosophila erecta] &gt;gb|EDV51183.1| uncharacterized protein Dere_GG14045 [Drosophila erecta]</Hit_def>
+  <Hit_accession>XP_001972157</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92234e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_039486518.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC120448538 isoform X2 [Drosophila santomea]</Hit_def>
+  <Hit_accession>XP_039486518</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92234e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_043646904.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC122615827 isoform X2 [Drosophila teissieri]</Hit_def>
+  <Hit_accession>XP_043646904</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92398e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_033156999.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC117139014 [Drosophila mauritiana]</Hit_def>
+  <Hit_accession>XP_033156999</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92398e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|EDW40848.1|</Hit_id>
+  <Hit_def>GM24879 [Drosophila sechellia]</Hit_def>
+  <Hit_accession>EDW40848</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92398e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_016031175.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6737415 [Drosophila simulans] &gt;gb|KMY98621.1| uncharacterized protein Dsimw501_GD12929 [Drosophila simulans]</Hit_def>
+  <Hit_accession>XP_016031175</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92398e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_039486517.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC120448538 isoform X1 [Drosophila santomea]</Hit_def>
+  <Hit_accession>XP_039486517</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92723e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_043646903.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC122615827 isoform X1 [Drosophila teissieri]</Hit_def>
+  <Hit_accession>XP_043646903</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92885e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_002029862.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6605019 [Drosophila sechellia]</Hit_def>
+  <Hit_accession>XP_002029862</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.92885e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_015049442.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6532577 isoform X1 [Drosophila yakuba] &gt;gb|KRK00881.1| uncharacterized protein Dyak_GE21248, isoform B [Drosophila yakuba]</Hit_def>
+  <Hit_accession>XP_015049442</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.96467e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_017863640.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC108614177 isoform X1 [Drosophila arizonae]</Hit_def>
+  <Hit_accession>XP_017863640</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.25272e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|KAH8364395.1|</Hit_id>
+  <Hit_def>hypothetical protein KR084_006542 [Drosophila pseudotakahashii]</Hit_def>
+  <Hit_accession>KAH8364395</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.39535e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_017863641.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC108614177 isoform X2 [Drosophila arizonae]</Hit_def>
+  <Hit_accession>XP_017863641</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.52268e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|UNP64507.1|</Hit_id>
+  <Hit_def>E3-MARCH8-like protein [Saguinine gammaherpesvirus 1]</Hit_def>
+  <Hit_accession>UNP64507</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.58418e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>CWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW---GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVV----LVVIVLLAMIV</Hsp_qseq>
+      <Hsp_hseq>CWICRDGCPTDKAFCQCSGELKTVHQQCLTTWLQVSSTKRCAFCHHWYSIGYTLKPLRQWRWIPVGEENGGDPTDGL--MIRYAIWSLCFFLGIVVGFTYLACRAPRLSVVEVYTLVAVPLFALVL</Hsp_hseq>
+      <Hsp_midline>CWIC       K FC C G     HQ CL  WL+ S  + CA C   YS+ +  KPLR+W W   GEE      +    ++   +  L   +G  +   +    +PR+ VV    LV + L A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_017053419.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108096378 [Drosophila ficusphila]</Hit_def>
+  <Hit_accession>XP_017053419</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.73198e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_020816921.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC110190661 [Drosophila serrata]</Hit_def>
+  <Hit_accession>XP_020816921</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.73996e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_017122003.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108142565 isoform X1 [Drosophila elegans]</Hit_def>
+  <Hit_accession>XP_017122003</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.74194e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_037720062.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119553649 isoform X1 [Drosophila subpulchrella] &gt;ref|XP_037720063.1| uncharacterized protein LOC119553649 isoform X1 [Drosophila subpulchrella]</Hit_def>
+  <Hit_accession>XP_037720062</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.75174e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_016934753.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108013407 isoform X1 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016934753</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.75174e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_017122004.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108142565 isoform X2 [Drosophila elegans]</Hit_def>
+  <Hit_accession>XP_017122004</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78113e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_052845914.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC128258368 isoform X2 [Drosophila gunungcola]</Hit_def>
+  <Hit_accession>XP_052845914</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78314e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|KAH8286462.1|</Hit_id>
+  <Hit_def>hypothetical protein KR054_009708 [Drosophila jambulina]</Hit_def>
+  <Hit_accession>KAH8286462</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78514e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_017028361.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108078804 [Drosophila kikkawai]</Hit_def>
+  <Hit_accession>XP_017028361</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78514e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAH8257181.1|</Hit_id>
+  <Hit_def>hypothetical protein KR038_005277 [Drosophila bunnanda]</Hit_def>
+  <Hit_accession>KAH8257181</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78714e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_044314203.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108039207 isoform X2 [Drosophila rhopaloa]</Hit_def>
+  <Hit_accession>XP_044314203</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.78714e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KAH8259175.1|</Hit_id>
+  <Hit_def>hypothetical protein KR026_000371 [Drosophila bipectinata]</Hit_def>
+  <Hit_accession>KAH8259175</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.79111e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_037720064.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119553649 isoform X2 [Drosophila subpulchrella]</Hit_def>
+  <Hit_accession>XP_037720064</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.79111e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_016934754.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108013407 isoform X2 [Drosophila suzukii]</Hit_def>
+  <Hit_accession>XP_016934754</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.79111e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|NP_052036.1|</Hit_id>
+  <Hit_def>gp153R [Rabbit fibroma virus] &gt;sp|Q9Q8T2.1| RecName: Full=E3 ubiquitin-protein ligase LAP; AltName: Full=Leukemia associated protein; Short=LAP; AltName: Full=RING-type E3 ubiquitin transferase LAP [Rabbit fibroma virus (strain Kasza)] &gt;gb|AAF18029.1| gp153R [Rabbit fibroma virus]</Hit_def>
+  <Hit_accession>NP_052036</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.80584e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>CWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETS--RRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLI</Hsp_qseq>
+      <Hsp_hseq>CWICKESCDVVRNYCKCRGDNKIVHKECLEEWINTDTVKNKSCAICETPYNVKQQYKKLTKWRCYRRDCHDSLLVNLPLCLI</Hsp_hseq>
+      <Hsp_midline>CWIC +    ++ +C C+G   + H++CL  W+ T   + ++CA+C TPY++K + K L +W     +   ++   LPL LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|XP_052845913.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC128258368 isoform X1 [Drosophila gunungcola] &gt;gb|KAI8040603.1| hypothetical protein M5D96_006546 [Drosophila gunungcola]</Hit_def>
+  <Hit_accession>XP_052845913</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.83478e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|XP_016958989.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108030574 [Drosophila biarmipes]</Hit_def>
+  <Hit_accession>XP_016958989</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.83478e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|KAH8235010.1|</Hit_id>
+  <Hit_def>hypothetical protein KR032_007566 [Drosophila birchii]</Hit_def>
+  <Hit_accession>KAH8235010</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.83878e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|XP_044314202.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108039207 isoform X1 [Drosophila rhopaloa]</Hit_def>
+  <Hit_accession>XP_044314202</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.83878e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gb|KAH8343040.1|</Hit_id>
+  <Hit_def>hypothetical protein KR059_003979 [Drosophila kikkawai]</Hit_def>
+  <Hit_accession>KAH8343040</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.8768e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|XP_023164470.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC111595131 [Drosophila hydei]</Hit_def>
+  <Hit_accession>XP_023164470</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.00459e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|XP_017956073.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108651119 isoform X1 [Drosophila navojoa]</Hit_def>
+  <Hit_accession>XP_017956073</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.58908e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQMCLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|XP_017085252.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108117376 isoform X2 [Drosophila eugracilis]</Hit_def>
+  <Hit_accession>XP_017085252</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.73973e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_017085251.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108117376 isoform X1 [Drosophila eugracilis]</Hit_def>
+  <Hit_accession>XP_017085251</Hit_accession>
+  <Hit_len>624</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.74209e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|XP_017085254.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108117376 isoform X4 [Drosophila eugracilis]</Hit_def>
+  <Hit_accession>XP_017085254</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.89808e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|XP_017085253.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108117376 isoform X3 [Drosophila eugracilis]</Hit_def>
+  <Hit_accession>XP_017085253</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.90053e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|XP_034105019.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC117568453 [Drosophila albomicans]</Hit_def>
+  <Hit_accession>XP_034105019</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.93375e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gb|KAH8371614.1|</Hit_id>
+  <Hit_def>hypothetical protein KR093_008273 [Drosophila rubida]</Hit_def>
+  <Hit_accession>KAH8371614</Hit_accession>
+  <Hit_len>645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.95705e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|XP_062137216.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC133846325 [Drosophila sulfurigaster albostrigata]</Hit_def>
+  <Hit_accession>XP_062137216</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.99676e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|KAH8398077.1|</Hit_id>
+  <Hit_def>hypothetical protein KR215_002969 [Drosophila sulfurigaster]</Hit_def>
+  <Hit_accession>KAH8398077</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.99676e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|KAH8384482.1|</Hit_id>
+  <Hit_def>hypothetical protein KR200_011442 [Drosophila serrata]</Hit_def>
+  <Hit_accession>KAH8384482</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>6.30034e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|XP_017005497.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108063066 isoform X2 [Drosophila takahashii]</Hit_def>
+  <Hit_accession>XP_017005497</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.60078e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|XP_017956074.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108651119 isoform X2 [Drosophila navojoa] &gt;gb|TDG45767.1| hypothetical protein AWZ03_007801 [Drosophila navojoa]</Hit_def>
+  <Hit_accession>XP_017956074</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.72319e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQMCLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_030571576.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC115770442 [Drosophila novamexicana]</Hit_def>
+  <Hit_accession>XP_030571576</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.17624e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|XP_034481665.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC117787285 [Drosophila innubila]</Hit_def>
+  <Hit_accession>XP_034481665</Hit_accession>
+  <Hit_len>627</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.21867e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_002048198.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6623457 [Drosophila virilis] &gt;ref|XP_015031474.1| uncharacterized protein LOC6623457 [Drosophila virilis] &gt;gb|EDW70540.1| uncharacterized protein Dvir_GJ13833, isoform A [Drosophila virilis] &gt;gb|KRF84968.1| uncharacterized protein Dvir_GJ13833, isoform B [Drosophila virilis] &gt;gb|KRF84969.1| uncharacterized protein Dvir_GJ13833, isoform C [Drosophila virilis]</Hit_def>
+  <Hit_accession>XP_002048198</Hit_accession>
+  <Hit_len>634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.23892e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|XP_052565881.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC120418654 [Culex pipiens pallens]</Hit_def>
+  <Hit_accession>XP_052565881</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.30437e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQSCLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_060657897.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC132792506 [Drosophila nasuta]</Hit_def>
+  <Hit_accession>XP_060657897</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.31826e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|KAH8395643.1|</Hit_id>
+  <Hit_def>hypothetical protein KR222_004651, partial [Zaprionus bogoriensis]</Hit_def>
+  <Hit_accession>KAH8395643</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.74902e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|KAH8302781.1|</Hit_id>
+  <Hit_def>hypothetical protein KR044_010737, partial [Drosophila immigrans]</Hit_def>
+  <Hit_accession>KAH8302781</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>8.35264e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|EDS33581.1|</Hit_id>
+  <Hit_def>membrane associated ring finger 1,8 [Culex quinquefasciatus]</Hit_def>
+  <Hit_accession>EDS33581</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>9.80001e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQSCLQQWLTASETNVCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|XP_013381934.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH1-like [Lingula anatina] &gt;ref|XP_013401952.1| E3 ubiquitin-protein ligase MARCH1 isoform X1 [Lingula anatina]</Hit_def>
+  <Hit_accession>XP_013381934</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.07138e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>SLSEICRICHCESEVDNPLISPCVCSGSLRYVHQDCLQQWIKSADTKSCELCRFEFRMTTKTKPFRKWRKMEMTTMERRKIICSVTFHIIAITCVIWSLYVLIDRTTDEIENGMLEWPFWTKLIVVFI</Hsp_hseq>
+      <Hsp_midline>S  E C ICH   + + PL   C C GS    HQDCL+ W++++  ++C LC   + M  KTKP R+W   E   +   +    +    +A+  ++   ++L++       NG L       L+V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|XP_060516519.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 [Cylas formicarius]</Hit_def>
+  <Hit_accession>XP_060516519</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.13153e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>DSTGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIATQQPT</Hsp_qseq>
+      <Hsp_hseq>NSTGDICRICHCEADSENPLLSPCYCSGSLKYVHQNCLRQWLAASDTRSCELCKFNFILHTKIKPLSEWRILEMSSVERRRLLCAILFHFVAAVCVVWSLFVLIDRAAEEVQKGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLFSRWKAHNRVILVQNAPEKTAVHTPS</Hsp_hseq>
+      <Hsp_midline>+STG+ C ICH     E PL   C C GS    HQ+CLR WL  S  ++C LC   + +  K KPL EW   E   +        ++   +A + +V   ++L++        G ++      LVV+     + F+  A ++ ++    L   +   A N  + V +  E  A   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|PIK50792.1|</Hit_id>
+  <Hit_def>hypothetical protein BSL78_12322, partial [Apostichopus japonicus]</Hit_def>
+  <Hit_accession>PIK50792</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.25344e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNH</Hsp_qseq>
+      <Hsp_hseq>GEICRICHCEGEESKPLIEPCLCLGSLKFVHQECLQKWIKSSNTQNCELCHFNFVMQSKLKPLGKWQKFEMSSLERRKILCSVLFHIIVVVCIVWALYILIEH</Hsp_hseq>
+      <Hsp_midline>GE C ICH   +   PL   C C GS    HQ+CL+ W+++S  Q C LC   + M+ K KPL +W   E   L   +    ++   + V+ IV   ++L+ H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|XP_005190087.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_005190088.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_019894651.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_058987477.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_058987478.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica]</Hit_def>
+  <Hit_accession>XP_005190087</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.2766e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|XP_061395143.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC133330747 [Musca vetustissima]</Hit_def>
+  <Hit_accession>XP_061395143</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.35264e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCTLLFHCAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  L+    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|XP_013401953.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401954.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401955.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401956.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina]</Hit_def>
+  <Hit_accession>XP_013401953</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.42342e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>SLSEICRICHCESEVDNPLISPCVCSGSLRYVHQDCLQQWIKSADTKSCELCRFEFRMTTKTKPFRKWRKMEMTTMERRKIICSVTFHIIAITCVIWSLYVLIDRTTDEIENGMLEWPFWTKLIVVFI</Hsp_hseq>
+      <Hsp_midline>S  E C ICH   + + PL   C C GS    HQDCL+ W++++  ++C LC   + M  KTKP R+W   E   +   +    +    +A+  ++   ++L++       NG L       L+V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|KNC34367.1|</Hit_id>
+  <Hit_def>hypothetical protein FF38_05995, partial [Lucilia cuprina]</Hit_def>
+  <Hit_accession>KNC34367</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.425e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|KAI8121414.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH8 [Lucilia cuprina]</Hit_def>
+  <Hit_accession>KAI8121414</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.56731e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_013114911.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114912.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114913.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114914.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114915.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114916.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114917.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans]</Hit_def>
+  <Hit_accession>XP_013114911</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.56987e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|XP_046807459.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC111686258 [Lucilia cuprina] &gt;ref|XP_046807461.1| uncharacterized protein LOC111686258 [Lucilia cuprina]</Hit_def>
+  <Hit_accession>XP_046807459</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.58073e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>emb|CAG4636527.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Eubosmina coregoni] &gt;emb|SVE70070.1| EOG090X0DX7 [Eubosmina coregoni]</Hit_def>
+  <Hit_accession>CAG4636527</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.7047e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAME----ACLPLVLIPLAVLMIVMGTWLLVNHNG--FLSPRMQ------VVLVVIVLLAMIVF</Hsp_qseq>
+      <Hsp_hseq>SSQDICRICHCEAEVEAPLVAPCRCAGSLKYVHQGCLQRWVQSSDMKNCELCKYPFIMQTKIKPLKEW---EKLDMSSMERRKLAC-SVTFHAVAFTCVIWSLYVLIDRSAEEYASGQLQWPFWTKLVVVAIGFTGGVVF</Hsp_hseq>
+      <Hsp_midline>S+ + C ICH   + E PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   E+  +++ME    AC  +    +A   ++   ++L++ +   + S ++Q      +V+V I     +VF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>emb|CAG4641217.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Eulimnadia texana]</Hit_def>
+  <Hit_accession>CAG4641217</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.74737e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNG</Hsp_qseq>
+      <Hsp_hseq>DLCRICHCEAEPDSPLVAPCRCSGSLQFVHQSCLQRWVQSSDTRCCELCKYPFVMQTKVKPLKEWEKLDMSRMEQRKLACSVTFHAVAFTCVVWSLYVLIDRSA</Hsp_hseq>
+      <Hsp_midline>+ C ICH   +P+ PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   +   +   +    +    +A   +V   ++L++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|XP_037961311.2|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 isoform X1 [Plutella xylostella]</Hit_def>
+  <Hit_accession>XP_037961311</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.30337e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNS</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPHNPLLAPCYCAGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYLQCRQYLHLCNRWRAHNSAMCINS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P  PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A NS + +NS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>emb|SVE73829.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Daphnia atkinsoni]</Hit_def>
+  <Hit_accession>SVE73829</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.37294e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAME----ACLPLVLIPLAVLMIVMGTWLLVNHNG--FLSPRMQVVLVVIVLLAMIVFSASASYVMVE</Hsp_qseq>
+      <Hsp_hseq>TSQDICRICHCEAEFEAPLVAPCSCAGSLKFVHQGCLQRWVQSSDMKNCELCKYPFIMQTKIKPLKEW---EKLDMSSMERRKLAC-SVTFHAVAFTCVIWSLYVLIDRSAEEYTSGQLQWPFWTKLVVVAIGFTGGVVFMYVQ</Hsp_hseq>
+      <Hsp_midline>++ + C ICH   + E PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   E+  +++ME    AC  +    +A   ++   ++L++ +   + S ++Q      +++  I F+    ++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|EDX09838.1|</Hit_id>
+  <Hit_def>GD12929 [Drosophila simulans]</Hit_def>
+  <Hit_accession>EDX09838</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.42252e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>dbj|BES89056.1|</Hit_id>
+  <Hit_def>(Membrane-Associated Ring finger (C3HHypothetical protein)) [Nesidiocoris tenuis]</Hit_def>
+  <Hit_accession>BES89056</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>3.44955e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICHQPE--GPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>STASACRICHEGDTVGPLTSPCECKGTIALVHNCCLEKWLTTSNTSTCEVCQYNFKVSRTPRPPSQWLNNEESRILYLDLICLFVFVPVGVIVSCLGAQVAI</Hsp_hseq>
+      <Hsp_midline>ST   C ICH+ +  GPL   C CKG+ A+ H  CL  WL TS   TC +C   + +    +P  +W   EE  +  ++     V +P+ V++  +G  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|KAG5678038.1|</Hit_id>
+  <Hit_def>hypothetical protein PVAND_007745 [Polypedilum vanderplanki]</Hit_def>
+  <Hit_accession>KAG5678038</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.51301e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEG--PLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDFCRICHETDAISPLLAPCLCSGSLRFVHQNCLQQWLTCSETNSCELCKFPFIMQSKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+FC ICH+ +   PL   C C GS    HQ+CL+ WL  S   +C LC  P+ M+ K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_037932475.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119667257 [Teleopsis dalmanni]</Hit_def>
+  <Hit_accession>XP_037932475</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.77925e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>emb|CAD7004585.1|</Hit_id>
+  <Hit_def>unnamed protein product [Ceratitis capitata]</Hit_def>
+  <Hit_accession>CAD7004585</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.19583e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCAGSLKYVHQACLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_061710451.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF9-like [Cydia pomonella]</Hit_def>
+  <Hit_accession>XP_061710451</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.27535e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIATQQPT</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEVHNPLLAPCYCSGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVHRGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLCNRWRAHNRILLIQNAPEKMAAARPS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +   PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       H G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E +A  +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>emb|CAG4645129.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Leptodora kindtii]</Hit_def>
+  <Hit_accession>CAG4645129</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.27557e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCEGEPDAPLVSPCCCSGSLKYVHQGCLQRWVQSSDVRNCELCCFPFIMQTKIKPFREW</Hsp_hseq>
+      <Hsp_midline>+ C ICH   +P+ PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KP REW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|XP_014085132.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_014085133.2| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_014085134.2| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_014085135.2| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220635.1| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220636.1| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220637.1| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220638.1| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220639.1| uncharacterized protein LOC106614111 [Bactrocera oleae] &gt;ref|XP_036220640.1| uncharacterized protein LOC106614111 [Bactrocera oleae]</Hit_def>
+  <Hit_accession>XP_014085132</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.76221e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCAGSLKYVHQACLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>718367499</Statistics_db-num>
+      <Statistics_db-len>277248733561</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

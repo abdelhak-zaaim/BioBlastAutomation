@@ -30,7 +30,7 @@ class Visualisation:
             return 'red'
 
     def home(request):
-        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test2.xml'))
+        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
         root = tree.getroot()
 
         # Extract the data you're interested in
