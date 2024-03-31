@@ -30,19 +30,19 @@
 <nav style="z-index: 100; height: 100%;">
     <ul>
         <li>
-            <a href="#">Home</a>
+            <a href="#">Submit new Query</a>
         </li>
         <li class="green">
             <a href="#">Jedi</a>
         </li>
         <li class="red">
-            <a href="#">Sith</a>
+            <a href="#">Diagrames</a>
         </li>
         <li class="yellow">
-            <a href="#">Sentinel</a>
+            <a href="#">Data Export</a>
         </li>
         <li class="purple">
-            <a href="#">Samuel L. Jackson</a>
+            <a href="#">Documentation</a>
         </li>
     </ul>
 </nav>
@@ -73,6 +73,7 @@
                     <th>Identité</th>
                     <th>Écarts</th>
                     <th>Longueur</th>
+                    <th>Per</th>
                     <th class="hidden">Alignment</th>
 
                 </tr>
@@ -89,6 +90,7 @@
                         <td>{{ info.Identity }}</td>
                         <td>{{ info.Gaps }}</td>
                         <td>{{ info.Length }}</td>
+                        <td>{{ info.Per }}</td>
                         <td class="hidden" data-alignment="{{ info.Query_Sequence }}">{{ info.Query_Sequence }} <br> {{ info.Hit_Sequence }}</td>
                     </tr>
                 {% endfor %}

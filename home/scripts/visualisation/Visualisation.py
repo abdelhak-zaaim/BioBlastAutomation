@@ -84,6 +84,11 @@ class Visualisation:
         # Extract additional information about the sequences
         sequence_info = []
         for hit in root.findall('.//Hit'):
+
+            per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
+            # per should be rounded to 2 decimal places
+            per = round(per, 2)
+
             info = {
                 "Name": hit.find('Hit_def').text,
                 "Other_info": hit.find('Hit_accession').text,
@@ -95,7 +100,8 @@ class Visualisation:
                 "Query_Sequence": hit.find('.//Hsp_qseq').text,
                 "Hit_Sequence": hit.find('.//Hsp_hseq').text,
                 "Midline": hit.find('.//Hsp_midline').text,
-                "Num": hit.find('.//Hsp_num').text
+                "Num": hit.find('.//Hsp_num').text,
+                "Per": per,
             }
             sequence_info.append(info)
         # Convert the figure to HTML and remove the surrounding <html> and <body> tags
