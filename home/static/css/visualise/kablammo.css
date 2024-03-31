@@ -1,0 +1,400 @@
+
+
+.navbar-header span {
+  display: none;
+}
+
+#results-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+#results-container > .row {
+  margin-bottom: 22px;
+}
+
+.query-header, .subject-header {
+  color: white;
+  vertical-align: bottom;
+}
+
+.query-index, .subject-index {
+  display: inline-block;
+  background-color: #1e8bc3;
+  padding: 8px 15px 8px 15px;
+  font-size: 24px;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+#results-container .query-name, #results-container .subject-name {
+  background-color: #69b2d7;
+  vertical-align: bottom;
+  padding: 8px 15px 8px 15px;
+  text-align: right;
+}
+
+.subject, .subject-header {
+  margin-left: 1.5em;
+}
+
+.subject svg {
+
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.subject-info {
+  padding-left: 2em;
+}
+
+.subject-params {
+  list-style: none;
+  display: none;
+  padding-left: 0;
+}
+
+.subject-info span {
+  font-weight: bold;
+}
+
+.subject .selected-count {
+  display: none;
+}
+
+.subject-buttons .hsp-selection-controls {
+  display: none;
+}
+
+.subject-buttons .hsp-selection-controls button {
+  width: 100%;
+}
+
+#control-panels .control-panel {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  top: 92px;
+  left: 0;
+  z-index: 1000;
+  position: fixed;
+  overflow: auto;
+  max-height: calc(100vh - 92px);
+  display: none;
+  border-bottom: 1px solid #999;
+}
+
+#control-panels .tab-pane {
+  padding: 15px;
+  border-left: 1px solid #ddd;
+}
+
+#lab-logo-container {
+  text-align: center;
+}
+
+#lab-logo {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#local-file-chooser {
+  display: none;
+}
+
+#display-params input {
+  display: inline;
+  width: 5em;
+}
+
+.file-label {
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+#display-results-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#curtain {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  display: none;
+  text-align: center;
+}
+
+#curtain .message {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20%;
+}
+
+#errors {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 300px;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.colpick {
+  z-index: 99998;
+}
+
+#snippets {
+  display: none;
+}
+
+#png-exporter {
+  display: none;
+}
+
+#introduction {
+  text-align: center;
+}
+
+#introduction p {
+  font-size: 18px;
+}
+
+#introduction h1 {
+  font-size: 36px;
+}
+
+#introduction h1, #introduction p {
+  text-align: left;
+}
+
+#example-results {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#start-tour {
+  margin-bottom: 30px;
+}
+
+#alignment-viewer {
+  /* Appear in front of "tour" dialog. */
+  z-index: 1200;
+}
+
+#alignment-viewer pre {
+  white-space: pre;
+  word-wrap: normal;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: default;
+}
+
+#alignment-viewer .midline-seq {
+  color: rgb(120, 120, 120);
+}
+
+#alignment-viewer .modal-dialog {
+  width: 80%;
+}
+
+.query-seq span, .midline-seq span, .subject-seq span {
+  padding: 2px;
+}
+
+.navbar-toggle {
+  background-color: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+.alignment-name {
+  font-weight: bold;
+}
+
+
+.aa-g, .aa-a, .aa-s, .aa-t                                    { background-color: #c7cdfd; } /* Blue */
+.aa-c, .aa-v, .aa-i, .aa-l, .aa-p, .aa-f, .aa-y, .aa-m, .aa-w { background-color: #c7fddd; } /* Green */
+.aa-n, .aa-q, .aa-h                                           { background-color: #fdfdc7; } /* Yellow */
+.aa-d, .aa-e                                                  { background-color: #fdc7e9; } /* Pink */
+.aa-k, .aa-r                                                  { background-color: #c7fcfd; } /* Teal */
+
+.na-a { background-color: #c7cdfd; }
+.na-c { background-color: #c7fddd; } /* Green */
+.na-g { background-color: #fdfdc7; } /* Yellow */
+.na-t { background-color: #fdc7e9; } /* Pink */
+
+.ml-diff    { background-color: rgb(204,0,0); } /* Red */
+.ml-similar { background-color: rgb(204,204,0); } /* Yellow */
+.ml-match   { }
+
+
+
+
+
+@font-face {
+    font-family: 'bold';
+
+         url('../font/webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.query-header {
+
+
+}
+
+.query-header .query-index {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+    color: #333; /* Change the color of the query index */
+    font-weight: bold; /* Make the query index bold */
+}
+
+.query-header .query-name {
+ /*  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  color: #575252;
+  border-top-right-radius: 10px;
+     /* Change the color of the query name */
+}
+
+.subject-name {
+  border-top-right-radius: 10px;
+font-family: 'Roboto', sans-serif;
+  font-size: 1.2em; /* Make the text a little bigger */
+    color: #333; /* Change the color of the text */
+    background-color: #f0f0f0; /* Change the background color */
+
+
+    padding: 10px; /* Add some padding */
+    margin-left: auto; /* Align to the left */
+    margin-right: auto; /* Align to the left */
+  /*  width: fit-content;  Fit the width to the content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a subtle shadow */
+}
+
+.subject-index {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+ .portfolio-experiment a {
+	 color: white;
+	 padding: 0.7em calc(0.7em * 1.2);
+	 display: inline-block;
+
+	 position: relative;
+	 font-size: 1.5em;
+	 cursor: pointer;
+	 letter-spacing: 0.07em;
+}
+ .portfolio-experiment a .text {
+	 font-family: proxima-nova, monospace;
+	 transform: translate3d(0, 0.7em, 0);
+	 display: block;
+	 transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+ .portfolio-experiment a:after {
+
+	 position: absolute;
+	 content: '';
+	 bottom: -3px;
+	 left: calc(0.7em * 1.2);
+	 right: calc(0.7em * 1.2);
+	 height: 3px;
+	 background: #f41774;
+	 transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+	 transform-origin: left;
+}
+ .portfolio-experiment .line {
+	 position: absolute;
+
+	 background: #88187b;
+}
+ .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+	 width: 3px;
+	 bottom: -3px;
+	 top: -3px;
+	 transform: scale3d(1, 0, 1);
+}
+ .portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+	 height: 3px;
+	 left: -3px;
+	 right: -3px;
+	 transform: scale3d(0, 1, 1);
+}
+ .portfolio-experiment .line.-right {
+	 right: -3px;
+	 transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+	 transform-origin: top;
+}
+ .portfolio-experiment .line.-top {
+	 top: -3px;
+	 transition: transform 0.08s linear 0.43s;
+	 transform-origin: left;
+}
+ .portfolio-experiment .line.-left {
+	 left: -3px;
+	 transition: transform 0.08s linear 0.51s;
+	 transform-origin: bottom;
+}
+ .portfolio-experiment .line.-bottom {
+	 bottom: -3px;
+	 transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+	 transform-origin: right;
+}
+ .portfolio-experiment a:hover .text, .portfolio-experiment a:active .text {
+	 transform: translate3d(0, 0, 0);
+	 transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+ .portfolio-experiment a:hover:after, .portfolio-experiment a:active:after {
+	 transform: scale3d(0, 1, 1);
+	 right: -3px;
+	 left: -3px;
+	 transform-origin: right;
+	 transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+ .portfolio-experiment a:hover .line, .portfolio-experiment a:active .line {
+	 transform: scale3d(1, 1, 1);
+}
+ .portfolio-experiment a:hover .line.-right, .portfolio-experiment a:active .line.-right {
+	 transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+	 transform-origin: bottom;
+}
+ .portfolio-experiment a:hover .line.-top, .portfolio-experiment a:active .line.-top {
+	 transition: transform 0.08s linear 0.4s;
+	 transform-origin: right;
+}
+ .portfolio-experiment a:hover .line.-left, .portfolio-experiment a:active .line.-left {
+	 transition: transform 0.08s linear 0.48s;
+	 transform-origin: top;
+}
+ .portfolio-experiment a:hover .line.-bottom, .portfolio-experiment a:active .line.-bottom {
+	 transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+	 transform-origin: left;
+}

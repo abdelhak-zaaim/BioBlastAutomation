@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 from urllib import request
 
 from django.http import HttpResponse
@@ -29,7 +30,7 @@ class Visualisation:
             return 'red'
 
     def home(request):
-        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test.xml'))
+        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test2.xml'))
         root = tree.getroot()
 
         # Extract the data you're interested in
@@ -58,8 +59,7 @@ class Visualisation:
                           meta=[str(key) for key in hits_per_category.keys()],
                          hoverinfo='none',
 
-                         hovertemplate='Sequence: %{meta}<br>Label: %{label}<br>Percent: %{percent}',
-                         textfont_size=1)],
+                          hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br>Pourcentage: %{percent}',                         textfont_size=1)],
             layout=go.Layout(
                 title_text='Distribution des coups directs parmi différentes catégories',
                 autosize=True,
@@ -71,10 +71,10 @@ class Visualisation:
         fig = go.Figure(
             data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info, )],
             layout=go.Layout(
-                title_text='BLAST Search Results',
-                xaxis_title='Sequence',
-                yaxis_title='Number of Matches',
-                yaxis_categoryorder='total ascending',
+                title_text='Résultats de recherche BLAST',
+                xaxis_title='Séquence',
+                yaxis_title='Nombre de correspondances',
+                yaxis_categoryorder='sum descending',
                 autosize=True,
             ),
             frames=[
