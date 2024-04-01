@@ -51,7 +51,7 @@
   left: -4px;
   right: -4px;
   height: 10px;
-  background-color: white;
+  background-color: #da191a;
   border-radius: 5px;
   animation: rotation 4s linear infinite reverse;
   z-index: 1;
