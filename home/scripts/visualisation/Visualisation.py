@@ -12,8 +12,6 @@ from django.conf import settings
 from home.scripts.export_data import Export
 
 
-
-
 class Visualisation:
 
     @staticmethod
@@ -55,11 +53,12 @@ class Visualisation:
         hits_per_category = {category: categories.count(category) for category in categories}
 
         fig_hits_per_category = go.Figure(
-            data=[go.Pie( values=list(hits_per_category.values()),
-                          meta=[str(key) for key in hits_per_category.keys()],
+            data=[go.Pie(values=list(hits_per_category.values()),
+                         meta=[str(key) for key in hits_per_category.keys()],
                          hoverinfo='none',
 
-                          hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br>Pourcentage: %{percent}',                         textfont_size=1)],
+                         hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br>Pourcentage: %{percent}',
+                         textfont_size=1)],
             layout=go.Layout(
                 title_text='Distribution des coups directs parmi différentes catégories',
                 autosize=True,
@@ -83,8 +82,9 @@ class Visualisation:
         )
         # Extract additional information about the sequences
         sequence_info = []
-        for hit in root.findall('.//Hit'):
+        subject = root.find('.//BlastOutput_query-def').text
 
+        for hit in root.findall('.//Hit'):
             per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
             # per should be rounded to 2 decimal places
             per = round(per, 2)
@@ -94,7 +94,8 @@ class Visualisation:
                 "Other_info": hit.find('Hit_accession').text,
                 "Score": hit.find('.//Hsp_score').text,
                 "Bit_Score": hit.find('.//Hsp_bit-score').text,
-                "E_value": hit.find('.//Hsp_evalue').text, "Identity": hit.find('.//Hsp_identity').text,
+                "E_value": hit.find('.//Hsp_evalue').text,
+                "Identity": hit.find('.//Hsp_identity').text,
                 "Gaps": hit.find('.//Hsp_gaps').text,
                 "Length": hit.find('.//Hsp_align-len').text,
                 "Query_Sequence": hit.find('.//Hsp_qseq').text,
@@ -102,8 +103,11 @@ class Visualisation:
                 "Midline": hit.find('.//Hsp_midline').text,
                 "Num": hit.find('.//Hsp_num').text,
                 "Per": per,
+
             }
+
             sequence_info.append(info)
+           # sequence_info.append(subject)
         # Convert the figure to HTML and remove the surrounding <html> and <body> tags
         fig_html = fig.to_html(full_html=False,
                                config={'displayModeBar': False, 'scrollZoom': False, 'displaylogo': False})
@@ -116,5 +120,5 @@ class Visualisation:
         return render(request, "documentation/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info
+            'sequence_info': sequence_info , 'subject': subject
         })
