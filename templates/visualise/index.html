@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/visualise/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/visualise/kablammo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/visualise/dialog.css' %}">
+</head>
+<body>
+<div class="bg-dark" style=" width: 100%; z-index: 100; height: 80px; position: sticky; top: 0; display: flex;">
+    <div id="container" style="z-index: 100;   width: 80px;">
+        <div id="burger">
+            <div class="bun top"></div>
+            <div class="filling"></div>
+            <div class="bun bottom"></div>
+        </div>
+    </div>
+
+</div>
+
+<nav style="z-index: 100; height: 100%;">
+    <ul>
+        <li>
+            <a href="#">Submit new Query</a>
+        </li>
+        <li class="green">
+            <a href="#">Tour guide</a>
+        </li>
+        <li class="red">
+            <a href="#">Diagrames</a>
+        </li>
+        <li class="yellow">
+            <a href="#">Data Export</a>
+        </li>
+        <li class="purple">
+            <a href="#">Documentation</a>
+        </li>
+    </ul>
+</nav>
+
+
+<div class="container " id="charts" style="z-index: 0; ">
+    <div class="container" style="margin-top: 80px; ">
+        <div class="row ">
+            <div class="col-lg-6 col-sm-12 ">
+                {{ fig_html | safe }}
+            </div>
+            <div class="col-lg-6 col-sm-12 ">
+                {{ fig_hits_per_sequence_html | safe }}
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="table-responsive" id="table" style=" align-content: center; ">
+        <div style="margin-right: 30px; ">
+            <table id="sequenceTable" class="table table-striped table-hover">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Description</th>
+                    <th>Accès</th>
+                    <th>Score</th>
+                    <th>Score Bit</th>
+                    <th>Valeur E</th>
+                    <th>Identité</th>
+
+                    <th>Longueur</th>
+                    <th>Per</th>
+                    <th class="hidden">Alignment</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                {% for info in sequence_info %}
+                    <tr>
+                        <td class="truncate" data-toggle="tooltip" data-placement="top"
+                            title="{{ info.Name }}">{{ info.Name }}</td>
+                        <td>{{ info.Other_info }}</td>
+                        <td>{{ info.Score }}</td>
+                        <td>{{ info.Bit_Score }}</td>
+                        <td>{{ info.E_value }}</td>
+                        <td>{{ info.Identity }}</td>
+                        <td>{{ info.Gaps }}</td>
+
+                        <td>{{ info.Per }}</td>
+                        <td class="hidden" data-alignment="{{ info.Query_Sequence }}">{{ info.Query_Sequence }}
+                            <br> {{ totalinfos.subject }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<br>
+<br>
+        <div class="modal" tabindex="-1" role="dialog" id="loadingModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="background-color: transparent !important; border: 0">
+      <div class="modal-body" >
+        <div id="dna">
+  <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<footer class="footer mt-auto py-3 bg-dark text-white">
+    <div class="container text-center">
+        <span>Project PFE &copy; 2024 | Developed by Abdelhak Zaaim</span>
+    </div>
+
+
+</footer>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width:80% !important; max-width: 90%; ">
+        <div class="modal-content">
+            <div class="modal-header" style="display: block;">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <div class="modal-title">
+                    <h5><strong>Sujet:</strong> <span class="subject-title">sp|O99253|CYB_PLABE Cytochrome b OS=Plasmodium berghei GN=MT-CYB PE=3 SV=1 (gnl|BL_ORD_ID|81728)</span>
+                    </h5>
+                    <h5><strong>Requête:</strong> <span class="query-title">{{ subject }}</span>
+                    </h5>
+                </div>
+            </div>
+            <div class="modal-body alignments">
+                <div class="alignment">
+                    <h5 class="alignment-name">Alignment #1</h5>
+                    <pre class="alignment-seqs">
+Query  1    MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
+            MDSTGEFCWIC QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK
+Sbjct  1    MDSTGEFCWICRQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
+
+Query  61   TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV  120
+            TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV
+Sbjct  61   TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV  120
+
+Query  121  LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST  180
+            LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST
+Sbjct  121  LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST  180
+
+Query  181  RFRRGKCRSCCRLGCVRLCCV  201
+            RFRRGKCRSCCRLGCVRLCCV
+Sbjct  181  RFRRGKCRSCCRLGCVRLCCV  201
+
+
+</pre>
+                </div>
+            </div>
+   
+            <div class="modal-footer">
+                <button class="btn btn-default export-alignments" type="button">Export alignments</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#333 ; border-color: #333" >Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    
+    
+    
+    
+    $('#sequenceTable tbody').on('click', 'td', function () {
+        $('#loadingModal').modal({
+  backdrop: 'static',
+  keyboard: false
+});
+        
+        // after tow seconds hide the modal and show the alignment
+        setTimeout(function () {
+            $('#loadingModal').modal('hide');
+             var sequenceAlignment = $(this).data('alignment'); // Get the sequence alignment from the data attribute
+        $('#modal-body').text(sequenceAlignment); // Insert the sequence alignment into the modal body
+        $('#myModal').modal('show'); 
+        }, 1000);
+        
+        
+       // Show the modal
+    });
+</script>
+<script src="{% static 'js/visualise/js.js' %}"></script>
+
+<script src="{% static 'js/js.js' %}"></script>
+</body>
+</html>

@@ -9,33 +9,53 @@ from pfe import settings
 
 
 class Submission:
+    valid_output_formats = ["XML", "JSON", "CSV"]
+    programs = ["blastn", "blastp", "blastx", "tblastn", "tblastx"]
 
-    def __init__(self, output_format):
+    def __init__(self, output_format, program):
         self.output_format = output_format
+        self.program = program
+        # check if program in programs
+        if program in self.programs :
+            self.program = program
+        else:
+            raise ValueError("Invalid program name , please use a valid program name.")
 
+    def is_program_compatible(self, sequence):
+        sequence_type = self.sequence_type(sequence)
+
+        if sequence_type == "DNA" and self.program not in ["blastn", "blastx", "tblastx"]:
+            return False
+        elif sequence_type == "RNA" and self.program not in ["blastn", "blastx", "tblastx"]:
+            return False
+        elif sequence_type == "Protein" and self.program not in ["blastp", "tblastn", "tblastx"]:
+            return False
+        else:
+            return True
     def submit_blast_www(self, sequence):
         ssl._create_default_https_context = ssl._create_unverified_context
+
+        if not self.is_program_compatible(sequence):
+            raise ValueError("Incompatible program for the given sequence type.")
+
+
 
         sequence_type = self.sequence_type(sequence)
         # check if the sequence is valid
         if sequence_type == "invalid":
             raise ValueError("Invalid sequence format. Please use a valid sequence format.")
 
-
         # The database to search against
         database = "nt" if sequence_type == "DNA" or sequence_type == "RNA" else "swissprot"
 
-        # The BLAST program to use ('blastn' for nucleotide, 'blastp' for protein)
-        program = "Submission" if sequence_type == "DNA" or sequence_type == "RNA" else "blastp"
+        # Perform the BLAST search and specify the output format
 
-        # Perform the BLAST search
-        result_handle = NCBIWWW.qblast(program, database, sequence.seq)
+        result_handle = NCBIWWW.qblast(self.program, database, sequence.seq, format_type=self.output_format)
 
         # Read the results
         blast_results = result_handle.read()
 
         return blast_results
-
 
     def identify_query_type(query):
         nucleotide_bases = set('ATCG')
@@ -76,13 +96,16 @@ class Submission:
                 valid_bases = 'ACDEFGHIKLMNPQRSTVWY'
             else:
                 raise ValueError(f"Invalid sequence format for: {sequence.id}")
-                sequence_type= "Invalid sequence format."
+                sequence_type = "Invalid sequence format."
 
             for i, base in enumerate(sequence.seq):
                 if base.upper() not in valid_bases:
                     print(f"Invalid residue '{base}' at position {i + 1} in sequence {sequence.id}")
 
             return sequence_type
+
+    def is_valid_output_format(self, output_format):
+        return output_format in self.valid_output_formats
 
     def run_blast(self, sequence, output_file):
         # get file format number based on output_format
@@ -110,7 +133,6 @@ class Submission:
 
         subprocess.run(command, check=True)
 
-
     def parallel_blast(self, query_file):
         self.validate_sequences(query_file)
         # Read the sequences from the .fasta file
@@ -118,7 +140,6 @@ class Submission:
         try:
             # Create a pool of worker processes
             with ProcessPoolExecutor() as executor:
-                # Perform the BLAST search on all sequences in parallel
 
                 executor.map(self.sequence_type, sequences)
 
@@ -128,7 +149,7 @@ class Submission:
 
 
 if __name__ == "__main__":
-    soumission = Submission(output_format='XML')  # replace 'XML' with your desired output format
+    soumission = Submission(output_format='XML', program="blastp")
     sequences = list(SeqIO.parse(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta'), "fasta"))
     for sequence in sequences:
         print(soumission.submit_blast_www(sequence))

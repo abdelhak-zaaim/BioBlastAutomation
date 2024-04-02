@@ -117,7 +117,7 @@ class Visualisation:
                                                                            'displaylogo': False})
 
         # Render the figure in a template
-        return render(self, "documentation/index.html", {
+        return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
             'sequence_info': sequence_info , 'subject': subject
