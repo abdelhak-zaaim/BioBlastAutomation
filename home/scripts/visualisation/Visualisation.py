@@ -27,7 +27,7 @@ class Visualisation:
         else:
             return 'red'
 
-    def home(request):
+    def home(self):
         tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
         root = tree.getroot()
 
@@ -117,7 +117,7 @@ class Visualisation:
                                                                            'displaylogo': False})
 
         # Render the figure in a template
-        return render(request, "documentation/index.html", {
+        return render(self, "documentation/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
             'sequence_info': sequence_info , 'subject': subject

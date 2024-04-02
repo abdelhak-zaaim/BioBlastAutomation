@@ -8,7 +8,7 @@ from home.scripts.utils.constants import Constants
 from pfe import settings
 
 
-class Soumission:
+class Submission:
 
     def __init__(self, output_format):
         self.output_format = output_format
@@ -17,15 +17,19 @@ class Soumission:
         ssl._create_default_https_context = ssl._create_unverified_context
 
         sequence_type = self.sequence_type(sequence)
+        # check if the sequence is valid
+        if sequence_type == "invalid":
+            raise ValueError("Invalid sequence format. Please use a valid sequence format.")
+
 
         # The database to search against
         database = "nt" if sequence_type == "DNA" or sequence_type == "RNA" else "swissprot"
 
         # The BLAST program to use ('blastn' for nucleotide, 'blastp' for protein)
-        program = "blastn" if sequence_type == "DNA" or sequence_type == "RNA" else "blastp"
+        program = "Submission" if sequence_type == "DNA" or sequence_type == "RNA" else "blastp"
 
         # Perform the BLAST search
-        result_handle = NCBIWWW.qblast(program, database, str(sequence.seq))
+        result_handle = NCBIWWW.qblast(program, database, sequence.seq)
 
         # Read the results
         blast_results = result_handle.read()
@@ -58,7 +62,7 @@ class Soumission:
         elif all(base in amino_acids for base in sequence):
             return "Protein"
         else:
-            return "Invalid sequence format."
+            return "invalid"
 
     def validate_sequences(self, query_file):
         # Read the sequences from the .fasta file
@@ -124,5 +128,7 @@ class Soumission:
 
 
 if __name__ == "__main__":
-    soumission = Soumission(output_format='XML')  # replace 'XML' with your desired output format
-    print(soumission.validate_sequences(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta')))
+    soumission = Submission(output_format='XML')  # replace 'XML' with your desired output format
+    sequences = list(SeqIO.parse(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta'), "fasta"))
+    for sequence in sequences:
+        print(soumission.submit_blast_www(sequence))
