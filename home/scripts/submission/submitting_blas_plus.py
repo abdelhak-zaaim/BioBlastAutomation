@@ -3,7 +3,7 @@ from concurrent.futures import ProcessPoolExecutor
 from Bio import SeqIO
 import subprocess
 from Bio.Blast import NCBIWWW
-from home.scripts.utils.constants import Constants
+from home.scripts.utils.Constants import Constants
 
 
 class Soumission:

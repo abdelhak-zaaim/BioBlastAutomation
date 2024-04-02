@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-from home.scripts.utils.constants import Constants
+from home.scripts.utils.Constants import Constants
 
 
 class Utils:
@@ -70,3 +70,20 @@ class Utils:
             return False
         else:
             return True
+
+    @staticmethod
+    def save_blast_results(blast_results, file_name, output_format):
+
+        output_file_path = f"{Constants.OUTPUT_FILE_PATH}/{file_name}.{output_format.toLowerCase()}"
+        with open(output_file_path, 'w') as output_file:
+            if output_format == 'XML':
+                output_file.write(blast_results)
+            elif output_format == 'JSON':
+                import json
+                json.dump(blast_results, output_file)
+            elif output_format == 'CSV':
+                import csv
+                writer = csv.writer(output_file)
+                writer.writerows(blast_results)
+            else:
+                raise ValueError("Invalid output format. Please use 'XML', 'JSON', or 'CSV'.")

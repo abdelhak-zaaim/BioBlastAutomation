@@ -1,15 +1,15 @@
+import datetime
 import os
 import ssl
 from Bio import SeqIO
 import subprocess
 from Bio.Blast import NCBIWWW
-from home.scripts.utils.constants import Constants
+from home.scripts.utils.Constants import Constants
 from pfe import settings
 from home.scripts.submission.utils.Utils import Utils
 
 
 class Submission:
-
 
     def __init__(self, output_format, program):
         self.output_format = output_format
@@ -20,12 +20,10 @@ class Submission:
         else:
             raise ValueError("Invalid program name , please use a valid program name.")
 
-
-
     def submit_blast_www(self, sequence):
         ssl._create_default_https_context = ssl._create_unverified_context
 
-        if not Utils.is_program_compatible(self.program,sequence):
+        if not Utils.is_program_compatible(self.program, sequence):
             raise ValueError("Incompatible program for the given sequence type.")
 
         sequence_type = Utils.sequence_type(sequence)
@@ -44,8 +42,6 @@ class Submission:
         blast_results = result_handle.read()
 
         return blast_results
-
-
 
     def run_blast(self, sequence, output_file):
         # get file format number based on output_format
@@ -74,9 +70,14 @@ class Submission:
         subprocess.run(command, check=True)
 
 
-
 if __name__ == "__main__":
     soumission = Submission(output_format='XML', program="blastp")
     sequences = list(SeqIO.parse(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta'), "fasta"))
     for sequence in sequences:
-        print(soumission.submit_blast_www(sequence))
+        print("submitting sequence: ", sequence.id)
+        result = soumission.submit_blast_www(sequence)
+        # get current time to use it as a unique identifier for the output file
+        time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
+        Utils.save_blast_results(result, f"result_{sequence.id}_{time}", soumission.output_format)
+        print("done")
