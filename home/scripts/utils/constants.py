@@ -5,6 +5,7 @@ class Constants:
     # do not forget to extract the files
     # *--------------------------------------------
 
+
     DATABASES = [{"name": "nt", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nt.001"},
                  {"name": "nr", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nr.08"}]
 
@@ -18,3 +19,6 @@ class Constants:
     # you can download an example file from https://zaaim.me/src/sequences.fasta
     # --------------------------------------------
     TEST_FILE_PATH = "/Users/macbook/PycharmProjects/pfe-blast/sequences.fasta"
+
+    valid_output_formats = ["XML", "JSON", "CSV"]
+    programs = ["blastn", "blastp", "blastx", "tblastn", "tblastx"]
