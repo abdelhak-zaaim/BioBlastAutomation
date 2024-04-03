@@ -24,10 +24,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```bash
 # Clone the repository
-git clone https://github.com/abdelhak-zaaim/project.git
+git clone https://github.com/abdelhak-zaaim/BioBlastAutomation.git
 
 # Navigate to the project directory
-cd project
+cd BioBlastAutomation
 
 # Install the required packages
 pip install -r requirements.txt
