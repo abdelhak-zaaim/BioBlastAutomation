@@ -12,12 +12,6 @@ The project is managed with pip and has dependencies on several libraries, as li
 
 
 
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation :wrench:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
