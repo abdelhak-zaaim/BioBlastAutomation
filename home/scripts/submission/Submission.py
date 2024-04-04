@@ -43,32 +43,6 @@ class Submission:
 
         return blast_results
 
-    def run_blast(self, sequence, output_file):
-        # get file format number based on output_format
-        if self.output_format == 'XML':
-            outfmt = '5'
-        elif self.output_format == 'JSON':
-            outfmt = '15'
-        elif self.output_format == 'CSV':
-            outfmt = '10'
-
-        else:
-            raise ValueError("Invalid output format. Please use 'XML', 'JSON', or 'CSV'.")
-
-        # Write the sequence to a temporary file
-        with open("temp.fasta", "w") as temp_file:
-            SeqIO.write(sequence, temp_file, "fasta")
-        print("we strated the blast")
-        command = [
-            'blastn',
-            '-db', self.db_path,
-            '-query', "temp.fasta",
-            '-out', output_file + '.' + self.output_format,
-            '-outfmt', outfmt
-        ]
-
-        subprocess.run(command, check=True)
-
 
 if __name__ == "__main__":
     soumission = Submission(output_format='XML', program="blastp")
