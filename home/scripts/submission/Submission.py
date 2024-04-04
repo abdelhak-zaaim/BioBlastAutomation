@@ -45,7 +45,7 @@ class Submission:
 
 
 if __name__ == "__main__":
-    soumission = Submission(output_format='XML', program="blastp")
+    soumission = Submission(output_format='CSV', program="blastp")
     sequences = list(SeqIO.parse(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta'), "fasta"))
     for sequence in sequences:
         print("submitting sequence: ", sequence.id)
