@@ -43,13 +43,15 @@ class Submission:
 
         return blast_results
 
-
+# script to submit a sequence to the BLAST server for testing purposes
 if __name__ == "__main__":
-    soumission = Submission(output_format='CSV', program="blastp")
+    soumission = Submission(output_format='XML', program="blastp")
     sequences = list(SeqIO.parse(os.path.join(settings.STATICFILES_DIRS[0], 'sequences.fasta'), "fasta"))
     for sequence in sequences:
         print("submitting sequence: ", sequence.id)
         result = soumission.submit_blast_www(sequence)
+
+
         # get current time to use it as a unique identifier for the output file
         time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 

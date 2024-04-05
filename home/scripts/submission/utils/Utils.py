@@ -1,6 +1,9 @@
+import os
+
 from Bio import SeqIO
 
 from home.scripts.utils.Constants import Constants
+from pfe import settings
 
 
 class Utils:
@@ -74,7 +77,13 @@ class Utils:
     @staticmethod
     def save_blast_results(blast_results, file_name, output_format):
 
-        output_file_path = f"{Constants.OUTPUT_FILE_PATH}/{file_name}.{output_format.toLowerCase()}"
+        static_dir = settings.STATICFILES_DIRS[0]
+
+        # Create the path to the output directory within the static directory
+        output_dir = os.path.join(static_dir, 'blast_result')
+        os.makedirs(output_dir, exist_ok=True)
+
+        output_file_path = os.path.join(output_dir, f"{file_name}.{output_format}")
         with open(output_file_path, 'w') as output_file:
             if output_format == 'XML':
                 output_file.write(blast_results)

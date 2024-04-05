@@ -26,4 +26,4 @@ class Constants:
     programs = ["blastn", "blastp", "blastx", "tblastn", "tblastx"]
 
 
-    OUTPUT_FILE_PATH = "/statics/blast_result"
+    OUTPUT_FILE_PATH = "/statics/blast_results"

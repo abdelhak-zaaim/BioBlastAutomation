@@ -75,13 +75,15 @@
 
                     <th>Longueur</th>
                     <th>Per</th>
-                    <th class="hidden">Alignment</th>
+                    
 
                 </tr>
                 </thead>
                 <tbody>
                 {% for info in sequence_info %}
-                    <tr>
+                    <tr  data-alignment="{{ info.Alignement }}"
+                    
+                    >
                         <td class="truncate" data-toggle="tooltip" data-placement="top"
                             title="{{ info.Name }}">{{ info.Name }}</td>
                         <td>{{ info.Other_info }}</td>
@@ -92,8 +94,12 @@
                         <td>{{ info.Gaps }}</td>
 
                         <td>{{ info.Per }}</td>
-                        <td class="hidden" data-alignment="{{ info.Query_Sequence }}">{{ info.Query_Sequence }}
-                            <br> {{ totalinfos.subject }}</td>
+                        
+                         
+                            
+
+
+                        </td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -109,29 +115,53 @@
 
 <br>
 <br>
-        <div class="modal" tabindex="-1" role="dialog" id="loadingModal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background-color: transparent !important; border: 0">
-      <div class="modal-body" >
-        <div id="dna">
-  <div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div>
-</div>
+<div class="modal" tabindex="-1" role="dialog" id="loadingModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: transparent !important; border: 0">
+            <div class="modal-body">
+                <div id="dna">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <br>
 <br>
 
 <footer class="footer mt-auto py-3 bg-dark text-white">
     <div class="container text-center">
-        <span>Project PFE &copy; 2024 | Developed by Abdelhak Zaaim</span>
+        <span>Project PFE &copy; 2024 | bioBlastAutomation </span>
     </div>
 
 
@@ -151,7 +181,7 @@
             <div class="modal-body alignments">
                 <div class="alignment">
                     <h5 class="alignment-name">Alignment #1</h5>
-                    <pre class="alignment-seqs">
+                    <pre class="alignment-seqs" id="alignment-viewer">
 Query  1    MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
             MDSTGEFCWIC QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK
 Sbjct  1    MDSTGEFCWICRQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
@@ -172,10 +202,12 @@ Sbjct  181  RFRRGKCRSCCRLGCVRLCCV  201
 </pre>
                 </div>
             </div>
-   
+
             <div class="modal-footer">
                 <button class="btn btn-default export-alignments" type="button">Export alignments</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#333 ; border-color: #333" >Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"
+                        style="background-color:#333 ; border-color: #333">Close
+                </button>
             </div>
         </div>
     </div>
@@ -183,26 +215,26 @@ Sbjct  181  RFRRGKCRSCCRLGCVRLCCV  201
 
 
 <script>
-    
-    
-    
-    
-    $('#sequenceTable tbody').on('click', 'td', function () {
+
+
+    $('#sequenceTable tbody').on('click', 'tr', function () {
         $('#loadingModal').modal({
-  backdrop: 'static',
-  keyboard: false
-});
-        
-        // after tow seconds hide the modal and show the alignment
-        setTimeout(function () {
+            backdrop: 'static',
+            keyboard: false
+        });
+var sequenceAlignment =  $(this).attr('data-alignment'); // Change this line
+
+        setTimeout( function () {
             $('#loadingModal').modal('hide');
-             var sequenceAlignment = $(this).data('alignment'); // Get the sequence alignment from the data attribute
-        $('#modal-body').text(sequenceAlignment); // Insert the sequence alignment into the modal body
-        $('#myModal').modal('show'); 
-        }, 1000);
-        
-        
-       // Show the modal
+
+             // Get the sequence alignment from the data attribute
+            // Get the sequence alignment from the data attribute
+            $('#alignment-viewer').text(sequenceAlignment); // Insert the sequence alignment into the modal body
+            $('#myModal').modal('show');
+        }, 500);
+
+
+        // Show the modal
     });
 </script>
 <script src="{% static 'js/visualise/js.js' %}"></script>

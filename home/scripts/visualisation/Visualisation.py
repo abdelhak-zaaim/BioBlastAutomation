@@ -2,6 +2,8 @@ import os
 from datetime import datetime
 from urllib import request
 
+from Bio import SeqIO, pairwise2
+from Bio.pairwise2 import format_alignment
 from django.http import HttpResponse
 from django.shortcuts import render
 from flask import Flask, render_template_string, jsonify, render_template, current_app
@@ -103,6 +105,7 @@ class Visualisation:
                 "Midline": hit.find('.//Hsp_midline').text,
                 "Num": hit.find('.//Hsp_num').text,
                 "Per": per,
+                "Alignement": Visualisation.perform_global_alignment(hit.find('.//Hsp_qseq').text, hit.find('.//Hsp_hseq').text)
 
             }
 
@@ -122,3 +125,44 @@ class Visualisation:
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
             'sequence_info': sequence_info , 'subject': subject
         })
+
+    from Bio import pairwise2, SeqIO
+    from Bio.pairwise2 import format_alignment
+    @staticmethod
+    def perform_global_alignment(seq1, seq2):
+        # Perform the global alignment
+        alignments = pairwise2.align.globalxx(seq1, seq2)
+
+        # If there are no alignments, return an empty string
+        if not alignments:
+            return ""
+
+        # Get the first alignment
+        first_alignment = alignments[0]
+
+        # Format the first alignment
+        formatted_alignment = Visualisation.format_custom_alignment(*first_alignment)
+
+        # Return the formatted alignment
+        return formatted_alignment
+
+    @staticmethod
+    def format_custom_alignment(align1, align2, score, begin, end):
+        # Initialize the formatted alignment string
+        formatted_alignment = ""
+
+        # Split the alignments into chunks of 60 characters
+        chunks1 = [align1[i:i + 60] for i in range(0, len(align1), 60)]
+        chunks2 = [align2[i:i + 60] for i in range(0, len(align2), 60)]
+
+        # Iterate over the chunks and add them to the formatted alignment string
+        for i in range(len(chunks1)):
+            start = i * 60 + 1
+            end = start + len(chunks1[i]) - 1
+
+            formatted_alignment += f"Query  {start:4}   {chunks1[i]}  {end:4}\n"
+            formatted_alignment += " " * 14 + chunks1[i].replace('-', ' ') + "\n"
+            formatted_alignment += f"Sbjct  {start:4}   {chunks2[i]}  {end:4}\n\n"
+
+        # Return the formatted alignment
+        return formatted_alignment
