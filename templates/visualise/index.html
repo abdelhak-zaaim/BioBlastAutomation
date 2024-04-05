@@ -10,10 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="{% static 'css/visualise/style.css' %}">
-    <link rel="stylesheet" href="{% static 'css/visualise/kablammo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/visualise/bioplastpfe.css' %}">
     <link rel="stylesheet" href="{% static 'css/visualise/dialog.css' %}">
 </head>
 <body>
@@ -75,14 +74,14 @@
 
                     <th>Longueur</th>
                     <th>Per</th>
-                    
+
 
                 </tr>
                 </thead>
                 <tbody>
                 {% for info in sequence_info %}
-                    <tr  data-alignment="{{ info.Alignement }}"
-                    
+                    <tr data-alignment="{{ info.Alignement }}"
+
                     >
                         <td class="truncate" data-toggle="tooltip" data-placement="top"
                             title="{{ info.Name }}">{{ info.Name }}</td>
@@ -94,9 +93,6 @@
                         <td>{{ info.Gaps }}</td>
 
                         <td>{{ info.Per }}</td>
-                        
-                         
-                            
 
 
                         </td>
@@ -172,6 +168,8 @@
             <div class="modal-header" style="display: block;">
                 <button type="button" class="close" data-dismiss="modal">×</button>
                 <div class="modal-title">
+
+
                     <h5><strong>Sujet:</strong> <span class="subject-title">sp|O99253|CYB_PLABE Cytochrome b OS=Plasmodium berghei GN=MT-CYB PE=3 SV=1 (gnl|BL_ORD_ID|81728)</span>
                     </h5>
                     <h5><strong>Requête:</strong> <span class="query-title">{{ subject }}</span>
@@ -180,31 +178,20 @@
             </div>
             <div class="modal-body alignments">
                 <div class="alignment">
-                    <h5 class="alignment-name">Alignment #1</h5>
+                    <h5 class="alignment-name">Sequence Comparison</h5>
                     <pre class="alignment-seqs" id="alignment-viewer">
-Query  1    MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
-            MDSTGEFCWIC QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK
-Sbjct  1    MDSTGEFCWICRQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWK  60
-
-Query  61   TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV  120
-            TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV
-Sbjct  61   TKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIV  120
-
-Query  121  LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST  180
-            LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST
-Sbjct  121  LLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLST  180
-
-Query  181  RFRRGKCRSCCRLGCVRLCCV  201
-            RFRRGKCRSCCRLGCVRLCCV
-Sbjct  181  RFRRGKCRSCCRLGCVRLCCV  201
-
-
+                        
+                        
+                        
 </pre>
                 </div>
             </div>
 
             <div class="modal-footer">
-                <button class="btn btn-default export-alignments" type="button">Export alignments</button>
+                <button class="btn btn-default export-alignments"
+                        title="Feature in progress: The export functionality will be available soon. "
+                        data-toggle="tooltip" type="button">Export alignments
+                </button>
                 <button type="button" class="btn btn-primary" data-dismiss="modal"
                         style="background-color:#333 ; border-color: #333">Close
                 </button>
@@ -222,12 +209,12 @@ Sbjct  181  RFRRGKCRSCCRLGCVRLCCV  201
             backdrop: 'static',
             keyboard: false
         });
-var sequenceAlignment =  $(this).attr('data-alignment'); // Change this line
+        var sequenceAlignment = $(this).attr('data-alignment'); // Change this line
 
-        setTimeout( function () {
+        setTimeout(function () {
             $('#loadingModal').modal('hide');
 
-             // Get the sequence alignment from the data attribute
+            // Get the sequence alignment from the data attribute
             // Get the sequence alignment from the data attribute
             $('#alignment-viewer').text(sequenceAlignment); // Insert the sequence alignment into the modal body
             $('#myModal').modal('show');

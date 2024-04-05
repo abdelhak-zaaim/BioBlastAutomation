@@ -148,16 +148,14 @@ class Visualisation:
 
     @staticmethod
     def format_custom_alignment(align1, align2, score, begin, end):
-        # Initialize the formatted alignment string
         formatted_alignment = ""
 
-        # Split the alignments into chunks of 60 characters
-        chunks1 = [align1[i:i + 60] for i in range(0, len(align1), 60)]
-        chunks2 = [align2[i:i + 60] for i in range(0, len(align2), 60)]
 
-        # Iterate over the chunks and add them to the formatted alignment string
+        chunks1 = [align1[i:i + 120] for i in range(0, len(align1), 120)]
+        chunks2 = [align2[i:i + 120] for i in range(0, len(align2), 120)]
+
         for i in range(len(chunks1)):
-            start = i * 60 + 1
+            start = i * 120 + 1
             end = start + len(chunks1[i]) - 1
 
             formatted_alignment += f"Query  {start:4}   {chunks1[i]}  {end:4}\n"
