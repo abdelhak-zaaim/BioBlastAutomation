@@ -6,12 +6,12 @@ from Bio import SeqIO, pairwise2
 from Bio.pairwise2 import format_alignment
 from django.http import HttpResponse
 from django.shortcuts import render
-from flask import Flask, render_template_string, jsonify, render_template, current_app
 import plotly.graph_objects as go
 import xml.etree.ElementTree as ET
 from django.conf import settings
 
 from home.scripts.export_data import Export
+from home.scripts.visualisation.AlignmentViewer import AlignmentViewer
 
 
 class Visualisation:
@@ -48,7 +48,7 @@ class Visualisation:
         sequences = [hit.find('Hit_def').text for hit in root.findall('.//Hit')]
         matches = [int(hsp.find('Hsp_score').text) for hsp in root.findall('.//Hsp')]
 
-        # Extract the number of hits per sequence
+
         hits_per_sequence = {sequence: sequences.count(sequence) for sequence in sequences}
         categories = [hit.find('Hit_accession').text for hit in root.findall('.//Hit')]
 
@@ -85,12 +85,11 @@ class Visualisation:
         # Extract additional information about the sequences
         sequence_info = []
         subject = root.find('.//BlastOutput_query-def').text
-
+        viewer = AlignmentViewer()
         for hit in root.findall('.//Hit'):
             per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
-            # per should be rounded to 2 decimal places
-            per = round(per, 2)
 
+            per = round(per, 2)
             info = {
                 "Name": hit.find('Hit_def').text,
                 "Other_info": hit.find('Hit_accession').text,
@@ -105,12 +104,13 @@ class Visualisation:
                 "Midline": hit.find('.//Hsp_midline').text,
                 "Num": hit.find('.//Hsp_num').text,
                 "Per": per,
-                "Alignement": Visualisation.perform_global_alignment(hit.find('.//Hsp_qseq').text, hit.find('.//Hsp_hseq').text)
+                "Alignement": Visualisation.perform_global_alignment(hit.find('.//Hsp_qseq').text,
+                                                                     hit.find('.//Hsp_hseq').text)
 
             }
 
             sequence_info.append(info)
-           # sequence_info.append(subject)
+        # sequence_info.append(subject)
         # Convert the figure to HTML and remove the surrounding <html> and <body> tags
         fig_html = fig.to_html(full_html=False,
                                config={'displayModeBar': False, 'scrollZoom': False, 'displaylogo': False})
@@ -123,11 +123,10 @@ class Visualisation:
         return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info , 'subject': subject
+            'sequence_info': sequence_info, 'subject': subject
         })
 
-    from Bio import pairwise2, SeqIO
-    from Bio.pairwise2 import format_alignment
+
     @staticmethod
     def perform_global_alignment(seq1, seq2):
         # Perform the global alignment
@@ -149,7 +148,6 @@ class Visualisation:
     @staticmethod
     def format_custom_alignment(align1, align2, score, begin, end):
         formatted_alignment = ""
-
 
         chunks1 = [align1[i:i + 120] for i in range(0, len(align1), 120)]
         chunks2 = [align2[i:i + 120] for i in range(0, len(align2), 120)]

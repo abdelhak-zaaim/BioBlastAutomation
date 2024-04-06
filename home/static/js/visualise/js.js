@@ -3,22 +3,7 @@ $(document).ready(async function () {
     $('#sequenceTable').DataTable();
 
 
-  //  var table = $('#sequenceTable').DataTable({
-  //  "paging": false,
-  //      "columns": [
-  //          {
-  //              "className": 'details-control',
-  //              "orderable": false,
-  //              "data": null,
-  //              "defaultContent": ''
-  //          },
-  //          // Other columns...
-  //      ],
-  //
-  //      "order": [[1, 'asc']]
-  //  });
 
-    // Add event listener for opening and closing details
     $('#sequenceTable tbody').on('click', 'td.details-control', function () {
         var tr = $(this).closest('tr');
         var row = table.row(tr);
@@ -41,7 +26,7 @@ $(document).ready(function () {
 });
 
 function format(data) {
-    // `data` is the original data object for the row
+
     return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
         '<tr>' +
         '<td>A bit Score:</td>' +
