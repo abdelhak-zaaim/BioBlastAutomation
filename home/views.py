@@ -40,13 +40,16 @@ def home(request):
 def blast(request):
     return Visualisation.home(request)
 
+
 def documentation(request):
     return render(request, 'documentation/index.html')
+
 
 def alignement_viewer(request):
     data = json.loads(request.body)
 
-    alignment_viewer = AlignmentViewer(data.get('query_seq', ""), data.get('midline_seq', ""), data.get('subject_seq', ""))
+    alignment_viewer = AlignmentViewer(data.get('query_seq', ""), data.get('midline_seq', ""),
+                                       data.get('subject_seq', ""))
     resources = alignment_viewer.view_alignments("Query Definition", "Query ID", "Subject Definition", "Subject ID")
-    print(resources)
+
     return HttpResponse(json.dumps(resources))

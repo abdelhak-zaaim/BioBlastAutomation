@@ -9,6 +9,7 @@ class AlignmentViewer:
             'ml-diff' if chr == ' ' else 'ml-similar' if chr == '+' else 'ml-match') + '">&nbsp;</span>' for chr in
                         midline])
 
+    # this function is used to check if the sequence is a nucleic acid or an amino acid
     def is_nucleic_acid(self, seq):
         nucleic_acids = ['A', 'T', 'C', 'G', 'U']
 
@@ -21,6 +22,7 @@ class AlignmentViewer:
             html = '<span'
             if letter != '-':
                 html += ' data-idx="' + str(position) + '"'
+
                 html += ' class="' + prefix + letter.lower() + '"'
             else:
                 html += ' class="gap"'
@@ -31,12 +33,13 @@ class AlignmentViewer:
         coloured = [color(letter, idx + 1) for idx, letter in enumerate(letters)]
         return ''.join(coloured)
 
-    def view_alignments(self,  query_def, query_id,
+    def view_alignments(self, query_def, query_id,
                         subject_def, subject_id):
-
+        # check if  the nucleic acid or amina acide
         subject_seq_type = 'nucleic_acid' if self.is_nucleic_acid(self.subject_seq) else 'amino_acid'
+        # same thing for the query sequence
         query_seq_type = 'nucleic_acid' if self.is_nucleic_acid(self.query_seq) else 'amino_acid'
-
+        # generate the response
         alignment = {'query_seq': '  Query: ' + self.color_seq(self.query_seq, query_seq_type),
                      'midline_seq': '         ' + self.colour_midline(self.midline_seq),
                      'subject_seq': 'Subject: ' + self.color_seq(self.subject_seq, subject_seq_type)}
@@ -47,8 +50,6 @@ class AlignmentViewer:
 def main():
     viewer = AlignmentViewer('ACTG', '||||', 'ACTG')
 
-
-
     query_def = 'Query Definition'
     query_id = 'Query ID'
 
@@ -56,10 +57,8 @@ def main():
     subject_id = 'Subject ID'
 
     # Call the view_alignments method
-    alignment = viewer.view_alignments(  query_def, query_id, subject_def,
-                                        subject_id)
-
-
+    alignment = viewer.view_alignments(query_def, query_id, subject_def,
+                                       subject_id)
 
     print(alignment)
 

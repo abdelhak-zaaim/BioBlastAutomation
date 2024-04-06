@@ -1,17 +1,11 @@
 import os
-from datetime import datetime
-from urllib import request
 
 from Bio import SeqIO, pairwise2
-from Bio.pairwise2 import format_alignment
-from django.http import HttpResponse
+
 from django.shortcuts import render
 import plotly.graph_objects as go
 import xml.etree.ElementTree as ET
 from django.conf import settings
-
-from home.scripts.export_data import Export
-from home.scripts.visualisation.AlignmentViewer import AlignmentViewer
 
 
 class Visualisation:
@@ -47,7 +41,6 @@ class Visualisation:
 
         sequences = [hit.find('Hit_def').text for hit in root.findall('.//Hit')]
         matches = [int(hsp.find('Hsp_score').text) for hsp in root.findall('.//Hsp')]
-
 
         hits_per_sequence = {sequence: sequences.count(sequence) for sequence in sequences}
         categories = [hit.find('Hit_accession').text for hit in root.findall('.//Hit')]
@@ -105,12 +98,10 @@ class Visualisation:
                 "Num": hit.find('.//Hsp_num').text,
                 "Per": per,
 
-
             }
 
             sequence_info.append(info)
-        # sequence_info.append(subject)
-        # Convert the figure to HTML and remove the surrounding <html> and <body> tags
+
         fig_html = fig.to_html(full_html=False,
                                config={'displayModeBar': False, 'scrollZoom': False, 'displaylogo': False})
         fig_hits_per_category_html = fig_hits_per_category.to_html(full_html=False,
@@ -124,7 +115,6 @@ class Visualisation:
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
             'sequence_info': sequence_info, 'subject': subject
         })
-
 
     @staticmethod
     def perform_global_alignment(seq1, seq2):
