@@ -1,5 +1,7 @@
 import json
+
 from django.http import JsonResponse
+
 
 class ValidateViewAlignementRequestMiddleware:
     def __init__(self, get_response):
@@ -11,7 +13,7 @@ class ValidateViewAlignementRequestMiddleware:
             if request.method == 'POST':
                 data = json.loads(request.body)
 
-                # check the parameters
+                # check the parameters of the request
                 if 'query_seq' not in data:
                     return JsonResponse({"error": "The 'query_seq' parameter is required."}, status=400)
                 if 'midline_seq' not in data:
@@ -28,7 +30,12 @@ class ValidateViewAlignementRequestMiddleware:
 
             else:
                 return JsonResponse({"error": "Invalid request method. Only POST requests are allowed."}, status=405)
+            # in case of success, we will convert the sequences to uppercase and add them to the request object
+            data['query_seq'] = data['query_seq'].upper()
+            data['midline_seq'] = data['midline_seq'].upper()
+            data['subject_seq'] = data['subject_seq'].upper()
 
+            request.data = data
         response = self.get_response(request)
 
         return response
