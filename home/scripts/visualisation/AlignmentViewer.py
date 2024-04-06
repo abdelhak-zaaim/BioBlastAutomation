@@ -1,6 +1,10 @@
 class AlignmentViewer:
+    def __init__(self, query_seq, midline_seq, subject_seq):
+        self.query_seq = query_seq
+        self.midline_seq = midline_seq
+        self.subject_seq = subject_seq
 
-    def _colour_midline(self, midline):
+    def colour_midline(self, midline):
         return ''.join(['<span class="' + (
             'ml-diff' if chr == ' ' else 'ml-similar' if chr == '+' else 'ml-match') + '">&nbsp;</span>' for chr in
                         midline])
@@ -10,10 +14,10 @@ class AlignmentViewer:
 
         return all(char in nucleic_acids for char in seq)
 
-    def _color_seq(self, seq, seq_type):
+    def color_seq(self, seq, seq_type):
         prefix = 'na-' if seq_type == 'nucleic_acid' else 'aa-'
 
-        def _color(letter, position):
+        def color(letter, position):
             html = '<span'
             if letter != '-':
                 html += ' data-idx="' + str(position) + '"'
@@ -24,29 +28,26 @@ class AlignmentViewer:
             return html
 
         letters = list(seq)
-        coloured = [_color(letter, idx + 1) for idx, letter in enumerate(letters)]
+        coloured = [color(letter, idx + 1) for idx, letter in enumerate(letters)]
         return ''.join(coloured)
 
-    def view_alignments(self, query_seq, midline_seq, subject_seq, query_def, query_id,
+    def view_alignments(self,  query_def, query_id,
                         subject_def, subject_id):
 
-        subject_seq_type = 'nucleic_acid' if self.is_nucleic_acid(subject_seq) else 'amino_acid'
-        query_seq_type = 'nucleic_acid' if self.is_nucleic_acid(query_seq) else 'amino_acid'
+        subject_seq_type = 'nucleic_acid' if self.is_nucleic_acid(self.subject_seq) else 'amino_acid'
+        query_seq_type = 'nucleic_acid' if self.is_nucleic_acid(self.query_seq) else 'amino_acid'
 
-        alignment = {'query_seq': '  Query: ' + self._color_seq(query_seq, query_seq_type),
-                     'midline_seq': '         ' + self._colour_midline(midline_seq),
-                     'subject_seq': 'Subject: ' + self._color_seq(subject_seq, subject_seq_type)}
+        alignment = {'query_seq': '  Query: ' + self.color_seq(self.query_seq, query_seq_type),
+                     'midline_seq': '         ' + self.colour_midline(self.midline_seq),
+                     'subject_seq': 'Subject: ' + self.color_seq(self.subject_seq, subject_seq_type)}
 
         return alignment
 
 
 def main():
-    viewer = AlignmentViewer()
+    viewer = AlignmentViewer('ACTG', '||||', 'ACTG')
 
 
-    query_seq = 'ACTG',
-    midline_seq = '||||',
-    subject_seq = 'ACTG'
 
     query_def = 'Query Definition'
     query_id = 'Query ID'
@@ -55,12 +56,12 @@ def main():
     subject_id = 'Subject ID'
 
     # Call the view_alignments method
-    alignments = viewer.view_alignments(query_seq, midline_seq, subject_seq, query_def, query_id, subject_def,
+    alignment = viewer.view_alignments(  query_def, query_id, subject_def,
                                         subject_id)
 
-    # Print the alignments
-    for alignment in alignments:
-        print(alignment)
+
+
+    print(alignment)
 
 
 if __name__ == "__main__":

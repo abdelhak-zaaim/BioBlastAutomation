@@ -23,4 +23,6 @@ urlpatterns = [
     path('home', views.home),
     path('blast', views.blast),
     path('documentation', views.documentation),
+
+    path('alignement_viewer', views.alignement_viewer),
 ]

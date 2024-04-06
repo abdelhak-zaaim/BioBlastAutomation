@@ -85,7 +85,7 @@ class Visualisation:
         # Extract additional information about the sequences
         sequence_info = []
         subject = root.find('.//BlastOutput_query-def').text
-        viewer = AlignmentViewer()
+
         for hit in root.findall('.//Hit'):
             per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
 
@@ -104,8 +104,7 @@ class Visualisation:
                 "Midline": hit.find('.//Hsp_midline').text,
                 "Num": hit.find('.//Hsp_num').text,
                 "Per": per,
-                "Alignement": Visualisation.perform_global_alignment(hit.find('.//Hsp_qseq').text,
-                                                                     hit.find('.//Hsp_hseq').text)
+
 
             }
 
