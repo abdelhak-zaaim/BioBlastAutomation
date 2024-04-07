@@ -4175,7 +4175,7 @@ function dataAttr( elem, key, data ) {
 				data = getData( data );
 			} catch ( e ) {}
 
-			// Make sure we set the data so it isn't changed later
+
 			dataUser.set( elem, key, data );
 		} else {
 			data = undefined;

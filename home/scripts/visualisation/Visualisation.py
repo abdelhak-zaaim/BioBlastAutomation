@@ -52,19 +52,22 @@ class Visualisation:
             layout=go.Layout(
                 title_text='Distribution des coups directs parmi différentes catégories',
                 autosize=True,
+                paper_bgcolor='rgba(0,0,0,0)',  # Set the paper (entire figure) background to transparent
 
             ),
 
         )
 
         fig = go.Figure(
-            data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info, )],
+            data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info,  )],
             layout=go.Layout(
                 title_text='Résultats de recherche BLAST',
                 xaxis_title='Séquence',
                 yaxis_title='Nombre de correspondances',
                 yaxis_categoryorder='sum descending',
                 autosize=True,
+                paper_bgcolor='rgba(0,0,0,0)',  # Set the paper (entire figure) background to transparent
+
             ),
             frames=[
                 go.Frame(
