@@ -1,8 +1,9 @@
-import os
-from xml.etree import ElementTree
-from xhtml2pdf import pisa
 import csv
 import xml.etree.ElementTree as ET
+from xml.etree import ElementTree
+
+from xhtml2pdf import pisa
+
 
 class BlastResultExporter:
     def __init__(self, xml_file, html_template, output_pdf):
@@ -10,10 +11,9 @@ class BlastResultExporter:
         self.html_template = html_template
         self.output_pdf = output_pdf
 
-    def blast_xml_to_csv(self,xml_file, csv_file):
+    def blast_xml_to_csv(self, xml_file, csv_file):
         tree = ET.parse(xml_file)
         root = tree.getroot()
-
 
         data = []
         for iteration in root.find('BlastOutput_iterations'):
@@ -45,7 +45,7 @@ class BlastResultExporter:
             html = file.read().format(**data)
         return html
 
-    def export_to_pdf( html):
+    def export_to_pdf(html):
         with open("tessttt.pdf", 'wb') as output_file:
             pisa_status = pisa.CreatePDF(html, dest=output_file)
 
@@ -56,5 +56,3 @@ class BlastResultExporter:
         html = self.render_html(data)
         success = self.export_to_pdf(html)
         return success
-
-

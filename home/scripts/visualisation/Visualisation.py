@@ -1,11 +1,10 @@
 import os
-
-from Bio import SeqIO, pairwise2
-
-from django.shortcuts import render
-import plotly.graph_objects as go
 import xml.etree.ElementTree as ET
+
+import plotly.graph_objects as go
+from Bio import pairwise2
 from django.conf import settings
+from django.shortcuts import render
 
 
 class Visualisation:
@@ -27,14 +26,10 @@ class Visualisation:
         tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
         root = tree.getroot()
 
-        # Extract the data you're interested in
-        sequences = [hit.find('Hit_def').text for hit in root.findall('.//Hit')]
         matches = [int(hsp.find('Hsp_score').text) for hsp in root.findall('.//Hsp')]
 
-        # colors = ['red' if match >= high_similarity_threshold else 'blue' for match in matches]
         colors = [Visualisation.get_color(match) for match in matches]
 
-        # Extract additional information about the sequences
         sequence_info = [f"Name: {hit.find('Hit_def').text}<br>Other info: {hit.find('Hit_accession').text}" for hit
                          in
                          root.findall('.//Hit')]

@@ -3,7 +3,6 @@ class Constants:
     #  you can download it from https://ftp.ncbi.nlm.nih.gov/blast/db/ do not forget to extract the files in case you
     #  are using blast + you can use the command `makeblastdb -in your_file.fasta -dbtype nucl -parse_seqids -out
     #  your_file` *--------------------------------------------
-    #11111111
 
     DATABASES = [{"name": "nt", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nt.001"},
                  {"name": "nr", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nr.08"}]
@@ -24,6 +23,5 @@ class Constants:
 
     # valid BLAST programs to use (blastn, blastp, blastx, tblastn, tblastx)
     programs = ["blastn", "blastp", "blastx", "tblastn", "tblastx"]
-
 
     OUTPUT_FILE_PATH = "/statics/blast_results"
