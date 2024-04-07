@@ -33,8 +33,7 @@ class AlignmentViewer:
         coloured = [color(letter, idx + 1) for idx, letter in enumerate(letters)]
         return ''.join(coloured)
 
-    def view_alignments(self, query_def, query_id,
-                        subject_def, subject_id):
+    def view_alignments(self):
         # check if  the nucleic acid or amina acide
         subject_seq_type = 'nucleic_acid' if self.is_nucleic_acid(self.subject_seq) else 'amino_acid'
         # same thing for the query sequence
@@ -50,15 +49,10 @@ class AlignmentViewer:
 def main():
     viewer = AlignmentViewer('ACTG', '||||', 'ACTG')
 
-    query_def = 'Query Definition'
-    query_id = 'Query ID'
 
-    subject_def = 'Subject Definition'
-    subject_id = 'Subject ID'
 
     # Call the view_alignments method
-    alignment = viewer.view_alignments(query_def, query_id, subject_def,
-                                       subject_id)
+    alignment = viewer.view_alignments()
 
     print(alignment)
 

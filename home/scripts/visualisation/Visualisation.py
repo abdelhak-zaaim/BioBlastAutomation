@@ -47,7 +47,7 @@ class Visualisation:
                          meta=[str(key) for key in hits_per_category.keys()],
                          hoverinfo='none',
 
-                         hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br>Pourcentage: %{percent}',
+                         hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br> Pourcentage: %{percent}',
                          textfont_size=1)],
             layout=go.Layout(
                 title_text='Distribution des coups directs parmi différentes catégories',

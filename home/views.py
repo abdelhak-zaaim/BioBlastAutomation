@@ -50,6 +50,6 @@ def alignement_viewer(request):
 
     alignment_viewer = AlignmentViewer(data.get('query_seq', ""), data.get('midline_seq', ""),
                                        data.get('subject_seq', ""))
-    resources = alignment_viewer.view_alignments("Query Definition", "Query ID", "Subject Definition", "Subject ID")
+    resources = alignment_viewer.view_alignments()
 
     return HttpResponse(json.dumps(resources))
