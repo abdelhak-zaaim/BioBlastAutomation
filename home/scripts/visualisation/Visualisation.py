@@ -1,10 +1,11 @@
 import os
-import xml.etree.ElementTree as ET
 
 import plotly.graph_objects as go
 from Bio import pairwise2
 from django.conf import settings
 from django.shortcuts import render
+
+from home.models import Sequence
 
 
 class Visualisation:
@@ -23,43 +24,31 @@ class Visualisation:
             return 'red'
 
     def home(self):
-        tree = ET.parse(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
-        root = tree.getroot()
+        sequences = Sequence.from_XML(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
 
-        matches = [int(hsp.find('Hsp_score').text) for hsp in root.findall('.//Hsp')]
-
+        matches = [sequence.score for sequence in sequences]
         colors = [Visualisation.get_color(match) for match in matches]
+        sequence_info = [f"Name: {sequence.description}<br>Other info: {sequence.access}" for sequence in sequences]
 
-        sequence_info = [f"Name: {hit.find('Hit_def').text}<br>Other info: {hit.find('Hit_accession').text}" for hit
-                         in
-                         root.findall('.//Hit')]
-
-        sequences = [hit.find('Hit_def').text for hit in root.findall('.//Hit')]
-        matches = [int(hsp.find('Hsp_score').text) for hsp in root.findall('.//Hsp')]
-
-        hits_per_sequence = {sequence: sequences.count(sequence) for sequence in sequences}
-        categories = [hit.find('Hit_accession').text for hit in root.findall('.//Hit')]
-
+        hits_per_sequence = {sequence.description: sequences.count(sequence) for sequence in sequences}
+        categories = [sequence.access for sequence in sequences]
         hits_per_category = {category: categories.count(category) for category in categories}
 
         fig_hits_per_category = go.Figure(
             data=[go.Pie(values=list(hits_per_category.values()),
                          meta=[str(key) for key in hits_per_category.keys()],
                          hoverinfo='none',
-
                          hovertemplate='Séquence: %{meta}<br>Étiquette: %{label}<br> Pourcentage: %{percent}',
                          textfont_size=1)],
             layout=go.Layout(
                 title_text='Distribution des coups directs parmi différentes catégories',
                 autosize=True,
                 paper_bgcolor='rgba(0,0,0,0)',  # Set the paper (entire figure) background to transparent
-
             ),
-
         )
 
         fig = go.Figure(
-            data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info,  )],
+            data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info, )],
             layout=go.Layout(
                 title_text='Résultats de recherche BLAST',
                 xaxis_title='Séquence',
@@ -67,37 +56,27 @@ class Visualisation:
                 yaxis_categoryorder='sum descending',
                 autosize=True,
                 paper_bgcolor='rgba(0,0,0,0)',  # Set the paper (entire figure) background to transparent
-
             ),
             frames=[
                 go.Frame(
                     data=[go.Bar(y=matches, orientation='v', hovertext=sequence_info, marker_color=colors, )], )]
         )
-        # Extract additional information about the sequences
+
         sequence_info = []
-        subject = root.find('.//BlastOutput_query-def').text
-
-        for hit in root.findall('.//Hit'):
-            per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
-
-            per = round(per, 2)
+        for sequence in sequences:
             info = {
-                "Name": hit.find('Hit_def').text,
-                "Other_info": hit.find('Hit_accession').text,
-                "Score": hit.find('.//Hsp_score').text,
-                "Bit_Score": hit.find('.//Hsp_bit-score').text,
-                "E_value": hit.find('.//Hsp_evalue').text,
-                "Identity": hit.find('.//Hsp_identity').text,
-                "Gaps": hit.find('.//Hsp_gaps').text,
-                "Length": hit.find('.//Hsp_align-len').text,
-                "Query_Sequence": hit.find('.//Hsp_qseq').text,
-                "Hit_Sequence": hit.find('.//Hsp_hseq').text,
-                "Midline": hit.find('.//Hsp_midline').text,
-                "Num": hit.find('.//Hsp_num').text,
-                "Per": per,
-
+                "Name": sequence.description,
+                "Other_info": sequence.access,
+                "Score": sequence.score,
+                "Bit_Score": sequence.bit_score,
+                "E_value": sequence.e_value,
+                "Identity": sequence.identity,
+                "Length": sequence.length,
+                "Per": sequence.per,
+                "Query_Sequence": sequence.query_sequence,
+                "Hit_Sequence": sequence.hit_sequence,
+                "Midline": sequence.midline
             }
-
             sequence_info.append(info)
 
         fig_html = fig.to_html(full_html=False,
@@ -107,11 +86,10 @@ class Visualisation:
                                                                            'scrollZoom': False,
                                                                            'displaylogo': False})
 
-        # Render the figure in a template
         return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info, 'subject': subject
+            'sequence_info': sequence_info
         })
 
     @staticmethod
