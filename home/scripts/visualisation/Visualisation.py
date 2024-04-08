@@ -24,7 +24,7 @@ class Visualisation:
             return 'red'
 
     def home(self):
-        sequences = Sequence.from_XML(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
+        sequences = Sequence.from_XML_File(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
 
         matches = [sequence.score for sequence in sequences]
         colors = [Visualisation.get_color(match) for match in matches]
