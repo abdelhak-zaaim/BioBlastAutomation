@@ -25,3 +25,10 @@ class Constants:
     programs = ["blastn", "blastp", "blastx", "tblastn", "tblastx"]
 
     OUTPUT_FILE_PATH = "/statics/blast_results"
+
+    # database configuration, make sure to change the values to match your database configuration
+    DATABASE_DRIVER = "mysql"
+    DATABASE_USER = "root"
+    DATABASE_PASSWD = "1234"
+    DATABASE_HOST = "localhost"
+    DATABASE_NAME = "blastdb"

@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioBlatAutomation</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/visualise/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/visualise/bioplastpfe.css' %}">
+    <link rel="stylesheet" href="{% static 'css/visualise/dialog.css' %}">
+
+</head>
+<body style="background-color: white;  ">
+<div class="bg-dark" style=" width: 100%; z-index: 100; height: 80px; position: sticky; top: 0; display: flex;">
+    <div id="container" style="z-index: 100;   width: 80px;">
+        <div id="burger">
+            <div class="bun top"></div>
+            <div class="filling"></div>
+            <div class="bun bottom"></div>
+        </div>
+    </div>
+
+</div>
+
+{% include 'partials/nav.html' %}
+
+
+<nav class="bg-color" id="navtabs">Adaptive tabs</nav>
+
+
+{% include 'partials/loadingModal.html' %}<br>
+<br>
+
+{% include 'partials/footer.html' %}
+
+
+<script src="{% static 'js/visualise/js.js' %}"></script>
+
+<script src="{% static 'js/js.js' %}"></script>
+</body>
+</html>

@@ -30,3 +30,7 @@ def alignement_viewer(request):
     resources = alignment_viewer.view_alignments()
 
     return HttpResponse(json.dumps(resources))
+def submit_sequence(request):
+
+
+    return render(request, 'submiting/index.html')

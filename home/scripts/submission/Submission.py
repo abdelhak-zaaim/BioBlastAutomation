@@ -3,11 +3,13 @@ import os
 import ssl
 from Bio import SeqIO
 import subprocess
-from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIWWW, NCBIXML
+
+from home.database.DatabaseManager import DatabaseManager
 from home.scripts.utils.Constants import Constants
 from pfe import settings
 from home.scripts.submission.utils.Utils import Utils
-
+from BioSQL import BioSeqDatabase
 
 class Submission:
 
@@ -37,11 +39,14 @@ class Submission:
         # Perform the BLAST search and specify the output format
 
         result_handle = NCBIWWW.qblast(self.program, database, sequence.seq, format_type=self.output_format)
+        db_manager = DatabaseManager()
+        db_manager.save_blast_results_to_db(result_handle, database)
 
-        # Read the results
         blast_results = result_handle.read()
 
         return blast_results
+
+
 
 # script to submit a sequence to the BLAST server for testing purposes
 if __name__ == "__main__":

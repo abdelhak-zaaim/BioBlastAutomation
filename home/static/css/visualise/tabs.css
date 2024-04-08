@@ -52,6 +52,11 @@ nav #navtabs {
     overflow: hidden;
     cursor: pointer;
     color: #405d6d;
+
+
+
+
+
     font-size: 18px; /* Adjust this value to make the text bigger */
     font-weight: bold; /* Makes the text bold */
      /* Change the text color */
@@ -65,7 +70,7 @@ nav #navtabs {
     height: 120%;
     top: 0;
     left: 0;
-    background-color: #eceef0;
+    background-color: #333940;
 
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -79,7 +84,7 @@ nav #navtabs {
 }
 
 .tabs > li.active {
-color: #333;
+color: #081b2c;
 }
 
 .tabs > li.active:before {
