@@ -9,6 +9,11 @@ class ValidateViewAlignementRequestMiddleware:
 
     def __call__(self, request):
 
+        # this middleware is used to validate the request of the alignment viewer
+        # the request must be a post request and must contain the query_seq, midline_seq and subject_seq
+        # the sequences must be strings
+        # the sequences must be in uppercase
+
         if request.path == '/alignement_viewer':
             if request.method == 'POST':
                 data = json.loads(request.body)

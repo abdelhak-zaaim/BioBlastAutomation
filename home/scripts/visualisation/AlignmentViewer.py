@@ -1,9 +1,18 @@
+
+
+# this class is used to view the alignment of the sequences , it is used to color the sequences and the midline
+# the midline is the line that shows the similarity between the two sequences
+# the color of the midline is different from the color of the sequences
+# the color of the sequences is different from the color of the midline
+
+
 class AlignmentViewer:
     def __init__(self, query_seq, midline_seq, subject_seq):
         self.query_seq = query_seq
         self.midline_seq = midline_seq
         self.subject_seq = subject_seq
 
+    # this function is used to color the midline
     def colour_midline(self, midline):
         return ''.join(['<span class="' + (
             'ml-diff' if chr == ' ' else 'ml-similar' if chr == '+' else 'ml-match') + '">&nbsp;</span>' for chr in
@@ -15,6 +24,7 @@ class AlignmentViewer:
 
         return all(char in nucleic_acids for char in seq)
 
+    # this function is used to color the sequences
     def color_seq(self, seq, seq_type):
         prefix = 'na-' if seq_type == 'nucleic_acid' else 'aa-'
 
@@ -46,10 +56,9 @@ class AlignmentViewer:
         return alignment
 
 
+# this is the main function that is used to test the class
 def main():
     viewer = AlignmentViewer('ACTG', '||||', 'ACTG')
-
-
 
     # Call the view_alignments method
     alignment = viewer.view_alignments()
