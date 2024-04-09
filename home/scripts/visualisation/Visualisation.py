@@ -46,7 +46,6 @@ class Visualisation:
                 paper_bgcolor='rgba(0,0,0,0)',  # Set the paper (entire figure) background to transparent
             ),
         )
-
         fig = go.Figure(
             data=[go.Bar(y=matches, text=matches, textposition='auto', orientation='v', hovertext=sequence_info, )],
             layout=go.Layout(
@@ -61,6 +60,9 @@ class Visualisation:
                 go.Frame(
                     data=[go.Bar(y=matches, orientation='v', hovertext=sequence_info, marker_color=colors, )], )]
         )
+
+
+
 
         sequence_info = []
         for sequence in sequences:
@@ -89,7 +91,7 @@ class Visualisation:
         return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info
+            'sequence_info': sequence_info, 'subject': subject,
         })
 
     @staticmethod
@@ -127,3 +129,4 @@ class Visualisation:
 
         # Return the formatted alignment
         return formatted_alignment
+

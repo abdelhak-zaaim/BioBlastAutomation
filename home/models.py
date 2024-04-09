@@ -46,6 +46,7 @@ class Sequence(models.Model):
             sequences.append(sequence)
 
         return sequences
+
     @classmethod
     def from_XML_string(cls, xml_string):
         root = ET.fromstring(xml_string)
