@@ -4,7 +4,7 @@ import unittest
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from scripts.soumission.submitting import Soumission
-from home.scripts.utils.Constants import Constants
+from blast.scripts.utils.Constants import Constants
 
 
 class TestSoumission(unittest.TestCase):

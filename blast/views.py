@@ -3,10 +3,9 @@ import json
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from home.scripts.visualisation.AlignmentViewer import AlignmentViewer
-from home.scripts.visualisation.SequenceData import SequenceData
+from blast.scripts.visualisation.AlignmentViewer import AlignmentViewer
+from blast.scripts.visualisation.SequenceData import SequenceData
 # import visualisation file
-from home.scripts.visualisation.Visualisation import Visualisation
 
 from Bio.Blast import NCBIWWW
 import ssl

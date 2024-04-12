@@ -4,8 +4,8 @@ import plotly.graph_objects as go
 from django.conf import settings
 from django.shortcuts import render
 
-from home.models import Sequence
-from home.scripts.visualisation.SequenceVisualisation import SequenceVisualisation
+from blast.models import Sequence
+from blast.scripts.visualisation.SequenceVisualisation import SequenceVisualisation
 
 
 class SequenceData:

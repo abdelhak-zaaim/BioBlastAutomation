@@ -1,7 +1,7 @@
 from Bio.Blast import NCBIXML
 from BioSQL import BioSeqDatabase
 
-from home.scripts.utils.Constants import Constants
+from blast.scripts.utils.Constants import Constants
 
 
 class DatabaseManager:

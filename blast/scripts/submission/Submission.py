@@ -5,10 +5,10 @@ from Bio import SeqIO
 import subprocess
 from Bio.Blast import NCBIWWW, NCBIXML
 
-from home.database.DatabaseManager import DatabaseManager
-from home.scripts.utils.Constants import Constants
+from blast.database.DatabaseManager import DatabaseManager
+from blast.scripts.utils.Constants import Constants
 from pfe import settings
-from home.scripts.submission.utils.Utils import Utils
+from blast.scripts.submission.utils.Utils import Utils
 from BioSQL import BioSeqDatabase
 
 class Submission:

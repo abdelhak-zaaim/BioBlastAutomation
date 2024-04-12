@@ -2,7 +2,7 @@ import os
 
 from Bio import SeqIO
 
-from home.scripts.utils.Constants import Constants
+from blast.scripts.utils.Constants import Constants
 from pfe import settings
 
 

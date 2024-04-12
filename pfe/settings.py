@@ -18,7 +18,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'home/static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'blast/static'), ]
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-8*^26cfojglg27ngdrhw%ov=(lgb8+u7v0g=%gz=h9%^&!*u3u'
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'home'
+    'blast'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 
 
     # middleware for the view alignment request validation
-    'home.middleware.ValidateViewAlignementRequestMiddleware.ValidateViewAlignementRequestMiddleware',
+    'blast.middleware.ValidateViewAlignementRequestMiddleware.ValidateViewAlignementRequestMiddleware',
 
 ]
 
