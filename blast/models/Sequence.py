@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
 from django.db import models
 
 
-# Create your models here.
 class Sequence(models.Model):
     description = models.CharField(max_length=2000)
     access = models.CharField(max_length=2000)
@@ -16,6 +15,7 @@ class Sequence(models.Model):
     query_sequence = models.TextField()
     hit_sequence = models.TextField()
     midline = models.TextField()
+    query_id = models.CharField(max_length=2000)
 
     def __str__(self):
         return self.description
@@ -24,8 +24,9 @@ class Sequence(models.Model):
     def from_XML_File(cls, xml_file_path):
         tree = ET.parse(xml_file_path)
         root = tree.getroot()
-
+        query_id = root.find('.//BlastOutput_query-ID').text,
         sequences = []
+
         for hit in root.findall('.//Hit'):
             per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
             per = round(per, 2)
@@ -41,9 +42,12 @@ class Sequence(models.Model):
                 per=per,
                 query_sequence=hit.find('.//Hsp_qseq').text,  # New field
                 hit_sequence=hit.find('.//Hsp_hseq').text,  # New field
-                midline=hit.find('.//Hsp_midline').text  # New field
+                midline=hit.find('.//Hsp_midline').text,
+                query_id=query_id
+
             )
             sequences.append(sequence)
+        # get query_id
 
         return sequences
 
@@ -51,6 +55,7 @@ class Sequence(models.Model):
     def from_XML_string(cls, xml_string):
         root = ET.fromstring(xml_string)
         sequences = []
+        query_id = root.find('.//BlastOutput_query-ID').text,
         for hit in root.findall('.//Hit'):
             per = int(hit.find('.//Hsp_identity').text) / int(hit.find('.//Hsp_align-len').text) * 100
             per = round(per, 2)
@@ -66,7 +71,8 @@ class Sequence(models.Model):
                 per=per,
                 query_sequence=hit.find('.//Hsp_qseq').text,  # New field
                 hit_sequence=hit.find('.//Hsp_hseq').text,  # New field
-                midline=hit.find('.//Hsp_midline').text  # New field
+                midline=hit.find('.//Hsp_midline').text,
+                query_id=query_id
             )
             sequences.append(sequence)
 
