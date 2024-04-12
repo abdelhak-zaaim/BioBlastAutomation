@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 from django.conf import settings
 from django.shortcuts import render
 
+from blast.models.Query import Query
 from blast.models.Sequence import Sequence
 from blast.scripts.visualisation.SequenceVisualisation import SequenceVisualisation
 
@@ -62,5 +63,6 @@ class SequenceData:
         return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info, 'subject': "subject",
+            'sequence_info': sequence_info, 'subject': "subject", "query_info": Query.from_XML_File(
+                os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml')).get_query_info()
         })

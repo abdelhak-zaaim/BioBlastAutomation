@@ -21,11 +21,10 @@ from blast import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    path('', views.blast),
     path('blast', views.blast),
     path('documentation', views.documentation),
 
     path('alignement_viewer', views.alignement_viewer),
     path('submit_sequence', views.submit_sequence),
 ]
-
