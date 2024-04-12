@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 from home.scripts.visualisation.AlignmentViewer import AlignmentViewer
+from home.scripts.visualisation.SequenceData import SequenceData
 # import visualisation file
 from home.scripts.visualisation.Visualisation import Visualisation
 
@@ -15,7 +16,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def blast(request):
-    return Visualisation.home(request)
+    return SequenceData.home(request)
 
 
 def documentation(request):
