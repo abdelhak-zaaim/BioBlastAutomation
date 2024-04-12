@@ -1,8 +1,5 @@
 import xml.etree.ElementTree as ET
 
-from blast.models.Query import Query
-from blast.models.Sequence import Sequence
-
 
 class XMLParser:
     @staticmethod
@@ -15,6 +12,3 @@ class XMLParser:
     def parse_xml_string(xml_string):
         root = ET.fromstring(xml_string)
         return root
-
-
-

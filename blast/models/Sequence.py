@@ -56,3 +56,19 @@ class Sequence(models.Model):
             sequences.append(sequence)
 
         return sequences
+
+    def get_sequence_info(self):
+        return {
+            "Name": self.description,
+            "Other_info": self.access,
+            "Score": self.score,
+            "Bit_Score": self.bit_score,
+            "E_value": self.e_value,
+            "Identity": self.identity,
+            "Length": self.length,
+            "Per": self.per,
+            "Query_Sequence": self.query_sequence,
+            "Hit_Sequence": self.hit_sequence,
+            "Midline": self.midline
+        }
+

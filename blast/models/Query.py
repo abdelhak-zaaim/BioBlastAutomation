@@ -35,3 +35,14 @@ class Query(models.Model):
             db=root.find('.//BlastOutput_db').text,
             query_sequence=query_sequence
         )
+
+    def get_query_info(self):
+        return {
+            "query-id": self.query_id,
+            "query_definition": self.query_def,
+            "query_length": self.query_len,
+            "program": self.program,
+            "version": self.version,
+            "database": self.db,
+            "query_sequence": self.query_sequence
+        }

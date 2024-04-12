@@ -1,6 +1,6 @@
 import os
-import plotly.graph_objects as go
 
+import plotly.graph_objects as go
 from django.conf import settings
 from django.shortcuts import render
 
@@ -50,20 +50,7 @@ class SequenceData:
 
         sequence_info = []
         for sequence in sequences:
-            info = {
-                "Name": sequence.description,
-                "Other_info": sequence.access,
-                "Score": sequence.score,
-                "Bit_Score": sequence.bit_score,
-                "E_value": sequence.e_value,
-                "Identity": sequence.identity,
-                "Length": sequence.length,
-                "Per": sequence.per,
-                "Query_Sequence": sequence.query_sequence,
-                "Hit_Sequence": sequence.hit_sequence,
-                "Midline": sequence.midline
-            }
-            sequence_info.append(info)
+            sequence_info.append(sequence.get_sequence_info())
 
         fig_html = fig.to_html(full_html=False,
                                config={'displayModeBar': False, 'scrollZoom': False, 'displaylogo': False})
