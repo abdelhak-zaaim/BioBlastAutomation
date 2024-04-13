@@ -6,9 +6,11 @@ class Query(models.Model):
     query_id = models.CharField(max_length=200)
     query_def = models.CharField(max_length=2000)
     query_len = models.IntegerField()
-    program = models.CharField(max_length=200)
+    program = models.CharField(max_length=200, )
     version = models.CharField(max_length=200)
-    db = models.CharField(max_length=200)
+    db = models.CharField(max_length=200, )
+    query_from = models.IntegerField()
+    query_to = models.IntegerField()
 
 
     def __str__(self):

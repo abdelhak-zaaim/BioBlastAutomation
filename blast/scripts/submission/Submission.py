@@ -1,15 +1,15 @@
 import datetime
 import os
 import ssl
+
 from Bio import SeqIO
-import subprocess
-from Bio.Blast import NCBIWWW, NCBIXML
+from Bio.Blast import NCBIWWW
 
 from blast.database.DatabaseManager import DatabaseManager
+from blast.scripts.submission.utils.Utils import Utils
 from blast.scripts.utils.Constants import Constants
 from pfe import settings
-from blast.scripts.submission.utils.Utils import Utils
-from BioSQL import BioSeqDatabase
+
 
 class Submission:
 
@@ -46,6 +46,40 @@ class Submission:
 
         return blast_results
 
+    @staticmethod
+    def get_databases_for_blast_program(program):
+        nucleotide_databases = ["nt", "refseq_rna", "est", "gss", "sts", "pat", "dbsts", "htgs"]
+        protein_databases = ["nr", "swissprot", "pdb", "refseq_protein"]
+        translated_nucleotide_databases = ["nr", "swissprot", "pdb", "refseq_protein", "nt", "refseq_rna", "est", "gss",
+                                           "sts", "pat", "dbsts", "htgs"]
+
+        if program in ["blastn"]:
+            return nucleotide_databases
+        elif program in ["blastp"]:
+            return protein_databases
+        elif program in ["blastx", "tblastn", "tblastx"]:
+            return translated_nucleotide_databases
+        else:
+            return []
+
+    @staticmethod
+    def get_database_description(database):
+        descriptions = {
+            "nr": "Non-redundant protein sequences",
+            "nt": "Nucleotide collection (nt)",
+            "swissprot": "Non-redundant sequences from Swiss-Prot",
+            "pdb": "Protein Data Bank (3D)",
+            "refseq_rna": "NCBI RefSeq RNA",
+            "refseq_protein": "NCBI RefSeq protein",
+            "est": "GenBank Expressed Sequence Tags",
+            "gss": "Genomic Survey Sequences",
+            "sts": "Sequence Tagged Sites",
+            "pat": "Patents",
+            "dbsts": "dbSTS",
+            "htgs": "High Throughput Genomic Sequences"
+        }
+
+        return descriptions.get(database, "No description available")
 
 
 # script to submit a sequence to the BLAST server for testing purposes
@@ -55,7 +89,6 @@ if __name__ == "__main__":
     for sequence in sequences:
         print("submitting sequence: ", sequence.id)
         result = soumission.submit_blast_www(sequence)
-
 
         # get current time to use it as a unique identifier for the output file
         time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")

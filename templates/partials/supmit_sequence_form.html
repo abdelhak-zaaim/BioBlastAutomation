@@ -1,14 +1,14 @@
 <div class="container_form">
     <form action="/submit_sequence_query" method="post">
         {% csrf_token %}
-        <label for="subject">Entrez le(s) numéro(s) d'accès, le(s) gi ou la(les) séquence(s) FASTA</label>
+        <label for="subject">Enter accession number(s), gi(s), or FASTA sequence(s)</label>
         <div style="display: flex;">
             <textarea id="subject" name="sequence_string" style="height:auto"></textarea>
             <div style="margin-left: 20px;">
                 <label for="from">From</label>
-                <input type="number" name="from" placeholder="" style="display: block; margin-bottom: 10px;">
+                <input min="0" type="number" name="from" placeholder="" style="display: block; margin-bottom: 10px;">
                 <label for="to">To</label>
-                <input type="number" name="to" placeholder="" style="display: block;">
+                <input min="1" type="number" name="to" placeholder="" style="display: block;">
             </div>
         </div>
         <label for="file">Or choose a file</label>
@@ -17,8 +17,17 @@
         <label for="jtitle">Job Title</label>
         <input type="text" id="jtitle" name="jtitle" placeholder="">
 
+        
+        <label for="country">Database</label>
+        <select id="country" name="BLAST_PROGRAMS">
+            
+            <option value="nb">blastp (protein-protein BLAST)</option>
+            <option value="nr">blastn (nucleotide-nucleotide BLAST)</option>
+        
+        </select>
+        
 
-        <label for="country">Algorithm</label>
+        <label for="country">Program</label>
         <select id="country" name="BLAST_PROGRAMS">
             
             <option value="blastp">blastp (protein-protein BLAST)</option>
