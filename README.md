@@ -26,7 +26,7 @@ cd BioBlastAutomation
 # Install the required packages
 pip install -r requirements.txt
 
-# Apply the migrations by executing the command
+# Apply the migrations by executing the commands
 python manage.py makemigrations
 python manage.py migrate
 
