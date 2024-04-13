@@ -62,6 +62,7 @@ class Sequence(models.Model):
 
     def get_sequence_info(self):
         return {
+
             "Name": self.description,
             "Other_info": self.access,
             "Score": self.score,
