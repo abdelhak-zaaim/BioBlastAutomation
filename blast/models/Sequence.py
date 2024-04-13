@@ -4,6 +4,7 @@ from django.db import models
 
 
 class Sequence(models.Model):
+    id = models.AutoField(primary_key=True)
     description = models.CharField(max_length=2000)
     access = models.CharField(max_length=2000)
     score = models.IntegerField()
@@ -16,6 +17,7 @@ class Sequence(models.Model):
     hit_sequence = models.TextField()
     midline = models.TextField()
     query_id = models.CharField(max_length=2000)
+    scientific_name = models.CharField(max_length=2000)
 
     def __str__(self):
         return self.description
@@ -51,7 +53,8 @@ class Sequence(models.Model):
                 query_sequence=hit.find('.//Hsp_qseq').text,  # New field
                 hit_sequence=hit.find('.//Hsp_hseq').text,  # New field
                 midline=hit.find('.//Hsp_midline').text,
-                query_id=query_id
+                query_id=query_id,
+                scientific_name=cls.get_scientific_name_from_sequence_def(hit.find('Hit_def'))
             )
             sequences.append(sequence)
 
@@ -69,6 +72,15 @@ class Sequence(models.Model):
             "Per": self.per,
             "Query_Sequence": self.query_sequence,
             "Hit_Sequence": self.hit_sequence,
-            "Midline": self.midline
+            "Midline": self.midline,
+            "Scientific_Name": self.scientific_name
         }
 
+    @classmethod
+    def get_scientific_name_from_sequence_def(cls, hit_def):
+
+        if hit_def is not None:
+            scientific_name = hit_def.text.split('[')[1].split(']')[0]
+            return scientific_name
+        else:
+            return ""
