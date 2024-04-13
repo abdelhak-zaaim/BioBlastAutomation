@@ -12,3 +12,9 @@ class XMLParser:
     def parse_xml_string(xml_string):
         root = ET.fromstring(xml_string)
         return root
+
+    # this function used to convert float to scientific notation
+    @staticmethod
+    def float_to_evalue(num):
+        return "{:.2e}".format(num)
+

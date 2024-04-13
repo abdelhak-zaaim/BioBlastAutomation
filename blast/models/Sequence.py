@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-
+from blast.scripts.utils.XMLParser import XMLParser
 from django.db import models
 
 
@@ -9,7 +9,7 @@ class Sequence(models.Model):
     access = models.CharField(max_length=2000)
     score = models.IntegerField()
     bit_score = models.FloatField()
-    e_value = models.TextField()
+    e_value = models.FloatField()
     identity = models.IntegerField()
     length = models.IntegerField()
     per = models.FloatField()
@@ -54,7 +54,7 @@ class Sequence(models.Model):
                 access=hit.find('Hit_accession').text,
                 score=int(hit.find('.//Hsp_score').text),
                 bit_score=float(hit.find('.//Hsp_bit-score').text),
-                e_value=hit.find('.//Hsp_evalue').text,
+                e_value=float(hit.find('.//Hsp_evalue').text),
                 identity=int(hit.find('.//Hsp_identity').text),
                 length=int(hit.find('.//Hsp_align-len').text),
                 per=per,
@@ -79,7 +79,7 @@ class Sequence(models.Model):
             "Other_info": self.access,
             "Score": self.score,
             "Bit_Score": self.bit_score,
-            "E_value": self.e_value,
+            "E_value": XMLParser.float_to_evalue(self.e_value),
             "Identity": self.identity,
             "Length": self.length,
             "Per": self.per,
