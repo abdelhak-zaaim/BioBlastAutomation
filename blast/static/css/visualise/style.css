@@ -21,16 +21,17 @@
 
 pre {
     display: block;
-    padding: 9.5px;
     margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 0.6;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.5;
     color: #333;
     word-break: break-all;
     word-wrap: break-word;
     background-color: #f5f5f5;
     border: 1px solid #ccc;
-    border-radius: 4px
+    border-radius: 4px;
+    padding: 2px 16px 2px 10px;
 }
 
 
