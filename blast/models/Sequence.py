@@ -4,12 +4,12 @@ from django.db import models
 
 
 class Sequence(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True, unique=True)
     description = models.CharField(max_length=2000)
     access = models.CharField(max_length=2000)
     score = models.IntegerField()
     bit_score = models.FloatField()
-    e_value = models.FloatField()
+    e_value = models.TextField()
     identity = models.IntegerField()
     length = models.IntegerField()
     per = models.FloatField()
@@ -17,7 +17,15 @@ class Sequence(models.Model):
     hit_sequence = models.TextField()
     midline = models.TextField()
     query_id = models.CharField(max_length=2000)
+
+
+
     scientific_name = models.CharField(max_length=2000)
+
+    query_from = models.IntegerField()
+    query_to = models.IntegerField()
+    hit_from = models.IntegerField()
+    hit_to = models.IntegerField()
 
     def __str__(self):
         return self.description
@@ -46,7 +54,7 @@ class Sequence(models.Model):
                 access=hit.find('Hit_accession').text,
                 score=int(hit.find('.//Hsp_score').text),
                 bit_score=float(hit.find('.//Hsp_bit-score').text),
-                e_value="{:0.2f}".format(float(hit.find('.//Hsp_evalue').text)),  # round to 3 decimal places
+                e_value=hit.find('.//Hsp_evalue').text,
                 identity=int(hit.find('.//Hsp_identity').text),
                 length=int(hit.find('.//Hsp_align-len').text),
                 per=per,
@@ -54,7 +62,11 @@ class Sequence(models.Model):
                 hit_sequence=hit.find('.//Hsp_hseq').text,  # New field
                 midline=hit.find('.//Hsp_midline').text,
                 query_id=query_id,
-                scientific_name=cls.get_scientific_name_from_sequence_def(hit.find('Hit_def'))
+                scientific_name=cls.get_scientific_name_from_sequence_def(hit.find('Hit_def')),
+                query_from=int(hit.find('.//Hsp_query-from').text),
+                query_to=int(hit.find('.//Hsp_query-to').text),
+                hit_from=int(hit.find('.//Hsp_hit-from').text),
+                hit_to=int(hit.find('.//Hsp_hit-to').text),
             )
             sequences.append(sequence)
 
@@ -84,4 +96,4 @@ class Sequence(models.Model):
             scientific_name = hit_def.text.split('[')[1].split(']')[0]
             return scientific_name
         else:
-            return ""
+            return "not found"
