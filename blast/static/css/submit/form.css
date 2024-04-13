@@ -8,7 +8,7 @@ input, select, textarea {
   box-sizing: border-box;
   margin-top: 4px;
   margin-bottom: 12px;
-  resize: vertical;
+
 }
 
 
@@ -16,7 +16,7 @@ input, select, textarea {
 
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #333;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -25,7 +25,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #647986;
 }
 
 .container_form {

@@ -1,0 +1,36 @@
+<div class="container_form">
+    <form action="/submit_sequence_query" method="post">
+        {% csrf_token %}
+        <label for="subject">Entrez le(s) numéro(s) d'accès, le(s) gi ou la(les) séquence(s) FASTA</label>
+        <div style="display: flex;">
+            <textarea id="subject" name="sequence_string" style="height:auto"></textarea>
+            <div style="margin-left: 20px;">
+                <label for="from">From</label>
+                <input type="number" name="from" placeholder="" style="display: block; margin-bottom: 10px;">
+                <label for="to">To</label>
+                <input type="number" name="to" placeholder="" style="display: block;">
+            </div>
+        </div>
+        <label for="file">Or choose a file</label>
+        <input type="file" id="file" name="file_fasta" accept=".fasta" style="background-color: white">
+
+        <label for="jtitle">Job Title</label>
+        <input type="text" id="jtitle" name="jtitle" placeholder="">
+
+
+        <label for="country">Algorithm</label>
+        <select id="country" name="BLAST_PROGRAMS">
+            
+            <option value="blastp">blastp (protein-protein BLAST)</option>
+            <option value="blastn">blastn (nucleotide-nucleotide BLAST)</option>
+            <option value="blastx">blastx (translated nucleotide-protein BLAST)</option>
+            <option value="tblastn">tblastn (protein-translated nucleotide BLAST)</option>
+            <option value="tblastx">tblastx (translated nucleotide-translated nucleotide BLAST)</option>
+            
+        </select>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
