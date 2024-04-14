@@ -89,3 +89,42 @@ class Utils:
             if sequence['type'] == 'unknown':
                 return False
         return True
+
+    @staticmethod
+    def get_database_description(database):
+        descriptions = {
+            "nr": "Non-redundant protein sequences",
+            "nt": "Nucleotide collection (nt)",
+            "swissprot": "Non-redundant sequences from Swiss-Prot",
+            "pdb": "Protein Data Bank (3D)",
+            "refseq_rna": "NCBI RefSeq RNA",
+            "refseq_protein": "NCBI RefSeq protein",
+            "est": "GenBank Expressed Sequence Tags",
+            "gss": "Genomic Survey Sequences",
+            "sts": "Sequence Tagged Sites",
+            "pat": "Patents",
+            "dbsts": "dbSTS",
+            "htgs": "High Throughput Genomic Sequences"
+        }
+
+        return descriptions.get(database, "No description available")
+
+    @staticmethod
+    def get_sequences_from_fast_string(text_fasta):
+        sequence_list = []
+
+        for record in SeqIO.parse(StringIO(text_fasta), "fasta"):
+            sequence_list.append(record)
+        return sequence_list
+
+
+    @staticmethod
+    def get_sequence_type(sequence):
+        if set(sequence.upper()).issubset('ACGT'):
+            return "dna"
+        elif set(sequence.upper()).issubset('ACGU'):
+            return "rna"
+        elif set(sequence.upper()).issubset('ACDEFGHIKLMNPQRSTVWY'):
+            return "amino_acid"
+        else:
+            return "unknown"
