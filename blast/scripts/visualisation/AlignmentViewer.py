@@ -1,5 +1,3 @@
-
-
 # this class is used to view the alignment of the sequences , it is used to color the sequences and the midline
 # the midline is the line that shows the similarity between the two sequences
 # the color of the midline is different from the color of the sequences
@@ -60,7 +58,6 @@ class AlignmentViewer:
 def main():
     viewer = AlignmentViewer('ACTG', '||||', 'ACTG')
 
-    # Call the view_alignments method
     alignment = viewer.view_alignments()
 
     print(alignment)
