@@ -36,13 +36,13 @@ class QueryRequestValidator:
             if file_fasta:
                 try:
                     fasta_string = file_fasta.read().decode('utf-8')
-                    sequences_file = Utils.validate_fasta_string(fasta_string)
+                    sequences_file = Utils.get_sequences_from_fast_string(fasta_string)
                     sequences.extend(sequences_file)
                 except Exception as e:
                     return JsonResponse({'error': 'Error reading file: ' + str(e)}, status=400)
             if sequence_string:
                 try:
-                    sequences_string = Utils.validate_fasta_string(sequence_string)
+                    sequences_string = Utils.get_sequences_from_fast_string(sequence_string)
                     sequences.extend(sequences_string)
                 except Exception as e:
                     return JsonResponse({'error': 'Error validating FASTA string: ' + str(e)}, status=400)
@@ -50,8 +50,14 @@ class QueryRequestValidator:
             if not sequences:
                 return JsonResponse({'error': 'No valid sequences found'}, status=400)
 
-            if Utils.are_sequences_valid(sequences):
-                return JsonResponse({'error': 'Invalid sequence found'}, status=400)
+
+            # Check if the sequences are compatible with the blast program
+            for sequence in sequences:
+                if not Utils.is_sequence_type_compatible_with_program(Utils.get_sequence_type(sequence), blast_program):
+                    return JsonResponse(
+                        {'error': 'Incompatible sequence type with blast program , sequence: ' + sequence.id},
+                        status=400)
+
             request.data = {
                 'sequences': sequences,
                 'from': from_value,
