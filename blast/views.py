@@ -34,3 +34,8 @@ def submit_sequence(request):
 
 
     return render(request, 'submiting/index.html')
+
+
+def submit_sequence_query(request):
+    # return request.data as a json
+    return HttpResponse(json.dumps(request.data))
