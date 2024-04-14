@@ -39,12 +39,13 @@ class Utils:
         sequence_map = {}
         for record in SeqIO.parse(file_fasta, "fasta"):
             sequence = str(record.seq)
+            title = record.description
             if set(sequence.upper()).issubset('ACGT'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "dna"}
+                sequence_map[record.id] = {"sequence": sequence, "type": "DNA", "title": title}
             elif set(sequence.upper()).issubset('ACGU'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "rna"}
+                sequence_map[record.id] = {"sequence": sequence, "type": "RNA", "title": title}
             elif set(sequence.upper()).issubset('ACDEFGHIKLMNPQRSTVWY'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "amino_acid"}
+                sequence_map[record.id] = {"sequence": sequence, "type": "Amino Acid", "title": title}
             else:
-                sequence_map[record.id] = {"sequence": sequence, "type": "unknown"}
+                sequence_map[record.id] = {"sequence": sequence, "type": "Unknown", "title": title}
         return sequence_map
