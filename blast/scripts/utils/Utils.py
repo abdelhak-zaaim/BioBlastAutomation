@@ -82,3 +82,10 @@ class Utils:
             'tblastx': ['dna']
         }
         return sequence_type in compatibility_map.get(blast_program, [])
+
+    @staticmethod
+    def are_sequences_valid(sequences):
+        for sequence in sequences:
+            if sequence['type'] == 'unknown':
+                return False
+        return True
