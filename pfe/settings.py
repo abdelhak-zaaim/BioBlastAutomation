@@ -58,6 +58,9 @@ MIDDLEWARE = [
     # middleware for the view alignment request validation
     'blast.middleware.ValidateViewAlignementRequestMiddleware.ValidateViewAlignementRequestMiddleware',
 
+    # middleware for the submit sequence query request validation
+    'blast.middleware.QueryRequestValidator.QueryRequestValidator',
+
 ]
 
 ROOT_URLCONF = 'pfe.urls'
