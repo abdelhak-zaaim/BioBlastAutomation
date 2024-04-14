@@ -20,7 +20,6 @@ class QueryRequestValidator:
             if not (sequence_string or file_fasta):
                 return JsonResponse({'error': 'Invalid request'}, status=400)
 
-
             if not blast_program or not blast_database:
                 return JsonResponse({'error': 'Invalid request'}, status=400)
 
@@ -48,6 +47,11 @@ class QueryRequestValidator:
                 except Exception as e:
                     return JsonResponse({'error': 'Error validating FASTA string: ' + str(e)}, status=400)
 
+            if not sequences:
+                return JsonResponse({'error': 'No valid sequences found'}, status=400)
+
+            if Utils.are_sequences_valid(sequences):
+                return JsonResponse({'error': 'Invalid sequence found'}, status=400)
             request.data = {
                 'sequences': sequences,
                 'from': from_value,
@@ -56,8 +60,6 @@ class QueryRequestValidator:
                 'blast_program': blast_program,
                 'blast_database': blast_database
             }
-
-
 
         response = self.get_response(request)
         return response
