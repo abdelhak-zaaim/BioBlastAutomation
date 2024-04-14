@@ -1,3 +1,5 @@
+from io import StringIO
+
 from Bio import SeqIO
 
 
@@ -36,16 +38,47 @@ class Utils:
 
     @staticmethod
     def validate_and_parse_fasta_file(file_fasta):
-        sequence_map = {}
+        sequence_list = []
         for record in SeqIO.parse(file_fasta, "fasta"):
             sequence = str(record.seq)
             title = record.description
+            sequence_type = ""
             if set(sequence.upper()).issubset('ACGT'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "DNA", "title": title}
+                sequence_type = "dna"
             elif set(sequence.upper()).issubset('ACGU'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "RNA", "title": title}
+                sequence_type = "rna"
             elif set(sequence.upper()).issubset('ACDEFGHIKLMNPQRSTVWY'):
-                sequence_map[record.id] = {"sequence": sequence, "type": "Amino Acid", "title": title}
+                sequence_type = "amino_acid"
             else:
-                sequence_map[record.id] = {"sequence": sequence, "type": "Unknown", "title": title}
-        return sequence_map
+                sequence_type = "unknown"
+            sequence_list.append({"id": record.id, "sequence": sequence, "type": sequence_type, "title": title})
+        return sequence_list
+
+    @staticmethod
+    def validate_fasta_string(fasta_string):
+        sequence_list = []
+        for record in SeqIO.parse(StringIO(fasta_string), "fasta"):
+            sequence = str(record.seq)
+            title = record.description
+            sequence_type = ""
+            if set(sequence.upper()).issubset('ACGT'):
+                sequence_type = "dna"
+            elif set(sequence.upper()).issubset('ACGU'):
+                sequence_type = "rna"
+            elif set(sequence.upper()).issubset('ACDEFGHIKLMNPQRSTVWY'):
+                sequence_type = "amino_acid"
+            else:
+                sequence_type = "unknown"
+            sequence_list.append({"id": record.id, "sequence": sequence, "type": sequence_type, "title": title})
+        return sequence_list
+
+    @staticmethod
+    def is_sequence_type_compatible_with_program(sequence_type, blast_program):
+        compatibility_map = {
+            'blastp': ['amino_acid'],
+            'blastn': ['dna'],
+            'blastx': ['dna'],
+            'tblastn': ['amino_acid'],
+            'tblastx': ['dna']
+        }
+        return sequence_type in compatibility_map.get(blast_program, [])
