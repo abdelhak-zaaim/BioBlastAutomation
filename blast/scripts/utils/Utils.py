@@ -1,3 +1,6 @@
+from Bio import SeqIO
+
+
 class Utils:
     @staticmethod
     def is_valid_blast_program(blast_program):
@@ -30,3 +33,18 @@ class Utils:
             'tblastx': ['nt', 'refseq_rna', 'env_nt', 'refseq_genomic']
         }
         return compatibility_map.get(blast_program, [])
+
+    @staticmethod
+    def validate_and_parse_fasta_file(file_fasta):
+        sequence_map = {}
+        for record in SeqIO.parse(file_fasta, "fasta"):
+            sequence = str(record.seq)
+            if set(sequence.upper()).issubset('ACGT'):
+                sequence_map[record.id] = {"sequence": sequence, "type": "dna"}
+            elif set(sequence.upper()).issubset('ACGU'):
+                sequence_map[record.id] = {"sequence": sequence, "type": "rna"}
+            elif set(sequence.upper()).issubset('ACDEFGHIKLMNPQRSTVWY'):
+                sequence_map[record.id] = {"sequence": sequence, "type": "amino_acid"}
+            else:
+                sequence_map[record.id] = {"sequence": sequence, "type": "unknown"}
+        return sequence_map
