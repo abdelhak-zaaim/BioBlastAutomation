@@ -18,23 +18,34 @@
         <input type="text" id="jtitle" name="jtitle" placeholder="">
 
         
-        <label for="country">Database</label>
-        <select id="country" name="BLAST_PROGRAMS">
-            
-            <option value="nb">blastp (protein-protein BLAST)</option>
-            <option value="nr">blastn (nucleotide-nucleotide BLAST)</option>
+        <label for="country">Program</label>
+        <select id="programe" name="blast_program">
+            <option selected disabled>chose the programe you will use</option>
+            <option value="blastp">blastp (protein-protein BLAST)</option>
+            <option value="blastn">blastn (programs search nucleotide databases using a nucleotide query.)</option>
+            <option value="blastx">blastx (search translated nucleotide databases using a translated nucleotide query.)</option>
+            <option value="tblastn"> tblastn (search protein databases using a translated nucleotide query)</option>
+            <option value="tblastx">tblastx (search translated nucleotide databases using a translated nucleotide query)</option>
         
         </select>
         
 
-        <label for="country">Program</label>
-        <select id="country" name="BLAST_PROGRAMS">
+        <label for="country">Database</label>
+        <select id="database" name="blast_database">
+            <option value="nr">nr</option>
+            <option value="nt">nt</option>
+            <option value="refseq_protein">refseq_protein</option>
+            <option value="refseq_rna">refseq_rna</option>
+            <option value="swissprot">swissprot</option>
+            <option value="pdb">pdb</option>
+            <option value="env_nr">env_nr</option>
+            <option value="env_nt">env_nt</option>
+            <option value="pat">pat</option>
+            <option value="refseq_genomic">refseq_genomic</option>
             
-            <option value="blastp">blastp (protein-protein BLAST)</option>
-            <option value="blastn">blastn (nucleotide-nucleotide BLAST)</option>
-            <option value="blastx">blastx (translated nucleotide-protein BLAST)</option>
-            <option value="tblastn">tblastn (protein-translated nucleotide BLAST)</option>
-            <option value="tblastx">tblastx (translated nucleotide-translated nucleotide BLAST)</option>
+            
+            
+            
             
         </select>
 

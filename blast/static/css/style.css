@@ -14,8 +14,8 @@
 }
  #burger {
 	 cursor: pointer;
-	 opacity: 0;
-	 animation: fadein 0.2s ease 1s forwards;
+	 opacity: 0.5;
+	 animation: fadein 1s ease 0s forwards ;
 	 overflow: hidden;
 	 position: relative;
 	 width: 100%;
