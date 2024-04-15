@@ -4,6 +4,11 @@ from blast.scripts.utils.BlastUtils import BlastUtils
 
 
 class QueryRequestValidator:
+    """
+    Middleware for validating the submit sequence query request
+    to make sure the request is valid before processing it
+    also to make sure the request is compatible with the blast program and database
+    """
     def __init__(self, get_response):
         self.get_response = get_response
 

@@ -187,19 +187,6 @@ class BlastUtils:
     def is_valid_output_format(output_format):
         return output_format in Constants.valid_output_formats
 
-    @staticmethod
-    def identify_query_type(query):
-        nucleotide_bases = set('ATCG')
-        amino_acids = set('ACDEFGHIKLMNPQRSTVWY')
-
-        query_set = set(query.upper())
-
-        if query_set.issubset(nucleotide_bases):
-            return 'Nucleotide query'
-        elif query_set.issubset(amino_acids):
-            return 'Protein query'
-        else:
-            return 'Unknown query type'
 
     @staticmethod
     def is_program_compatible(program, sequence):

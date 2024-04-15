@@ -2,7 +2,7 @@ import ssl
 
 from Bio.Blast import NCBIWWW
 
-from blast.scripts.utils import BlastUtils
+from blast.scripts.utils.BlastUtils import BlastUtils
 from blast.scripts.utils.Constants import Constants
 
 
