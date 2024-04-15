@@ -1,5 +1,5 @@
 import unittest
-from blast.scripts.utils.Utils import Utils
+from blast.scripts.utils.BlastUtils import Utils
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from io import StringIO

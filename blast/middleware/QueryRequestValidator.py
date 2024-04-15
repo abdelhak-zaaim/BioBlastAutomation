@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 
-from blast.scripts.utils.Utils import Utils
+from blast.scripts.utils.BlastUtils import Utils
 
 
 class QueryRequestValidator:

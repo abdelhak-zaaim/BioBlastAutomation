@@ -6,13 +6,14 @@ from django.shortcuts import render
 
 from blast.models.Query import Query
 from blast.models.Sequence import Sequence
-from blast.scripts.visualisation.SequenceVisualisation import SequenceVisualisation
+from blast.scripts.visualisation.SequencePerforming import SequenceVisualisation
 
 
 class SequenceData:
 
-    def home(self):
-        sequences = Sequence.from_XML_File(os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
+    def visualise_from_xml_string(self, xml_text):
+        # convert xml to sequences
+        sequences = Sequence.from_XML_string(xml_text)
 
         matches = [sequence.score for sequence in sequences]
         colors = [SequenceVisualisation.get_color(match) for match in matches]
@@ -63,6 +64,12 @@ class SequenceData:
         return render(self, "visualise/index.html", {
             'fig_html': fig_html,
             'fig_hits_per_sequence_html': fig_hits_per_category_html,
-            'sequence_info': sequence_info, 'subject': "subject", "query_info": Query.from_XML_File(
-                os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml')).get_query_info()
+            'sequence_info': sequence_info, 'subject': "subject",
+            "query_info": Query.from_XML_string(xml_text).get_query_info()
         })
+
+    def visualise_from_xml_file(self, xml_file_path):
+        with open(xml_file_path, 'r') as file:
+            xml_text = file.read()
+
+        return SequenceData.visualise_from_xml_string(self, xml_text)

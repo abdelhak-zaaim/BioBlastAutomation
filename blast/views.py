@@ -1,21 +1,20 @@
 import json
-
-from django.shortcuts import render
-from django.http import HttpResponse
-
-from blast.scripts.visualisation.AlignmentViewer import AlignmentViewer
-from blast.scripts.visualisation.SequenceData import SequenceData
-# import visualisation file
-
-from Bio.Blast import NCBIWWW
+import os
 import ssl
+
+from django.http import HttpResponse
+from django.shortcuts import render
+
+from blast.scripts.submission.Submission import Submission
+from blast.scripts.visualisation.AlignmentViewer import AlignmentViewer
+from blast.scripts.visualisation.SequenceDataVisualize import SequenceData
+from pfe import settings
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-
 def blast(request):
-    return SequenceData.home(request)
+    return SequenceData.visualise_from_xml_file(request, os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
 
 
 def documentation(request):
@@ -30,12 +29,19 @@ def alignement_viewer(request):
     resources = alignment_viewer.view_alignments()
 
     return HttpResponse(json.dumps(resources))
+
+
 def submit_sequence(request):
-
-
     return render(request, 'submiting/index.html')
 
 
 def submit_sequence_query(request):
-    # return request.data as a json
-    return HttpResponse(json.dumps(request.data))
+    print(request.data.get('blast_program'))
+    print(request.data.get('sequences')[0].seq)
+    print(request.data.get('blast_database'))
+
+    submision = Submission(program=request.data.get('blast_program'), output_format="XML")
+
+    restlt = submision.submit_blast_www(request.data.get('sequences'), request.data.get('blast_database'))
+
+    return SequenceData.visualise_from_xml_string(request, restlt)
