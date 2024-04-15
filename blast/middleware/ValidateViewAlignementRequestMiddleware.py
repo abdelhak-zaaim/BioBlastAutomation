@@ -4,6 +4,11 @@ from django.http import JsonResponse
 
 
 class ValidateViewAlignementRequestMiddleware:
+    """
+    Middleware for validating the view alignment request
+    to make sure the request is valid before processing it
+    and to make sure the request contains the required parameters
+    """
     def __init__(self, get_response):
         self.get_response = get_response
 
