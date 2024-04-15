@@ -1,7 +1,7 @@
 import os
+import random
 import string
 from io import StringIO
-import random
 
 from Bio import SeqIO
 
@@ -9,7 +9,7 @@ from blast.scripts.utils.Constants import Constants
 from pfe import settings
 
 
-class Utils:
+class BlastUtils:
     @staticmethod
     def is_valid_blast_program(blast_program):
         valid_blast_programs = ['blastp', 'blastn', 'blastx', 'tblastn', 'tblastx']
@@ -17,7 +17,8 @@ class Utils:
 
     @staticmethod
     def is_valid_blast_database(blast_database):
-        valid_blast_databases = ['nr', 'nt', 'refseq_protein', 'refseq_rna', 'swissprot', 'pdb', 'env_nr', 'env_nt', 'pat', 'refseq_genomic']
+        valid_blast_databases = ['nr', 'nt', 'refseq_protein', 'refseq_rna', 'swissprot', 'pdb', 'env_nr', 'env_nt',
+                                 'pat', 'refseq_genomic']
         return blast_database in valid_blast_databases
 
     @staticmethod
@@ -123,7 +124,6 @@ class Utils:
             sequence_list.append(record)
         return sequence_list
 
-
     @staticmethod
     def get_sequence_type(sequence):
         if set(sequence.upper()).issubset('ACGT'):
@@ -168,7 +168,7 @@ class Utils:
         sequences = list(SeqIO.parse(query_file, "fasta"))
 
         for sequence in sequences:
-            sequence_type = Utils.sequence_type(sequence.seq)
+            sequence_type = BlastUtils.sequence_type(sequence.seq)
             if sequence_type == "DNA" or sequence_type == "RNA":
                 valid_bases = 'ACGTURYSWKMBDHVNZ'
             elif sequence_type == "Protein":
@@ -203,7 +203,7 @@ class Utils:
 
     @staticmethod
     def is_program_compatible(program, sequence):
-        sequence_type = Utils.sequence_type(sequence)
+        sequence_type = BlastUtils.sequence_type(sequence)
 
         if sequence_type == "DNA" and program not in ["blastn", "blastx", "tblastx"]:
             return False
@@ -237,3 +237,8 @@ class Utils:
             else:
                 raise ValueError("Invalid output format. Please use 'XML', 'JSON', or 'CSV'.")
 
+    @staticmethod
+    def get_output_xml_file_path(file_name):
+        output_dir = settings.STATIC_BLAST_RESULTS
+
+        return os.path.join(output_dir, file_name)

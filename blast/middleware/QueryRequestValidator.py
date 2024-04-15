@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 
-from blast.scripts.utils.BlastUtils import Utils
+from blast.scripts.utils.BlastUtils import BlastUtils
 
 
 class QueryRequestValidator:
@@ -48,26 +48,26 @@ class QueryRequestValidator:
             if not blast_program or not blast_database:
                 return JsonResponse({'error': 'Invalid request'}, status=400)
 
-            if not Utils.is_valid_blast_program(blast_program):
+            if not BlastUtils.is_valid_blast_program(blast_program):
                 return JsonResponse({'error': 'Invalid blast program'}, status=400)
 
-            if not Utils.is_valid_blast_database(blast_database):
+            if not BlastUtils.is_valid_blast_database(blast_database):
                 return JsonResponse({'error': 'Invalid blast database'}, status=400)
 
-            if not Utils.is_program_database_compatible(blast_program, blast_database):
+            if not BlastUtils.is_program_database_compatible(blast_program, blast_database):
                 return JsonResponse({'error': 'Incompatible blast program and database'}, status=400)
 
             sequences = []
             if file_fasta:
                 try:
                     fasta_string = file_fasta.read().decode('utf-8')
-                    sequences_file = Utils.get_sequences_from_fast_string(fasta_string)
+                    sequences_file = BlastUtils.get_sequences_from_fast_string(fasta_string)
                     sequences.extend(sequences_file)
                 except Exception as e:
                     return JsonResponse({'error': 'Error reading file: ' + str(e)}, status=400)
             if sequence_string:
                 try:
-                    sequences_string = Utils.get_sequences_from_fast_string(sequence_string)
+                    sequences_string = BlastUtils.get_sequences_from_fast_string(sequence_string)
                     sequences.extend(sequences_string)
                 except Exception as e:
                     return JsonResponse({'error': 'Error validating FASTA string: ' + str(e)}, status=400)
@@ -78,7 +78,7 @@ class QueryRequestValidator:
 
             # Check if the sequences are compatible with the blast program
             for sequence in sequences:
-                if not Utils.is_sequence_type_compatible_with_program(Utils.get_sequence_type(sequence), blast_program):
+                if not BlastUtils.is_sequence_type_compatible_with_program(BlastUtils.get_sequence_type(sequence), blast_program):
                     return JsonResponse(
                         {'error': 'Incompatible sequence type with blast program , sequence: ' + sequence.id},
                         status=400)

@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 from blast.scripts.submission.Submission import Submission
+from blast.scripts.utils import BlastUtils
 from blast.scripts.visualisation.AlignmentViewer import AlignmentViewer
 from blast.scripts.visualisation.SequenceDataVisualize import SequenceData
 from pfe import settings
@@ -42,6 +43,6 @@ def submit_sequence_query(request):
 
     submision = Submission(program=request.data.get('blast_program'), output_format="XML")
 
-    restlt = submision.submit_blast_www(request.data.get('sequences'), request.data.get('blast_database'))
+    xml_file_name = submision.submit_blast_and_save(request.data.get('sequences'), request.data.get('blast_database'))
 
-    return SequenceData.visualise_from_xml_string(request, restlt)
+    return SequenceData.visualise_from_xml_file(request, BlastUtils.get_output_xml_file_path(xml_file_name))
