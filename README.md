@@ -62,7 +62,7 @@ class Constants:
 
 ```
 
-```bash
+
 
 5. Start the RabbitMQ server by running the following command in your terminal:
 
