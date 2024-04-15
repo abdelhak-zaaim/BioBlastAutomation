@@ -71,13 +71,13 @@ rabbitmq-server start
 ```
 
 
-# Apply the migrations by executing the commands
+6. Apply the migrations by executing the commands
     
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-# Run the application by executing the command (web interface) 
+7. Run the application by executing the command (web interface) 
     
 ```bash
 python manage.py runserver
