@@ -12,10 +12,35 @@ class QueryRequestValidator:
             sequence_string = request.POST.get('sequence_string')
             from_value = request.POST.get('from')
             to_value = request.POST.get('to')
-            file_fasta = request.FILES['file_fasta']
+            file_fasta = request.FILES.get('file_fasta')
             jtitle = request.POST.get('jtitle')
             blast_program = request.POST.get('blast_program')
             blast_database = request.POST.get('blast_database')
+
+
+            # verify query_from and query_to are integers
+            if from_value:
+                try:
+                    from_value = int(from_value)
+                except ValueError:
+                    return JsonResponse({'error': 'Invalid from value'}, status=400)
+
+            if to_value:
+                try:
+                    to_value = int(to_value)
+                except ValueError:
+                    return JsonResponse({'error': 'Invalid to value'}, status=400)
+
+            # verify from_value is less than to_value and both are positive
+            if from_value and to_value:
+                if from_value < 0 or to_value < 0:
+                    return JsonResponse({'error': 'from and to values must be positive'}, status=400)
+                if from_value > to_value:
+                    return JsonResponse({'error': 'from value must be less than to value'}, status=400)
+
+
+            if (from_value and not to_value) or (to_value and not from_value):
+                return JsonResponse({'error': 'from and to values must be both exist or both not exist'}, status=400)
 
             if not (sequence_string or file_fasta):
                 return JsonResponse({'error': 'Invalid request'}, status=400)
