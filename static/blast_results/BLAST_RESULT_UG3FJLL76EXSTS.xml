@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6480391</BlastOutput_query-ID>
+  <BlastOutput_query-def>query query protein 2</BlastOutput_query-def>
+  <BlastOutput_query-len>201</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6480391</Iteration_query-ID>
+  <Iteration_query-def>query query protein 2</Iteration_query-def>
+  <Iteration_query-len>201</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_044852.1|</Hit_id>
+  <Hit_def>BHV4-IE1 homolog [Murid gammaherpesvirus 4] &gt;sp|O41933.1| RecName: Full=E3 ubiquitin-protein ligase MIR1; AltName: Full=MK3; AltName: Full=Modulator of immune recognition 1 homolog; AltName: Full=ORF K3; AltName: Full=RING-type E3 ubiquitin transferase MIR1 [Murid gammaherpesvirus 4] &gt;gb|AXP99074.1| BHV4-IE1-like protein [synthetic construct] &gt;gb|QJQ80205.2| BHV4-IE1-like protein [Murine herpesvirus] &gt;gb|UNZ86643.1| BHV4-IE1-like protein [Murine herpesvirus strain 72] &gt;gb|UNZ86720.1| BHV4-IE1-like protein [Murine herpesvirus strain 4556] &gt;gb|AAB66429.1| BHV4-IE1 homolog [Murid gammaherpesvirus 4]</Hit_def>
+  <Hit_accession>NP_044852</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>1.86686e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAZ38157.1|</Hit_id>
+  <Hit_def>immune evasion K3 protein [Murine herpesvirus strain 72]</Hit_def>
+  <Hit_accession>AAZ38157</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>1.19266e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPIKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQP KTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AAZ38158.1|</Hit_id>
+  <Hit_def>immune evasion K3 protein [Murine herpesvirus strain 4556]</Hit_def>
+  <Hit_accession>AAZ38158</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.912</Hsp_bit-score>
+      <Hsp_score>1047</Hsp_score>
+      <Hsp_evalue>3.53439e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTGEFCWICRQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_hseq>
+      <Hsp_midline>MDSTGEFCWIC QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|YP_010085889.1|</Hit_id>
+  <Hit_def>E3 ubiquitin ligase MIR1 [Wood mouse herpesvirus] &gt;gb|ACY41090.1| E3 ubiquitin ligase MIR1 [Wood mouse herpesvirus]</Hit_def>
+  <Hit_accession>YP_010085889</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>3.91609e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTSDFCWICHQPEGPLKRFCACKGSCALAHRECLRGWLETSHHKKCALCGQEYSTKWKAKPLREWIWGDDEVVSAMEVCLPLFLIPLTLLLIVMGTWLLVNHNGLLNGRLQVFLVIIVLLSMIVFSASSSYLLVEGATCLDTCAARNSTVTVYSVDEAIATQQPTKTGQGQACETPSTRFRNSRCRACCKLGCMRLCCV</Hsp_hseq>
+      <Hsp_midline>MDST +FCWICHQPEGPLKRFC CKGSCA++H++CLRGWLETS  + CALCG  YS KWK KPLREW WG++EV++AME CLPL LIPL +L+IVMGTWLLVNHNG L+ R+QV LV+IVLL+MIVFSAS+SY++VEG  CLDTC A+NSTVTV S+DEAIATQQPTKT  G A ET STRFR  +CR+CC+LGC+RLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|ABO48395.1|</Hit_id>
+  <Hit_def>ubiquitin E3 ligase MIR1 [Wood mouse herpesvirus]</Hit_def>
+  <Hit_accession>ABO48395</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.44247e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MDSTGEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKTDLGLARETLSTRFRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>MDSTSDFCWICHQPEGPLKRFCACKGSCALAHRECLRGWLETSHHKKCALCGQEYSTKWKAKPLREWIWGDDEVVSAMEVCLPLFLIPLTLLLIVMGTWLLVNHNGLLNGRLQVVLVIIVLLSMIVFSASSSYLLVEGATCLDTCAARNSTVTVYSVDEAIATQQPTKTGQRQACETPSTRFRNSRCRACCKLGCMRLCCV</Hsp_hseq>
+      <Hsp_midline>MDST +FCWICHQPEGPLKRFC CKGSCA++H++CLRGWLETS  + CALCG  YS KWK KPLREW WG++EV++AME CLPL LIPL +L+IVMGTWLLVNHNG L+ R+QVVLV+IVLL+MIVFSAS+SY++VEG  CLDTC A+NSTVTV S+DEAIATQQPTKT    A ET STRFR  +CR+CC+LGC+RLCCV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ABQ43632.1|</Hit_id>
+  <Hit_def>LAP/PHD domain [Tanapox virus]</Hit_def>
+  <Hit_accession>ABQ43632</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>9.53488e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW----GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSI</Hsp_qseq>
+      <Hsp_hseq>SDICWICNDVCDERNNFCGCNEEYKVVHIKCMQLWINYSKKKECNLCKTKYNIKKTYVSFKKWNWCFNDKKTTLLKIFFILFALVFIFLTIALSNDMANLITGINDIICSIIFLIVYTVVMLTSICFSVFVVAIVVDF---LLEAKEKNSFLTIREI</Hsp_hseq>
+      <Hsp_midline> + CWIC+        FCGC     V H  C++ W+  S+++ C LC T Y++K      ++W W     +  +L        LV I L + +      L+   N  +   + +++  +V+L  I FS     ++V+    L     KNS +T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ABQ43476.1|</Hit_id>
+  <Hit_def>LAP/PHD domain [Tanapox virus]</Hit_def>
+  <Hit_accession>ABQ43476</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>9.94e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW----GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSI</Hsp_qseq>
+      <Hsp_hseq>SDICWICNDVCDERNNFCGCNEEYKVVHIKCMQLWINYSKKKECNLCKTKYNIKKTYVSFKKWNWCFNDKKTTLLKIFFILFALVFIFLTIALSNDMADLITGINDIICSIIFLIVYTVVMLTSICFSVFVVAIVVDF---LLEAKEKNSFLTIREI</Hsp_hseq>
+      <Hsp_midline> + CWIC+        FCGC     V H  C++ W+  S+++ C LC T Y++K      ++W W     +  +L        LV I L + +      L+   N  +   + +++  +V+L  I FS     ++V+    L     KNS +T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_023037505.1|</Hit_id>
+  <Hit_def>putative uncharacterized protein DDB_G0277255 [Drosophila willistoni]</Hit_def>
+  <Hit_accession>XP_023037505</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.48729e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVM--VEGPGCLDTC---TAKNSTVTVNSIDEAIATQQP</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCSVLFHLAAALCVIWSLCVLIERAADDVQRGQIDWPFWTKLAVVTVGLTGGFVFMYIQCKAYLHLCHRWKARNRILLIQNAPEKIHPLAP</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+        R Q+       LA++    +  +V   ++    L  C    A+N  + + +  E I    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|YP_004207852.1|</Hit_id>
+  <Hit_def>hypothetical protein RHVP.R12 [Cricetid gammaherpesvirus 2] &gt;gb|ADW24357.1| hypothetical protein RHVP.R12 [Cricetid gammaherpesvirus 2] &gt;gb|ADW24439.1| hypothetical protein RHVP-L.R12 [Cricetid gammaherpesvirus 2]</Hit_def>
+  <Hit_accession>YP_004207852</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.6145e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>DSTGEFCWICHQP--EGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCTAKNSTVTVNSIDEAIATQQPTKT------------------DLGLARETLSTR-FRRGKCRSCCRLGCVRLCCV</Hsp_qseq>
+      <Hsp_hseq>ESLAQRCWICLSSCEDGG---YCGCKGDYGIVHGSCLKQWVERGKVVSCAFCGEEYAAKRRWYPVKDWILTPSEKLLVIFAIVMTVATLACVGLVVWNFREVFTYTGNGKDFTFRLLYYVLSLEALVCPAVMAWMCLECQDMFEDMAKRNKYVVMQLPDASTTLKTPHSSPMNSGTQSSTMKSQCMTMDSGIQSSTMKSQCMKQRVCVSCGRAGCSRTVCL</Hsp_hseq>
+      <Hsp_midline>+S  + CWIC     +G    +CGCKG   + H  CL+ W+E  +  +CA CG  Y+ K +  P+++W     E L  + A +  V     V ++V     +  + G        +L  ++ L  +V  A  +++ +E     +    +N  V +   D +   + P  +                  D G+   T+ ++  ++  C SC R GC R  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EDW73503.2|</Hit_id>
+  <Hit_def>uncharacterized protein Dwil_GK17579 [Drosophila willistoni]</Hit_def>
+  <Hit_accession>EDW73503</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.97693e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVVLVVIVLLAMIVFSASASYVM--VEGPGCLDTC---TAKNSTVTVNSIDEAIATQQP</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCSVLFHLAAALCVIWSLCVLIERAADDVQRGQIDWPFWTKLAVVTVGLTGGFVFMYIQCKAYLHLCHRWKARNRILLIQNAPEKIHPLAP</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+        R Q+       LA++    +  +V   ++    L  C    A+N  + + +  E I    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_037880103.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119631722 isoform X2 [Glossina fuscipes] &gt;gb|KAI9587993.1| hypothetical protein GQX74_003839 [Glossina fuscipes]</Hit_def>
+  <Hit_accession>XP_037880103</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.39937e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_055841236.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC129908617 [Episyrphus balteatus]</Hit_def>
+  <Hit_accession>XP_055841236</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.47424e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQTCLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_055915494.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915495.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915496.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915497.1| uncharacterized protein LOC129948500 [Eupeodes corollae] &gt;ref|XP_055915498.1| uncharacterized protein LOC129948500 [Eupeodes corollae]</Hit_def>
+  <Hit_accession>XP_055915494</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.642e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESDPQNPLLTPCYCSGSLKYVHQTCLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_002007689.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6581976 isoform X1 [Drosophila mojavensis] &gt;gb|EDW18165.2| uncharacterized protein Dmoj_GI13084, isoform A [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>XP_002007689</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.99876e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIEKRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_015017670.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC6581976 isoform X2 [Drosophila mojavensis] &gt;ref|XP_015017671.1| uncharacterized protein LOC6581976 isoform X2 [Drosophila mojavensis] &gt;gb|KRG06018.1| uncharacterized protein Dmoj_GI13084, isoform B [Drosophila mojavensis] &gt;gb|KRG06019.1| uncharacterized protein Dmoj_GI13084, isoform C [Drosophila mojavensis]</Hit_def>
+  <Hit_accession>XP_015017670</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.6765e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIEKRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_017863640.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC108614177 isoform X1 [Drosophila arizonae]</Hit_def>
+  <Hit_accession>XP_017863640</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.27275e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_017863641.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC108614177 isoform X2 [Drosophila arizonae]</Hit_def>
+  <Hit_accession>XP_017863641</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.54398e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|UNP64507.1|</Hit_id>
+  <Hit_def>E3-MARCH8-like protein [Saguinine gammaherpesvirus 1]</Hit_def>
+  <Hit_accession>UNP64507</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.60577e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>CWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTW---GEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNGFLSPRMQVV----LVVIVLLAMIV</Hsp_qseq>
+      <Hsp_hseq>CWICRDGCPTDKAFCQCSGELKTVHQQCLTTWLQVSSTKRCAFCHHWYSIGYTLKPLRQWRWIPVGEENGGDPTDGL--MIRYAIWSLCFFLGIVVGFTYLACRAPRLSVVEVYTLVAVPLFALVL</Hsp_hseq>
+      <Hsp_midline>CWIC       K FC C G     HQ CL  WL+ S  + CA C   YS+ +  KPLR+W W   GEE      +    ++   +  L   +G  +   +    +PR+ VV    LV + L A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_052036.1|</Hit_id>
+  <Hit_def>gp153R [Rabbit fibroma virus] &gt;sp|Q9Q8T2.1| RecName: Full=E3 ubiquitin-protein ligase LAP; AltName: Full=Leukemia associated protein; Short=LAP; AltName: Full=RING-type E3 ubiquitin transferase LAP [Rabbit fibroma virus (strain Kasza)] &gt;gb|AAF18029.1| gp153R [Rabbit fibroma virus]</Hit_def>
+  <Hit_accession>NP_052036</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.82846e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>CWICHQPEGPLKRFCGCKGSCAVSHQDCLRGWLETS--RRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLI</Hsp_qseq>
+      <Hsp_hseq>CWICKESCDVVRNYCKCRGDNKIVHKECLEEWINTDTVKNKSCAICETPYNVKQQYKKLTKWRCYRRDCHDSLLVNLPLCLI</Hsp_hseq>
+      <Hsp_midline>CWIC +    ++ +C C+G   + H++CL  W+ T   + ++CA+C TPY++K + K L +W     +   ++   LPL LI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_023164470.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC111595131 [Drosophila hydei]</Hit_def>
+  <Hit_accession>XP_023164470</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.02815e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_017956073.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108651119 isoform X1 [Drosophila navojoa]</Hit_def>
+  <Hit_accession>XP_017956073</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>5.6154e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQMCLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_017956074.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC108651119 isoform X2 [Drosophila navojoa] &gt;gb|TDG45767.1| hypothetical protein AWZ03_007801 [Drosophila navojoa]</Hit_def>
+  <Hit_accession>XP_017956074</Hit_accession>
+  <Hit_len>639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.75485e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQMCLQQWLTASATNSCELCKFPFIMHTKIKPFNEWRSLDISSIERRRLCCSVLFHSAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  ++    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_013381934.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH1-like [Lingula anatina] &gt;ref|XP_013401952.1| E3 ubiquitin-protein ligase MARCH1 isoform X1 [Lingula anatina]</Hit_def>
+  <Hit_accession>XP_013381934</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.07642e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>SLSEICRICHCESEVDNPLISPCVCSGSLRYVHQDCLQQWIKSADTKSCELCRFEFRMTTKTKPFRKWRKMEMTTMERRKIICSVTFHIIAITCVIWSLYVLIDRTTDEIENGMLEWPFWTKLIVVFI</Hsp_hseq>
+      <Hsp_midline>S  E C ICH   + + PL   C C GS    HQDCL+ W++++  ++C LC   + M  KTKP R+W   E   +   +    +    +A+  ++   ++L++       NG L       L+V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_060516519.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 [Cylas formicarius]</Hit_def>
+  <Hit_accession>XP_060516519</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.13686e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>DSTGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIATQQPT</Hsp_qseq>
+      <Hsp_hseq>NSTGDICRICHCEADSENPLLSPCYCSGSLKYVHQNCLRQWLAASDTRSCELCKFNFILHTKIKPLSEWRILEMSSVERRRLLCAILFHFVAAVCVVWSLFVLIDRAAEEVQKGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLFSRWKAHNRVILVQNAPEKTAVHTPS</Hsp_hseq>
+      <Hsp_midline>+STG+ C ICH     E PL   C C GS    HQ+CLR WL  S  ++C LC   + +  K KPL EW   E   +        ++   +A + +V   ++L++        G ++      LVV+     + F+  A ++ ++    L   +   A N  + V +  E  A   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|PIK50792.1|</Hit_id>
+  <Hit_def>hypothetical protein BSL78_12322, partial [Apostichopus japonicus]</Hit_def>
+  <Hit_accession>PIK50792</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.25934e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNH</Hsp_qseq>
+      <Hsp_hseq>GEICRICHCEGEESKPLIEPCLCLGSLKFVHQECLQKWIKSSNTQNCELCHFNFVMQSKLKPLGKWQKFEMSSLERRKILCSVLFHIIVVVCIVWALYILIEH</Hsp_hseq>
+      <Hsp_midline>GE C ICH   +   PL   C C GS    HQ+CL+ W+++S  Q C LC   + M+ K KPL +W   E   L   +    ++   + V+ IV   ++L+ H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_005190087.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_005190088.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_019894651.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_058987477.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica] &gt;ref|XP_058987478.1| uncharacterized protein LOC101896367 isoform X1 [Musca domestica]</Hit_def>
+  <Hit_accession>XP_005190087</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.28261e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_061395143.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC133330747 [Musca vetustissima]</Hit_def>
+  <Hit_accession>XP_061395143</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.35901e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEWRSLDISGIERRRLCCTLLFHCAAALCVIWSLCVLI</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW   +   +     C  L+    A L ++    +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_013401953.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401954.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401955.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina] &gt;ref|XP_013401956.1| E3 ubiquitin-protein ligase MARCH1 isoform X2 [Lingula anatina]</Hit_def>
+  <Hit_accession>XP_013401953</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.43012e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>SLSEICRICHCESEVDNPLISPCVCSGSLRYVHQDCLQQWIKSADTKSCELCRFEFRMTTKTKPFRKWRKMEMTTMERRKIICSVTFHIIAITCVIWSLYVLIDRTTDEIENGMLEWPFWTKLIVVFI</Hsp_hseq>
+      <Hsp_midline>S  E C ICH   + + PL   C C GS    HQDCL+ W++++  ++C LC   + M  KTKP R+W   E   +   +    +    +A+  ++   ++L++       NG L       L+V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KNC34367.1|</Hit_id>
+  <Hit_def>hypothetical protein FF38_05995, partial [Lucilia cuprina]</Hit_def>
+  <Hit_accession>KNC34367</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.43171e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAI8121414.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH8 [Lucilia cuprina]</Hit_def>
+  <Hit_accession>KAI8121414</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.57469e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_013114911.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114912.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114913.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114914.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114915.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114916.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans] &gt;ref|XP_013114917.1| uncharacterized protein LOC106092575 [Stomoxys calcitrans]</Hit_def>
+  <Hit_accession>XP_013114911</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.57726e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_046807459.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC111686258 [Lucilia cuprina] &gt;ref|XP_046807461.1| uncharacterized protein LOC111686258 [Lucilia cuprina]</Hit_def>
+  <Hit_accession>XP_046807459</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.58818e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>emb|CAG4636527.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Eubosmina coregoni] &gt;emb|SVE70070.1| EOG090X0DX7 [Eubosmina coregoni]</Hit_def>
+  <Hit_accession>CAG4636527</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.71272e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAME----ACLPLVLIPLAVLMIVMGTWLLVNHNG--FLSPRMQ------VVLVVIVLLAMIVF</Hsp_qseq>
+      <Hsp_hseq>SSQDICRICHCEAEVEAPLVAPCRCAGSLKYVHQGCLQRWVQSSDMKNCELCKYPFIMQTKIKPLKEW---EKLDMSSMERRKLAC-SVTFHAVAFTCVIWSLYVLIDRSAEEYASGQLQWPFWTKLVVVAIGFTGGVVF</Hsp_hseq>
+      <Hsp_midline>S+ + C ICH   + E PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   E+  +++ME    AC  +    +A   ++   ++L++ +   + S ++Q      +V+V I     +VF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>emb|CAG4641217.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Eulimnadia texana]</Hit_def>
+  <Hit_accession>CAG4641217</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.75559e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHNG</Hsp_qseq>
+      <Hsp_hseq>DLCRICHCEAEPDSPLVAPCRCSGSLQFVHQSCLQRWVQSSDTRCCELCKYPFVMQTKVKPLKEWEKLDMSRMEQRKLACSVTFHAVAFTCVVWSLYVLIDRSA</Hsp_hseq>
+      <Hsp_midline>+ C ICH   +P+ PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   +   +   +    +    +A   +V   ++L++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_037961311.2|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 isoform X1 [Plutella xylostella]</Hit_def>
+  <Hit_accession>XP_037961311</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.31422e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNS</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPHNPLLAPCYCAGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYLQCRQYLHLCNRWRAHNSAMCINS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P  PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A NS + +NS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|SVE73829.1|</Hit_id>
+  <Hit_def>EOG090X0DX7 [Daphnia atkinsoni]</Hit_def>
+  <Hit_accession>SVE73829</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.38412e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAME----ACLPLVLIPLAVLMIVMGTWLLVNHNG--FLSPRMQVVLVVIVLLAMIVFSASASYVMVE</Hsp_qseq>
+      <Hsp_hseq>TSQDICRICHCEAEFEAPLVAPCSCAGSLKFVHQGCLQRWVQSSDMKNCELCKYPFIMQTKIKPLKEW---EKLDMSSMERRKLAC-SVTFHAVAFTCVIWSLYVLIDRSAEEYTSGQLQWPFWTKLVVVAIGFTGGVVFMYVQ</Hsp_hseq>
+      <Hsp_midline>++ + C ICH   + E PL   C C GS    HQ CL+ W+++S  + C LC  P+ M+ K KPL+EW   E+  +++ME    AC  +    +A   ++   ++L++ +   + S ++Q      +++  I F+    ++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|EDX09838.1|</Hit_id>
+  <Hit_def>GD12929 [Drosophila simulans]</Hit_def>
+  <Hit_accession>EDX09838</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.43863e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>NSGDICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>++G+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>dbj|BES89056.1|</Hit_id>
+  <Hit_def>(Membrane-Associated Ring finger (C3HHypothetical protein)) [Nesidiocoris tenuis]</Hit_def>
+  <Hit_accession>BES89056</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>3.46579e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICHQPE--GPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV</Hsp_qseq>
+      <Hsp_hseq>STASACRICHEGDTVGPLTSPCECKGTIALVHNCCLEKWLTTSNTSTCEVCQYNFKVSRTPRPPSQWLNNEESRILYLDLICLFVFVPVGVIVSCLGAQVAI</Hsp_hseq>
+      <Hsp_midline>ST   C ICH+ +  GPL   C CKG+ A+ H  CL  WL TS   TC +C   + +    +P  +W   EE  +  ++     V +P+ V++  +G  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KAG5678038.1|</Hit_id>
+  <Hit_def>hypothetical protein PVAND_007745 [Polypedilum vanderplanki]</Hit_def>
+  <Hit_accession>KAG5678038</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.52955e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GEFCWICHQPEG--PLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>GDFCRICHETDAISPLLAPCLCSGSLRFVHQNCLQQWLTCSETNSCELCKFPFIMQSKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>G+FC ICH+ +   PL   C C GS    HQ+CL+ WL  S   +C LC  P+ M+ K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_037932475.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC119667257 [Teleopsis dalmanni]</Hit_def>
+  <Hit_accession>XP_037932475</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.79705e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCSGSLKYVHQACLQQWLTASETNSCELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S   +C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CAD7004585.1|</Hit_id>
+  <Hit_def>unnamed protein product [Ceratitis capitata]</Hit_def>
+  <Hit_accession>CAD7004585</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.21559e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREW</Hsp_qseq>
+      <Hsp_hseq>DICRICHCESDPQNPLLTPCYCAGSLKYVHQACLQQWLTASETNACELCKFPFIMHTKIKPFNEW</Hsp_hseq>
+      <Hsp_midline>+ C ICH    P+ PL   C C GS    HQ CL+ WL  S    C LC  P+ M  K KP  EW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_061710451.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF9-like [Cydia pomonella]</Hit_def>
+  <Hit_accession>XP_061710451</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.29548e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIATQQPT</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEVHNPLLAPCYCSGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVHRGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLCNRWRAHNRILLIQNAPEKMAAARPS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +   PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       H G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E +A  +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_037874829.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF8 [Bombyx mori]</Hit_def>
+  <Hit_accession>XP_037874829</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.93883e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIA</Hsp_qseq>
+      <Hsp_hseq>SGDICRICHCESEPQNPLLAPCYCSGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLCNRWRAHNRILLIQNAPEKMA</Hsp_hseq>
+      <Hsp_midline>+G+ C ICH   +P+ PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>emb|CAG9115528.1|</Hit_id>
+  <Hit_def>unnamed protein product [Plutella xylostella]</Hit_def>
+  <Hit_accession>CAG9115528</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>8.58836e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIA</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPHNPLLAPCYCAGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAMLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYLQCRQYLHLCNRWRAHNRILLIQNAPEKIS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P  PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_028040589.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH8-like [Bombyx mandarina]</Hit_def>
+  <Hit_accession>XP_028040589</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>9.20238e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIAT</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPQNPLLAPCYCSGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYIQCRQYLHLCNRWRAHNRILLIQNAPEKMAV</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P+ PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_023371809.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCH1 isoform X2 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_023371809</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.18107e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV----------NHNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>STQDICRICHCEGDEESPLITPCRCTGTLRFVHQSCLHQWIKSSDTRCCELCKYDFVMETKLKPLRKWEKLQMTTSERRKICCSVTFHVIAITCVVWSLYVLIDRTAEEIKQGNDNGVLEWPFWTKLVVVAI</Hsp_hseq>
+      <Hsp_midline>ST + C ICH     E PL   C C G+    HQ CL  W+++S  + C LC   + M+ K KPLR+W   +       + C  +    +A+  +V   ++L+          N NG L       LVV+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KAG7299587.1|</Hit_id>
+  <Hit_def>hypothetical protein JYU34_016572 [Plutella xylostella]</Hit_def>
+  <Hit_accession>KAG7299587</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.2475e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN------HNGFLSPRMQVVLVVIVLLAMIVFSASASYVMVEGPGCLDTCT---AKNSTVTVNSIDEAIA</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPHNPLLAPCYCAGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIERAVEEVNRGLIAWPFWTKLVVVA----VGFTGGAVFMYLQCRQYLHLCNRWRAHNRILLIQNAPEKIS</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P  PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+       + G ++      LVV+     + F+  A ++ ++    L  C    A N  + + +  E I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|KAH9644310.1|</Hit_id>
+  <Hit_def>hypothetical protein HF086_003809 [Spodoptera exigua]</Hit_def>
+  <Hit_accession>KAH9644310</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.25751e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVN</Hsp_qseq>
+      <Hsp_hseq>GDICRICHCESEPHNPLLAPCYCSGSLKYVHQSCLQQWLTASETRSCELCKFNFIMHTKIKPFNEWRLLEMSGVERRRLCCAVLFHCVAALCVMWSLFVLIE</Hsp_hseq>
+      <Hsp_midline>G+ C ICH   +P  PL   C C GS    HQ CL+ WL  S  ++C LC   + M  K KP  EW   E   +     C  ++   +A L ++   ++L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_048298699.1|</Hit_id>
+  <Hit_def>E3 ubiquitin-protein ligase MARCHF1 isoform X1 [Myodes glareolus]</Hit_def>
+  <Hit_accession>XP_048298699</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.4585e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>STGEFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLV----------NHNGFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>STQDICRICHCEGDEESPLITPCRCTGTLRFVHQSCLHQWIKSSDTRCCELCKYDFIMETKLKPLRKWEKLQMTTSERRKICCSVTFHIIAVTCVVWSLYVLIDRTAEEIKQGNDNGVLEWPFWTKLVVVAI</Hsp_hseq>
+      <Hsp_midline>ST + C ICH     E PL   C C G+    HQ CL  W+++S  + C LC   + M+ K KPLR+W   +       + C  +    +AV  +V   ++L+          N NG L       LVV+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|KAI4491055.1|</Hit_id>
+  <Hit_def>hypothetical protein M0802_010472 [Mischocyttarus mexicanus]</Hit_def>
+  <Hit_accession>KAI4491055</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.1025e-06</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>EFCWICH---QPEGPLKRFCGCKGSCAVSHQDCLRGWLETSRRQTCALCGTPYSMKWKTKPLREWTWGEEEVLAAMEACLPLVLIPLAVLMIVMGTWLLVNHN------GFLSPRMQVVLVVIVL</Hsp_qseq>
+      <Hsp_hseq>DICRICHCEGEEGAPLLAPCYCSGSLRYVHQACLQQWIKASDTRACELCKFTFVMHAKTKPFYEWEKLEMSALEVRKLWLTVVFHGLAALCVAWSLYVLVERSVEEARRGFLDWSFWTKLIVVVI</Hsp_hseq>
+      <Hsp_midline>+ C ICH   +   PL   C C GS    HQ CL+ W++ S  + C LC   + M  KTKP  EW   E   L   +  L +V   LA L +    ++LV  +      GFL       L+V+V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>721436858</Statistics_db-num>
+      <Statistics_db-len>278554112155</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,2861 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8131511</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>194</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8131511</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>194</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|414084|emb|X75453.1|</Hit_id>
+  <Hit_def>T.gondii (strain P) rDNA for 17s,5.8s,26s,and 5s ribosomal RNA</Hit_def>
+  <Hit_accession>X75453</Hit_accession>
+  <Hit_len>8350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.37</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.69713e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1243913185|pdb|5XXU|2</Hit_id>
+  <Hit_def>Chain 2, 18S RNA</Hit_def>
+  <Hit_accession>5XXU_2</Hit_accession>
+  <Hit_len>1791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.524</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>6.10398e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1220540|gb|M97809.1|TOXAABX</Hit_id>
+  <Hit_def>Toxoplasma gondii 5S ribosomal RNA (5S rRNA), 3&apos; end, and ribosomal RNA small subunit, 5&apos; end, genes</Hit_def>
+  <Hit_accession>M97809</Hit_accession>
+  <Hit_len>2398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.83</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.896e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1710</Hsp_hit-from>
+      <Hsp_hit-to>1903</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|414086|emb|X75430.1|</Hit_id>
+  <Hit_def>T.gondii (Sailie) 17S, 5.8S, 26S and 5S rRNA genes</Hit_def>
+  <Hit_accession>X75430</Hit_accession>
+  <Hit_len>8352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.83</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.896e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|385243|gb|M97703.1|TOXRRNA</Hit_id>
+  <Hit_def>Toxoplasma gondii strain RH ribosomal RNA small subunit gene, complete sequence</Hit_def>
+  <Hit_accession>M97703</Hit_accession>
+  <Hit_len>1795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.83</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.896e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|414293|gb|U03070.1|TGU03070</Hit_id>
+  <Hit_def>Toxoplasma gondii 18S rRNA gene</Hit_def>
+  <Hit_accession>U03070</Hit_accession>
+  <Hit_len>1788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.984</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.83991e-92</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|288902|emb|X68523.1|</Hit_id>
+  <Hit_def>T.gondii gene for 17S rRNA</Hit_def>
+  <Hit_accession>X68523</Hit_accession>
+  <Hit_len>1762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.984</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.83991e-92</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|820695469|tpe|LN714488.1|</Hit_id>
+  <Hit_def>TPA_asm: Neospora caninum Liverpool, unplaced_1, complete genome</Hit_def>
+  <Hit_accession>LN714488</Hit_accession>
+  <Hit_len>3492925</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.29</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.67365e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1431648</Hsp_hit-from>
+      <Hsp_hit-to>1431455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>163.625</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>1.42821e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>983493</Hsp_hit-from>
+      <Hsp_hit-to>983379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTT</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTT-TACGGCTAC-CGGC-AATGG-TCTTTAAA-CAGTTA-AGTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  | || ||||| || ||||| |||||| ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|436895|gb|U00458.1|TGU00458</Hit_id>
+  <Hit_def>Toxoplasma gondii, strain ts-4, small subunit ribosomal RNA gene</Hit_def>
+  <Hit_accession>U00458</Hit_accession>
+  <Hit_len>1781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.29</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.67365e-91</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|414085|emb|X75429.1|</Hit_id>
+  <Hit_def>T.gondii (RH) 17S, 5.8S, 26S and 5S rRNA genes</Hit_def>
+  <Hit_accession>X75429</Hit_accession>
+  <Hit_len>8352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.29</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.67365e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTCGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|145284383|gb|EF472967.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii strain RH small subunit ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>EF472967</Hit_accession>
+  <Hit_len>1785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.444</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.32128e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGTTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|562132|gb|U16159.1|NCU16159</Hit_id>
+  <Hit_def>Neospora caninum N.C.-Liverpool 18S rRNA gene, complete sequence, internal transcribed spacer 1, and 5.8S rRNA gene, partial sequence</Hit_def>
+  <Hit_accession>U16159</Hit_accession>
+  <Hit_len>2271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.444</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.32128e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|414292|gb|U03069.1|NCU03069</Hit_id>
+  <Hit_def>Neospora caninum 18S rRNA gene</Hit_def>
+  <Hit_accession>U03069</Hit_accession>
+  <Hit_len>1789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.444</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.32128e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|8670889|emb|AJ271354.1|</Hit_id>
+  <Hit_def>Neospora caninum partial 18S rRNA gene, isolate NC-PV1</Hit_def>
+  <Hit_accession>AJ271354</Hit_accession>
+  <Hit_len>1769</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.597</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.75217e-90</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1673126629|ref|XR_003828658.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti 18S ribosomal RNA (BESB_086230), rRNA</Hit_def>
+  <Hit_accession>XR_003828658</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1804</Hsp_hit-from>
+      <Hsp_hit-to>1611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1673126626|ref|XR_003828656.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti 18S ribosomal RNA (BESB_086210), rRNA</Hit_def>
+  <Hit_accession>XR_003828656</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1804</Hsp_hit-from>
+      <Hsp_hit-to>1611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1673126623|ref|XR_003828659.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti 18S ribosomal RNA (BESB_086240), rRNA</Hit_def>
+  <Hit_accession>XR_003828659</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1804</Hsp_hit-from>
+      <Hsp_hit-to>1611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1673126620|ref|XR_003828657.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti 18S ribosomal RNA (BESB_086220), rRNA</Hit_def>
+  <Hit_accession>XR_003828657</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1804</Hsp_hit-from>
+      <Hsp_hit-to>1611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2087985308|gb|MZ960804.1|</Hit_id>
+  <Hit_def>Sarcocystis cf. falcatula voucher 3C 10133 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ960804</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|209361672|gb|EU789637.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti isolate BbSpain-1 18S ribosomal RNA gene and internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>EU789637</Hit_accession>
+  <Hit_len>2206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|60892950|gb|AY833646.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti from Portugal 18S ribosomal RNA gene, internal transcribed spacer 1, 5.8S ribosomal RNA gene, internal transcribed spacer 2, and 28S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>AY833646</Hit_accession>
+  <Hit_len>5830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|12006848|gb|AF291426.1|</Hit_id>
+  <Hit_def>Besnoitia jellisoni small subunit ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>AF291426</Hit_accession>
+  <Hit_len>1816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|6502536|gb|AF109678.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AF109678</Hit_accession>
+  <Hit_len>1797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTTTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|556817|emb|X65508.1|</Hit_id>
+  <Hit_def>T.gondii 16S-like rRNA</Hit_def>
+  <Hit_accession>X65508</Hit_accession>
+  <Hit_len>1788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.211</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>7.95206e-88</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCC-TGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|291061377|gb|GQ245670.1|</Hit_id>
+  <Hit_def>Sarcocystis sp. ex Columba livia 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>GQ245670</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.517</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.02866e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|497212|gb|U07812.1|SNU07812</Hit_id>
+  <Hit_def>Sarcocystis neurona SN5 small ribosomal subunit gene, complete sequence</Hit_def>
+  <Hit_accession>U07812</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.517</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.02866e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1472905022|gb|MH469238.1|</Hit_id>
+  <Hit_def>Sarcocystis caninum isolate YDDSc2 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH469238</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1356685254|gb|MF596237.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES11.2 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596237</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1356685253|gb|MF596236.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES11.1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596236</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1356685252|gb|MF596235.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES7.2 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596235</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1356685251|gb|MF596234.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES7.1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596234</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1356685250|gb|MF596233.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES5.4 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596233</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1356685249|gb|MF596232.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES5.3 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596232</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1356685248|gb|MF596231.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES5.2 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596231</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1356685247|gb|MF596230.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate UES5.1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596230</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1356685246|gb|MF596229.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate NRS28 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596229</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1356685245|gb|MF596228.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate NRS24.2 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596228</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1356685244|gb|MF596227.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate NRS24.1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596227</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1356685243|gb|MF596226.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS463 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596226</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1356685242|gb|MF596225.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS432 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596225</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1356685241|gb|MF596224.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS412 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596224</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1356685240|gb|MF596223.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS280 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596223</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1356685239|gb|MF596222.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS180 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596222</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1356685238|gb|MF596221.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS159 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596221</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1356685237|gb|MF596220.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS156 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596220</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1356685236|gb|MF596219.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS154 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596219</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1356685235|gb|MF596218.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS150 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596218</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1356685234|gb|MF596217.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate PDS01 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF596217</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1320952189|gb|MF946588.1|</Hit_id>
+  <Hit_def>Sarcocystis lari isolate Ha1.8 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF946588</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1320952188|gb|MF946587.1|</Hit_id>
+  <Hit_def>Sarcocystis halieti isolate Ha1.6 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF946587</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|734986863|gb|KM657769.1|</Hit_id>
+  <Hit_def>Sarcocystis lutrae isolate Ll1.11 18S ribosomal RNA gene, complete sequence &gt;gi|734986864|gb|KM657770.1| Sarcocystis lutrae isolate Ll2.15 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>KM657769</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|677569902|gb|KJ396583.1|</Hit_id>
+  <Hit_def>Sarcocystis rileyi isolate Sm1.40 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>KJ396583</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|2087985306|gb|MZ960803.1|</Hit_id>
+  <Hit_def>Sarcocystis cf. falcatula voucher 2B 10296 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ960803</Hit_accession>
+  <Hit_len>1804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACACGCCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|564733327|gb|KF601301.1|</Hit_id>
+  <Hit_def>Sarcocystis arctica isolate Vl1.10 18S ribosomal RNA gene, complete sequence &gt;gi|564733328|gb|KF601302.1| Sarcocystis arctica isolate Vl1.26 18S ribosomal RNA gene, complete sequence &gt;gi|564733329|gb|KF601303.1| Sarcocystis arctica isolate Vl1.40 18S ribosomal RNA gene, complete sequence &gt;gi|564733330|gb|KF601304.1| Sarcocystis arctica isolate Vl2.1 18S ribosomal RNA gene, complete sequence &gt;gi|564733331|gb|KF601305.1| Sarcocystis arctica isolate Vl2.2 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>KF601301</Hit_accession>
+  <Hit_len>1803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|4028606|gb|AF106935.1|AF106935</Hit_id>
+  <Hit_def>Isospora belli small subunit ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>AF106935</Hit_accession>
+  <Hit_len>1784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|2735420|gb|U94787.1|U94787</Hit_id>
+  <Hit_def>Isospora belli small subunit ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>U94787</Hit_accession>
+  <Hit_len>1784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.671</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.69973e-86</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|794336747|gb|KP681854.1|</Hit_id>
+  <Hit_def>Sarcocystis speeri isolate D2828 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KP681854</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.824</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.33066e-85</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|1394199105|emb|LT992324.1|</Hit_id>
+  <Hit_def>Sarcocystis rileyi partial 18S rRNA gene, isolate 01 &gt;gi|1394199106|emb|LT992325.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 02 &gt;gi|1394199107|emb|LT992326.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 05 &gt;gi|1394199108|emb|LT992327.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 06 &gt;gi|1394199109|emb|LT992328.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 07 &gt;gi|1394199110|emb|LT992329.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 08 &gt;gi|1394199111|emb|LT992330.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 09 &gt;gi|1394199112|emb|LT992331.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 10 &gt;gi|1394199113|emb|LT992332.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 11 &gt;gi|1394199114|emb|LT992333.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 12 &gt;gi|1394199115|emb|LT992334.1| Sarcocystis rileyi partial 18S rRNA gene, isolate 13</Hit_def>
+  <Hit_accession>LT992324</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|1371563232|gb|MH130211.1|</Hit_id>
+  <Hit_def>Sarcocystis halieti isolate Dkorm16 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH130211</Hit_accession>
+  <Hit_len>1801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|671756874|gb|KJ810604.1|</Hit_id>
+  <Hit_def>Sarcocystis chloropusae isolate MR9 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ810604</Hit_accession>
+  <Hit_len>1520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|2059549660|gb|MZ468637.1|</Hit_id>
+  <Hit_def>Sarcocystis rileyi isolate Bornholm-PCR1 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ468637</Hit_accession>
+  <Hit_len>960</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|2034460782|gb|MZ151434.1|</Hit_id>
+  <Hit_def>Sarcocystis rileyi small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MZ151434</Hit_accession>
+  <Hit_len>5349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|357932533|gb|JN256117.1|</Hit_id>
+  <Hit_def>Sarcocystis corvusi isolate kuos1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JN256117</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|390195695|gb|JQ733511.1|</Hit_id>
+  <Hit_def>Sarcocystis sp. ex Phalacrocorax carbo isolate Dkorm1 18S ribosomal RNA gene, partial sequence &gt;gi|2076135148|gb|MZ707127.1| Sarcocystis sp. ex Corvus corax isolate CcLt24 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ733511</Hit_accession>
+  <Hit_len>1801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|390195692|gb|JQ733508.1|</Hit_id>
+  <Hit_def>Sarcocystis lari isolate balnkr1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JQ733508</Hit_accession>
+  <Hit_len>1802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|337263655|gb|JF975681.1|</Hit_id>
+  <Hit_def>Sarcocystis turdusi isolate M 41 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JF975681</Hit_accession>
+  <Hit_len>1793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|298573196|gb|HM185742.1|</Hit_id>
+  <Hit_def>Sarcocystis rileyi strain Europe 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>HM185742</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|258642519|gb|EU502868.2|</Hit_id>
+  <Hit_def>Sarcocystis albifronsi isolate 08 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>EU502868</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|258642518|gb|EU502869.2|</Hit_id>
+  <Hit_def>Sarcocystis sp. cyst type I ex Anser albifrons isolate 09 18S ribosomal RNA gene, partial sequence &gt;gi|261260627|gb|GQ922885.1| Sarcocystis wobeseri isolate 112 small subunit ribosomal RNA gene, partial sequence &gt;gi|261260628|gb|GQ922886.1| Sarcocystis wobeseri isolate 111 small subunit ribosomal RNA gene, partial sequence &gt;gi|300689688|gb|HM159419.1| Sarcocystis wobeseri isolate kir01 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>EU502869</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|257835564|gb|EU553478.2|</Hit_id>
+  <Hit_def>Sarcocystis cornixi isolate V1 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>EU553478</Hit_accession>
+  <Hit_len>1795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.977</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.78591e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|1843794444|gb|MT495321.1|</Hit_id>
+  <Hit_def>Sarcocystis kutkienae isolate CcLt1 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MT495321</Hit_accession>
+  <Hit_len>1802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|258642517|gb|EU553477.2|</Hit_id>
+  <Hit_def>Sarcocystis anasi isolate DA1 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>EU553477</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|47779399|gb|AY618555.1|</Hit_id>
+  <Hit_def>Cystoisospora cf. ohioensis 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY618555</Hit_accession>
+  <Hit_len>1793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|33668760|gb|AY279205.1|</Hit_id>
+  <Hit_def>Cystoisospora timoni 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY279205</Hit_accession>
+  <Hit_len>1792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGTCTCTTCCTCAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|13591383|gb|AY015113.1|</Hit_id>
+  <Hit_def>Sarcocystis lacertae 18S small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY015113</Hit_accession>
+  <Hit_len>1802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTTCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|6502537|gb|AF109679.1|</Hit_id>
+  <Hit_def>Sarcocystis mucosa small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AF109679</Hit_accession>
+  <Hit_len>1824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.131</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.72132e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACAGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|820697327|tpe|LN714495.1|</Hit_id>
+  <Hit_def>TPA_asm: Toxoplasma gondii VEG, chromosome chrVI, complete genome</Hit_def>
+  <Hit_accession>LN714495</Hit_accession>
+  <Hit_len>3662123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.437</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.22667e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>581563</Hsp_hit-from>
+      <Hsp_hit-to>581749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATAC-C-TGCGCACATGCCTCTT</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATATACATGCGCACATGACTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|671756876|gb|KJ810606.1|</Hit_id>
+  <Hit_def>Sarcocystis atraii isolate CT5 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KJ810606</Hit_accession>
+  <Hit_len>1493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.437</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.22667e-83</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCGTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|129566126|gb|DQ060661.2|</Hit_id>
+  <Hit_def>Isospora belli isolate IB3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566128|gb|DQ060663.2| Isospora belli isolate IB5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566129|gb|DQ060664.2| Isospora belli isolate IB6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566130|gb|DQ060665.2| Isospora belli isolate IB7 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566131|gb|DQ060666.2| Isospora belli isolate IB410 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566133|gb|DQ060668.2| Isospora belli isolate IB15 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566134|gb|DQ060669.2| Isospora belli isolate IB16 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566135|gb|DQ060670.2| Isospora belli isolate IB17 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566136|gb|DQ060671.2| Isospora belli isolate IB18 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566140|gb|DQ060675.2| Isospora belli isolate IB25 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566142|gb|DQ060677.2| Isospora belli isolate IB32 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566144|gb|DQ060679.2| Isospora belli isolate IB35 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566145|gb|DQ060680.2| Isospora belli isolate IB36 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>DQ060661</Hit_accession>
+  <Hit_len>3049</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.00851e-83</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|129566124|gb|DQ060659.2|</Hit_id>
+  <Hit_def>Isospora belli isolate IB1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566125|gb|DQ060660.2| Isospora belli isolate IB2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566127|gb|DQ060662.2| Isospora belli isolate IB4 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566132|gb|DQ060667.2| Isospora belli isolate IB14 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566137|gb|DQ060672.2| Isospora belli isolate IB19 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566138|gb|DQ060673.2| Isospora belli isolate IB21 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566139|gb|DQ060674.2| Isospora belli isolate IB24 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566141|gb|DQ060676.2| Isospora belli isolate IB29 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566143|gb|DQ060678.2| Isospora belli isolate IB34 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566146|gb|DQ060681.2| Isospora belli isolate IBF1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566147|gb|DQ060682.2| Isospora belli isolate IBF2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence &gt;gi|129566148|gb|DQ060683.2| Isospora belli isolate IBF3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>DQ060659</Hit_accession>
+  <Hit_len>3049</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.00851e-83</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|129566123|gb|DQ060658.2|</Hit_id>
+  <Hit_def>Isospora belli isolate IB12 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>DQ060658</Hit_accession>
+  <Hit_len>3049</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.00851e-83</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>GATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|2739127|gb|AF029303.1|AF029303</Hit_id>
+  <Hit_def>Isospora ohioensis 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AF029303</Hit_accession>
+  <Hit_len>1392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.00851e-83</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCACACGTGCCTCTTCCTCAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||| |||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|595471|gb|U12138.1|TGU12138</Hit_id>
+  <Hit_def>Toxoplasma gondii S48 18S rRNA gene, partial sequence</Hit_def>
+  <Hit_accession>U12138</Hit_accession>
+  <Hit_len>1732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.00851e-83</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>AGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|1834377160|gb|MT372787.1|</Hit_id>
+  <Hit_def>Sarcocystis ratti isolate SarRa 2 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MT372787</Hit_accession>
+  <Hit_len>1798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.744</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.88037e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTT</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCATATACCTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|1085194803|ref|XR_001974240.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii ME49 18S ribosomal RNA rRNA</Hit_def>
+  <Hit_accession>XR_001974240</Hit_accession>
+  <Hit_len>1056</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.744</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.88037e-82</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>CCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTAAGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|372099305|dbj|AB691780.1|</Hit_id>
+  <Hit_def>Sarcocystis sp. TO-2012 gene for 18S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>AB691780</Hit_accession>
+  <Hit_len>1797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.744</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.88037e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCT-TCC</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTCTCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|425893204|gb|JX220987.1|</Hit_id>
+  <Hit_def>Hammondia heydorni clone 5 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JX220987</Hit_accession>
+  <Hit_len>1745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.897</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.03597e-81</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|160823|gb|M64244.1|SARRR16S</Hit_id>
+  <Hit_def>Sarcocystis muris 16S-like ribosomal RNA (16S rRNA) gene sequence</Hit_def>
+  <Hit_accession>M64244</Hit_accession>
+  <Hit_len>1809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.897</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.03597e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCATTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCGCTTTCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||| || ||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|1834377158|gb|MT372785.1|</Hit_id>
+  <Hit_def>Sarcocystis cymruensis isolate SarCy 972 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MT372785</Hit_accession>
+  <Hit_len>1796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.051</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.726e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCATTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCGCTTTCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||| || ||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|1834377157|gb|MT372784.1|</Hit_id>
+  <Hit_def>Sarcocystis cymruensis isolate SarCy 971 small subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MT372784</Hit_accession>
+  <Hit_len>1796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.051</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.726e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCC-C-TGGAA</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCATTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCGCTTTCCTCGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||| || ||| || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|1450318677|gb|MH758784.1|</Hit_id>
+  <Hit_def>Goussia bayae isolate Choptank small subunit ribosomal RNA gene and internal transcribed spacer 1, partial sequence</Hit_def>
+  <Hit_accession>MH758784</Hit_accession>
+  <Hit_len>1846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.051</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.726e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTC-TTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>AACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGTGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCATTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCAAAGGCCACTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||| | ||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|2232042|gb|U97523.1|ISU97523</Hit_id>
+  <Hit_def>Isospora suis 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>U97523</Hit_accession>
+  <Hit_len>1822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.051</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.726e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTACACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTCTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACGTGCCTCTTCCTCAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|453056288|gb|KC201639.1|</Hit_id>
+  <Hit_def>Sarcocystis sp. ex Morelia viridis GM-2013 clone 4E D9709 Schlange 18S ribosomal RNA gene, complete sequence</Hit_def>
+  <Hit_accession>KC201639</Hit_accession>
+  <Hit_len>1845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.204</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.34011e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTT</Hsp_qseq>
+      <Hsp_hseq>ACCTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTTTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACTTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|81366152|gb|DQ227420.1|</Hit_id>
+  <Hit_def>Besnoitia besnoiti from Israel 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>DQ227420</Hit_accession>
+  <Hit_len>5806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.204</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.34011e-80</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>CTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCGAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATACCTCTTCCTCTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|1174531223|gb|KX008033.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii isolate Tg10 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX008033</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.357</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.81988e-80</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|1174531222|gb|KX008032.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii isolate Tg9 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX008032</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.357</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.81988e-80</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|1174531221|gb|KX008031.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii isolate Tg8 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX008031</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.357</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.81988e-80</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|1174531220|gb|KX008030.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii isolate Tg7 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX008030</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.357</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.81988e-80</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|1174531219|gb|KX008029.1|</Hit_id>
+  <Hit_def>Toxoplasma gondii isolate Tg6 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX008029</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.357</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.81988e-80</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>TCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCATTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACATGCCTCTTCCCCTGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|209865619|gb|FJ357797.1|</Hit_id>
+  <Hit_def>Isospora sp. Harbin/01/08 18S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>FJ357797</Hit_accession>
+  <Hit_len>1768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.664</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>6.23491e-79</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTATACGGCTAAACTGCGAATGGCTCA-TTAAAACAGTTATAGTTTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACCTGCGCACATGCCTCTTCCCCTGGAA</Hsp_qseq>
+      <Hsp_hseq>CTGGTTGATCCTGCCAGTAGTCATATGCTTGTCTTAAAGATTAAGCCATGCATGTCTAAGTATAAGCTTTTACACGGCGAAACTGCGAATGGCTCATTTAAAACAGTTATAGTCTATTTGATGGTCTTTACTACATGGATAACCGTGGTAATTCTATGGCTAATACATGCGCACRTGCCTCTTYCTCAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||| | | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104338276</Statistics_db-num>
+      <Statistics_db-len>348058846</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
