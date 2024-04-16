@@ -19,7 +19,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, '/static')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 """
 this is the path to the directory where the static files are stored
@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-8*^26cfojglg27ngdrhw%ov=(lgb8+u7v0g=%gz=h9%^&!*u3u
 ALLOWED_HOSTS = ["pfeblast.zaaim.me", "ec2-54-91-248-112.compute-1.amazonaws.com", "54.91.248.112", "localhost", "127.0.0.1"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 
