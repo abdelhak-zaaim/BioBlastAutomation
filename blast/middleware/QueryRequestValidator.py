@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 
+from blast.models.CustomBlastParameters import CustomBlastParameters
 from blast.scripts.utils.BlastUtils import BlastUtils
 
 
@@ -9,6 +10,7 @@ class QueryRequestValidator:
     to make sure the request is valid before processing it
     also to make sure the request is compatible with the blast program and database
     """
+
     def __init__(self, get_response):
         self.get_response = get_response
 
@@ -21,7 +23,6 @@ class QueryRequestValidator:
             jtitle = request.POST.get('jtitle')
             blast_program = request.POST.get('blast_program')
             blast_database = request.POST.get('blast_database')
-
 
             # verify query_from and query_to are integers
             if from_value:
@@ -42,7 +43,6 @@ class QueryRequestValidator:
                     return JsonResponse({'error': 'from and to values must be positive'}, status=400)
                 if from_value > to_value:
                     return JsonResponse({'error': 'from value must be less than to value'}, status=400)
-
 
             if (from_value and not to_value) or (to_value and not from_value):
                 return JsonResponse({'error': 'from and to values must be both exist or both not exist'}, status=400)
@@ -80,22 +80,18 @@ class QueryRequestValidator:
             if not sequences:
                 return JsonResponse({'error': 'No valid sequences found'}, status=400)
 
-
-            # Check if the sequences are compatible with the blast program
             for sequence in sequences:
-                if not BlastUtils.is_sequence_type_compatible_with_program(BlastUtils.get_sequence_type(sequence), blast_program):
+                if not BlastUtils.is_sequence_type_compatible_with_program(BlastUtils.get_sequence_type(sequence),
+                                                                           blast_program):
                     return JsonResponse(
                         {'error': 'Incompatible sequence type with blast program , sequence: ' + sequence.id},
                         status=400)
 
-            request.data = {
-                'sequences': sequences,
-                'from': from_value,
-                'to': to_value,
-                'jtitle': jtitle,
-                'blast_program': blast_program,
-                'blast_database': blast_database
-            }
+            custom_blast_parameters = CustomBlastParameters(program=blast_program, database=blast_database,
+                                                            sequences=sequences,
+                                                            query_from=from_value, query_to=to_value)
+
+            request.custom_blast_parameters = custom_blast_parameters
 
         response = self.get_response(request)
         return response

@@ -6,16 +6,18 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 from blast.scripts.submission.Submission import Submission
-from blast.scripts.utils import BlastUtils
+from blast.scripts.submission.blast.BlastSubmissionTask import BlastSubmissionTask
+from blast.scripts.utils.BlastUtils import BlastUtils
 from blast.scripts.visualisation.AlignmentViewer import AlignmentViewer
-from blast.scripts.visualisation.SequenceDataVisualize import SequenceData
+from blast.scripts.visualisation.SequenceDataVisualize import SequenceDataVisualize
 from pfe import settings
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def blast(request):
-    return SequenceData.visualise_from_xml_file(request, os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
+    return SequenceDataVisualize.visualise_from_xml_file(request,
+                                                         os.path.join(settings.STATICFILES_DIRS[0], 'test3.xml'))
 
 
 def documentation(request):
@@ -37,12 +39,32 @@ def submit_sequence(request):
 
 
 def submit_sequence_query(request):
-    print(request.data.get('blast_program'))
-    print(request.data.get('sequences')[0].seq)
-    print(request.data.get('blast_database'))
 
-    submision = Submission(program=request.data.get('blast_program'), output_format="XML")
+    try:
+        custom_blast_parameters = request.custom_blast_parameters
+        task_id = BlastSubmissionTask(custom_blast_parameters).submit()
+        print("the task id is : ",task_id)
+        return HttpResponse(json.dumps({'req_id': str(task_id), 'status': 'submitted'}))
+    except Exception as e:
+        return HttpResponse(json.dumps({'error': str(e)}), status=400)
 
-    xml_file_name = submision.submit_blast_and_save(request.data.get('sequences'), request.data.get('blast_database'))
+def result_viewer(request):
+    # aaccess to an parameter from the request get
+    req_id= request.GET.get('req_id')
+    print("the requested id is : ",req_id)
+    # check req_id is not null
+    if req_id is not None:
 
-    return SequenceData.visualise_from_xml_file(request, BlastUtils.get_output_xml_file_path(xml_file_name))
+        # check if the file is exist
+        if BlastUtils.check_blast_results_file(req_id):
+            # if the file exist return the result
+            return SequenceDataVisualize.visualise_from_xml_file(request,BlastUtils.get_output_xml_file_path(req_id))
+        else:
+            # if the file is not exist return error
+            return HttpResponse("The request result is not found.")
+
+    else:
+        return HttpResponse("please include a req_id parameter.")
+
+
+

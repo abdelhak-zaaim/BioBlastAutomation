@@ -1,3 +1,6 @@
+
+
+
 class Constants:
     # *-------------------------------------------- todo: change the paths of the databases to the correct ones ***
     #  you can download it from https://ftp.ncbi.nlm.nih.gov/blast/db/ do not forget to extract the files in case you
@@ -32,3 +35,5 @@ class Constants:
     DATABASE_PASSWD = "1234"
     DATABASE_HOST = "localhost"
     DATABASE_NAME = "blastdb"
+
+

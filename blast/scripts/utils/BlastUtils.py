@@ -136,7 +136,12 @@ class BlastUtils:
             return "unknown"
 
     @staticmethod
-    def save_blast_results_to_xml(blast_results):
+    def write_blast_results_to_file(blast_results):
+        """
+        Save the BLAST results to an XML file and return the file name
+        :param blast_results:
+        :return: file_name for the saved XML file (str)
+        """
         # Generate a unique file name using a random string of length 14
         random_string = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(14))
 
@@ -145,10 +150,15 @@ class BlastUtils:
         with open(path, 'w') as file:
             file.write(blast_results)
 
-        return file_name
+        return random_string
 
     @staticmethod
     def sequence_type(sequence):
+        """
+        Determine the type of sequence (DNA, RNA, or Protein)
+        :param sequence:
+        :return:  string indicating the type of sequence (DNA, RNA, Protein, or invalid)
+        """
         dna_bases = 'ACGT'
         rna_bases = 'ACGU'
         amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
@@ -201,31 +211,26 @@ class BlastUtils:
         else:
             return True
 
-    @staticmethod
-    def save_blast_results(blast_results, file_name, output_format):
-
-        static_dir = settings.STATICFILES_DIRS[0]
-
-        # Create the path to the output directory within the static directory
-        output_dir = os.path.join(static_dir, 'blast_result')
-        os.makedirs(output_dir, exist_ok=True)
-
-        output_file_path = os.path.join(output_dir, f"{file_name}.{output_format}")
-        with open(output_file_path, 'w') as output_file:
-            if output_format == 'XML':
-                output_file.write(blast_results)
-            elif output_format == 'JSON':
-                import json
-                json.dump(blast_results, output_file)
-            elif output_format == 'CSV':
-                import csv
-                writer = csv.writer(output_file)
-                writer.writerows(blast_results)
-            else:
-                raise ValueError("Invalid output format. Please use 'XML', 'JSON', or 'CSV'.")
 
     @staticmethod
-    def get_output_xml_file_path(file_name):
+    def get_output_xml_file_path(req_id):
         output_dir = settings.STATIC_BLAST_RESULTS
+        file_complete_name = f"BLAST_RESULT_{req_id}.xml"
 
-        return os.path.join(output_dir, file_name)
+        return os.path.join(output_dir, file_complete_name)
+
+    # convert a list of sequences to a fasta string
+    @staticmethod
+    def sequences_to_fasta_string(sequences):
+        fasta_string = ""
+        for sequence in sequences:
+            fasta_string += f">{sequence['id']}\n{sequence['sequence']}\n"
+        return fasta_string
+
+    @staticmethod
+    def check_blast_results_file(req_id):
+        file_complete_name = f"BLAST_RESULT_{req_id}.xml"
+        file_path = os.path.join(settings.STATIC_BLAST_RESULTS, file_complete_name)
+        return os.path.isfile(file_path)
+
+

@@ -9,7 +9,7 @@ from blast.models.Sequence import Sequence
 from blast.scripts.visualisation.SequencePerforming import SequenceVisualisation
 
 
-class SequenceData:
+class SequenceDataVisualize:
 
     def visualise_from_xml_string(self, xml_text):
         # convert xml to sequences
@@ -72,4 +72,4 @@ class SequenceData:
         with open(xml_file_path, 'r') as file:
             xml_text = file.read()
 
-        return SequenceData.visualise_from_xml_string(self, xml_text)
+        return SequenceDataVisualize.visualise_from_xml_string(self, xml_text)
