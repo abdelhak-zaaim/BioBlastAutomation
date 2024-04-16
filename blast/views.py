@@ -4,7 +4,7 @@ import ssl
 
 from django.http import HttpResponse
 from django.shortcuts import render
-
+from blast.scripts.utils.SecurityUtils import SecurityUtils
 from blast.scripts.submission.Submission import Submission
 from blast.scripts.submission.blast.BlastSubmissionTask import BlastSubmissionTask
 from blast.scripts.utils.BlastUtils import BlastUtils
@@ -57,6 +57,10 @@ def result_viewer(request):
 
         # check if the file is exist
         if BlastUtils.check_blast_results_file(req_id):
+            # check req_id if contain any path traversaal attack
+
+            if SecurityUtils.check_path_traversal(req_id):
+                return HttpResponse("The request result is not found.")
             # if the file exist return the result
             return SequenceDataVisualize.visualise_from_xml_file(request,BlastUtils.get_output_xml_file_path(req_id))
         else:

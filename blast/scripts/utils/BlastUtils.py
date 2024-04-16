@@ -6,6 +6,7 @@ from io import StringIO
 from Bio import SeqIO
 
 from blast.scripts.utils.Constants import Constants
+from blast.scripts.utils.SecurityUtils import SecurityUtils
 from pfe import settings
 
 
@@ -229,6 +230,10 @@ class BlastUtils:
 
     @staticmethod
     def check_blast_results_file(req_id):
+        # verify req_id from path traversal attacks
+        if SecurityUtils.check_path_traversal(req_id):
+            return False
+
         file_complete_name = f"BLAST_RESULT_{req_id}.xml"
         file_path = os.path.join(settings.STATIC_BLAST_RESULTS, file_complete_name)
         return os.path.isfile(file_path)

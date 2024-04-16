@@ -69,6 +69,8 @@ class SequenceDataVisualize:
         })
 
     def visualise_from_xml_file(self, xml_file_path):
+        # check xml_file_path from path traversal attacks
+
         with open(xml_file_path, 'r') as file:
             xml_text = file.read()
 
