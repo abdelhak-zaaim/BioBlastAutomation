@@ -28,56 +28,14 @@ pip install -r requirements.txt
 
 ```
 
-## RabbitMQ Installation and Configuration
 
-RabbitMQ is an open-source message broker that we use in this project for task queueing with Celery. Here's how you can install and configure it:
-
-### Installing RabbitMQ
-
-1. Install Homebrew if you haven't already. You can install it by running the following command in your terminal:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-```
-
-2. Install RabbitMQ by running the following command in your terminal:
-
-```bash
-brew install rabbitmq
-```
-3. add the following line to your `.bashrc` or `.zshrc` file:
-
-```bash
-export PATH=$PATH:/usr/local/sbin
-source ~/.zshrc
-```
-
-4. open the Constants.py file and change the value of the `RABBITMQ_USERNAME` and `RABBITMQ_PASSWORD` variables to your RabbitMQ username and password.
-
-```python
-class Constants:
-    MY_CELERY_APP = 'CELERY_APP' # Celery app name could be any name
-    MY_CELERY_BROKER = 'amqp://guest:guest@localhost:5672//' # Celery broker URL its default value you may change it
-
-```
-
-
-
-5. Start the RabbitMQ server by running the following command in your terminal:
-
-```bash
-rabbitmq-server start
-```
-
-
-6. Apply the migrations by executing the commands
+1. Apply the migrations by executing the commands
     
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-7. Run the application by executing the command (web interface) 
+2. Run the application by executing the command (web interface) 
     
 ```bash
 python manage.py runserver
