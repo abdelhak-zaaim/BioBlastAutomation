@@ -20,6 +20,7 @@ class QueryRequestValidator:
             from_value = request.POST.get('from')
             to_value = request.POST.get('to')
             file_fasta = request.FILES.get('file_fasta')
+            # todo : implement the jtitle
             jtitle = request.POST.get('jtitle')
             blast_program = request.POST.get('blast_program')
             blast_database = request.POST.get('blast_database')

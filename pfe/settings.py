@@ -13,18 +13,19 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, '/static')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'blast/static'), ]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 """
 this is the path to the directory where the static files are stored
 """
 
-STATIC_BLAST_RESULTS = os.path.join(BASE_DIR, 'blast/static/blast_results')
+STATIC_BLAST_RESULTS = os.path.join(BASE_DIR, 'static/blast_results')
 """
 this is the path to the directory where the blast results will be saved
 """
@@ -32,10 +33,13 @@ this is the path to the directory where the blast results will be saved
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-8*^26cfojglg27ngdrhw%ov=(lgb8+u7v0g=%gz=h9%^&!*u3u'
 
+ALLOWED_HOSTS = ["54.91.248.112", "localhost", "127.0.0.1"]
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+
 
 # Application definition
 
@@ -49,6 +53,8 @@ INSTALLED_APPS = [
 
     'blast'
 ]
+
+# settings.py
 
 MIDDLEWARE = [
     # default middleware for django
@@ -65,6 +71,7 @@ MIDDLEWARE = [
 
     # middleware for the submit sequence query request validation
     'blast.middleware.QueryRequestValidator.QueryRequestValidator',
+
 
 ]
 
