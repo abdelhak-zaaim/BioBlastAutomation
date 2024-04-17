@@ -48,7 +48,7 @@ class BlastSubmissionTask:
 
         blast_results = BlastSearchExtension(self.custom_blast_parameters).submit_blast_search()
         print("the blast results are ready ...")
-        print(blast_results)
+
         file_name = BlastUtils.write_blast_results_to_file(blast_results)
 
 
