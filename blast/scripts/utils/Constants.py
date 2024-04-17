@@ -7,8 +7,8 @@ class Constants:
     #  are using blast + you can use the command `makeblastdb -in your_file.fasta -dbtype nucl -parse_seqids -out
     #  your_file` *--------------------------------------------
 
-    DATABASES = [{"name": "nt", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nt.001"},
-                 {"name": "nr", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blastdatabase/nr.08"}]
+    DATABASES = [{"name": "nt", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blast_databases/nt.001"},
+                 {"name": "nr", "path": "/Users/macbook/Desktop/SMI/S6/PFE/blast_databases/nr"}]
 
     # specify which database you are using (nt, nr, etc.)
     # NOTE : nt is recommended for nucleotide sequences and nr --

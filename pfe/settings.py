@@ -38,7 +38,7 @@ ALLOWED_HOSTS = ["pfeblast.zaaim.me", "ec2-54-91-248-112.compute-1.amazonaws.com
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
+BLAST_DATABASES_PATH = os.path.join(BASE_DIR, 'blast_databases')
 
 
 # Application definition
