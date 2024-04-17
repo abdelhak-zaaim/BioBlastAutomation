@@ -29,14 +29,15 @@ class BlastSubmissionTask:
         this function should supmit a blast request to the NCBI server and return the task id
         its using the BlastSubmissionTask class to submit the request
         """
-        return self.run_submit_unique()
-
+        return self.submit_unique()
+        # todo : this code
         if custom_blast_parameters.is_async and len(custom_blast_parameters.sequences) > 1:
             return BlastSubmissionTask.run_submit_async(custom_blast_parameters)
         else:
             return BlastSubmissionTask.run_submit_unique(custom_blast_parameters)
 
-    def submit_unique(self, result_queue):
+    def submit_unique(self):
+
         """
             this class is responsible for submitting the blast request to the NCBI server and saving the results to an xml file
             this fun will return the file name of the saved xml file
@@ -48,7 +49,7 @@ class BlastSubmissionTask:
         blast_results = BlastSearchExtension(self.custom_blast_parameters).submit_blast_search()
         print("the blast results are ready ...")
         file_name = BlastUtils.write_blast_results_to_file(blast_results)
-        result_queue.put(file_name)
+
 
         return file_name
 
