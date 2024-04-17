@@ -60,7 +60,7 @@ def result_viewer(request):
             # check req_id if contain any path traversaal attack
 
             if SecurityUtils.check_path_traversal(req_id):
-                return HttpResponse("The request result is not found.")
+                return HttpResponse("the parameter is not valid")
             # if the file exist return the result
             return SequenceDataVisualize.visualise_from_xml_file(request,BlastUtils.get_output_xml_file_path(req_id))
         else:
