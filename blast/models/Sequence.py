@@ -92,8 +92,19 @@ class Sequence(models.Model):
     @classmethod
     def get_scientific_name_from_sequence_def(cls, hit_def):
 
-        if hit_def is not None:
-            scientific_name = hit_def.text.split('[')[1].split(']')[0]
-            return scientific_name
-        else:
+        try:
+            if hit_def is not None:
+
+                try:
+                    scientific_name = hit_def.text.split('[')[1].split(']')[0]
+                    return scientific_name
+                except Exception as e:
+                    return "not found"
+
+
+
+            else:
+                return "not found"
+
+        except Exception as e:
             return "not found"
