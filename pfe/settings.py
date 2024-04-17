@@ -14,12 +14,12 @@ import os
 from pathlib import Path
 
 
-#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, '/static')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-#STATIC_ROOT = os.path.join(BASE_DIR, '/static')
 
+STATIC_URL = '/static'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 """
 this is the path to the directory where the static files are stored
@@ -38,7 +38,7 @@ ALLOWED_HOSTS = ["pfeblast.zaaim.me", "ec2-54-91-248-112.compute-1.amazonaws.com
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-
+BLAST_DATABASES_PATH = os.path.join(BASE_DIR, 'blast_databases')
 
 
 # Application definition
@@ -138,7 +138,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

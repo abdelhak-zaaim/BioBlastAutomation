@@ -26,7 +26,7 @@ class BlastUtils:
     def is_program_database_compatible(blast_program, blast_database):
         compatibility_map = {
             'blastp': ['nr', 'refseq_protein', 'swissprot', 'pdb'],
-            'blastn': ['nt', 'refseq_rna', 'env_nt', 'refseq_genomic'],
+            'blastn': ['nt', 'nr', 'refseq_rna', 'env_nt', 'refseq_genomic'],
             'blastx': ['nr', 'refseq_protein', 'swissprot', 'pdb'],
             'tblastn': ['nt', 'refseq_rna', 'env_nt', 'refseq_genomic'],
             'tblastx': ['nt', 'refseq_rna', 'env_nt', 'refseq_genomic']
