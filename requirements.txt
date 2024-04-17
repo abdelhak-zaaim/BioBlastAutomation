@@ -12,7 +12,7 @@ click==8.1.7
 cryptography==42.0.5
 cssselect2==0.7.0
 cycler==0.12.1
-Django==5.0.3
+Django==4.2.10
 
 fonttools==4.50.0
 html5lib==1.1
