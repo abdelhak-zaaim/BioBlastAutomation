@@ -13,6 +13,7 @@ class Query(models.Model):
     query_to = models.IntegerField()
 
 
+
     def __str__(self):
         return self.query_id
 
