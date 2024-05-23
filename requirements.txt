@@ -42,7 +42,7 @@ pytz==2024.1
 PyYAML==6.0.1
 qrcode==7.4.2
 reportlab==4.0.9
-requests==2.31.0
+requests==2.32.0
 seaborn==0.13.2
 six==1.16.0
 sqlparse==0.5.0
