@@ -53,7 +53,7 @@ typing_extensions==4.10.0
 tzdata==2024.1
 tzlocal==5.2
 uritools==4.0.2
-urllib3==2.2.1
+urllib3==2.2.2
 webencodings==0.5.1
 Werkzeug==3.0.1
 xhtml2pdf==0.2.15
